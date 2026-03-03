@@ -1,0 +1,22 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { illustrations } from "../../data/illustrations";
+
+const title = "イラスト一覧";
+const description = "小学校で使えるフリーイラスト素材の一覧ページ。";
+---
+
+<BaseLayout title={title} description={description}>
+
+<h2>イラスト一覧</h2>
+
+<div class="grid">
+  {illustrations.map((item) => (
+    <a href={`/illustration/${item.slug}`} class="card">
+      <img src={item.image} alt={item.title} />
+      <p>{item.title}</p>
+    </a>
+  ))}
+</div>
+
+</BaseLayout>

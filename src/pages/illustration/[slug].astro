@@ -1,0 +1,29 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { illustrations } from "../../data/illustrations";
+
+export function getStaticPaths() {
+  return illustrations.map((item) => ({
+    params: { slug: item.slug },
+    props: { item },
+  }));
+}
+
+const { item } = Astro.props;
+---
+
+<BaseLayout title={item.title} description={item.description}>
+
+<h2>{item.title}</h2>
+
+<img src={item.image} alt={item.title} width="300" />
+
+<p>{item.description}</p>
+
+<p>PNG形式・背景透過。クレジット不要・商用利用可。</p>
+
+<a href={item.image} download>
+  ⬇ ダウンロード（PNG）
+</a>
+
+</BaseLayout>

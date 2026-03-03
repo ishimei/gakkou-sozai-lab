@@ -1,0 +1,41 @@
+---
+import "../styles/global.css";
+const { title, description } = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <title>{title} | がっこうそざいラボ</title>
+    <meta name="description" content={description} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+  </head>
+
+  <body>
+    <header>
+      <h1>
+        <a href="/" style="text-decoration:none; color:black;">
+          がっこうそざいラボ
+        </a>
+      </h1>
+      <p>ログイン不要。小学校でそのまま使えるフリーイラスト素材サイト。</p>
+      <hr />
+    </header>
+
+    <main>
+      <slot />
+    </main>
+
+    <hr />
+
+    <footer>
+        <p>
+            <a href="/terms">利用規約</a>
+        </p>
+      <p>© がっこうそざいラボ</p>
+    </footer>
+  </body>
+</html>
