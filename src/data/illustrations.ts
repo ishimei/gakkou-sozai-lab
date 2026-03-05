@@ -9,7 +9,16 @@ export type Illustration = {
   grade: number;
 };
 
-const poses = ["standA", "standB", "standC", "standD", "standE"];
+const poses = [
+  "standA",
+  "standB",
+  "standC",
+  "standD",
+  "standE",
+  "action_write_note_A",
+  "action_read_textbook_A",
+  "action_raise_hand_A"
+];
 const emotions = [
   "smile",
   "laugh",
