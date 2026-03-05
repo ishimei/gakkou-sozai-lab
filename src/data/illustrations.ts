@@ -10,7 +10,16 @@ export type Illustration = {
 };
 
 const poses = ["standA", "standB", "standC", "standD", "standE"];
-const emotions = ["smile", "cry", "angry", "sad", "trouble", "laugh"];
+const emotions = [
+  "smile",
+  "laugh",
+  "trouble",
+  "sad",
+  "cry",
+  "angry",
+  "surprised",
+  "thinking"
+];
 
 export const illustrations: Illustration[] = poses.flatMap((pose) =>
   emotions.map((emotion) => ({
@@ -33,6 +42,8 @@ function emotionLabel(emotion: string) {
     case "sad": return "しょんぼり";
     case "trouble": return "困る";
     case "laugh": return "笑う";
+    case "surprised": return "びっくり";
+    case "thinking": return "考える";
     default: return emotion;
   }
 }
