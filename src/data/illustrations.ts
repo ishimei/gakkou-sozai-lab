@@ -2,7 +2,8 @@ export type Illustration = {
   slug: string;
   title: string;
   description: string;
-  image: string;
+  png: string;
+  svg: string;
   character: string;
   emotion: string;
   pose: string;
@@ -36,7 +37,8 @@ export const illustrations: Illustration[] = poses.flatMap((pose) =>
     slug: `girl01-${pose}-${emotion}`,
     title: `小学生の女の子（${emotionLabel(emotion)}）のイラスト`,
     description: `小学校で使える、${emotionLabel(emotion)}表情の小学生の女の子のフリーイラスト素材です。`,
-    image: `/images/girl01/png/girl01_${pose}_${emotion}.png`,
+    png: `/images/girl01/png/girl01_${pose}_${emotion}.png`,
+    svg: `/images/girl01/svg/girl01_${pose}_${emotion}.svg`,
     character: "girl01",
     emotion,
     pose,

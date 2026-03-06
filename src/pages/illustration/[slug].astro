@@ -29,7 +29,7 @@ const sameAction = illustrations.filter(
 <h2>{item.title}</h2>
 
 <img
-  src={item.image}
+  src={item.png}
   alt={item.title}
   class="illustration-image"
 />
@@ -37,10 +37,15 @@ const sameAction = illustrations.filter(
 <p>{item.description}</p>
 
 <p>PNG形式・背景透過。クレジット不要・商用利用可。</p>
-
-<a href={item.image} download class="download-button">
-  ⬇ ダウンロード（PNG）
+<div class="download-buttons">
+<a href={item.png} download>
+⬇ PNGダウンロード
 </a>
+<a href={item.svg} download>
+⬇ SVGダウンロード
+</a>
+</div>
+
 
 <hr />
 
@@ -48,7 +53,7 @@ const sameAction = illustrations.filter(
 <div class="grid">
   {samePose.map((i) => (
     <a class="card" href={`/illustration/${i.slug}`}>
-      <img src={i.image} alt={i.title} />
+      <img src={i.png} alt={i.title} />
     </a>
   ))}
 </div>
@@ -57,7 +62,7 @@ const sameAction = illustrations.filter(
 <div class="grid">
   {sameAction.map((i) => (
     <a class="card" href={`/illustration/${i.slug}`}>
-      <img src={i.image} alt={i.title} />
+      <img src={i.png} alt={i.title} />
     </a>
   ))}
 </div>

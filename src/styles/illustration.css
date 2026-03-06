@@ -1,0 +1,13 @@
+.download-buttons{
+  display:flex;
+  gap:16px;
+  margin-top:20px;
+}
+
+.download-buttons a{
+  padding:10px 16px;
+  background:#4CAF50;
+  color:white;
+  text-decoration:none;
+  border-radius:6px;
+}
