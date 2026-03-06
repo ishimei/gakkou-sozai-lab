@@ -10,20 +10,40 @@ export function getStaticPaths() {
 }
 
 const { item } = Astro.props;
+
+const samePose = illustrations.filter(
+  (i) => i.pose === item.pose && i.slug !== item.slug
+);
 ---
 
 <BaseLayout title={item.title} description={item.description}>
 
 <h2>{item.title}</h2>
 
-<img src={item.image} alt={item.title} width="300" />
+<img
+  src={item.image}
+  alt={item.title}
+  class="illustration-image"
+/>
 
 <p>{item.description}</p>
 
 <p>PNG形式・背景透過。クレジット不要・商用利用可。</p>
 
-<a href={item.image} download>
+<a href={item.image} download class="download-button">
   ⬇ ダウンロード（PNG）
 </a>
+
+<hr />
+
+<h3>このポーズの別表情</h3>
+
+<div class="grid">
+  {samePose.map((i) => (
+    <a class="card" href={`/illustration/${i.slug}`}>
+      <img src={i.image} alt={i.title} />
+    </a>
+  ))}
+</div>
 
 </BaseLayout>
