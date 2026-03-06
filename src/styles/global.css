@@ -34,7 +34,15 @@ body {
 }
 
 /* イラストページ */
+.breadcrumb {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
 
+.breadcrumb a {
+  text-decoration: none;
+  color: #555;
+}
 .illustration-image {
   width: 300px;
   margin-top: 10px;

@@ -17,7 +17,13 @@ const filtered = illustrations.filter(
   (item) => item.action === action
 );
 
-const title = `${action} のイラスト一覧`;
+const actionLabel = {
+  write_note: "ノートを書く",
+  read_textbook: "教科書を読む",
+  raise_hand: "手を挙げる"
+};
+
+const title = `${actionLabel[action]}小学生のイラスト一覧`;
 const description = `小学校で使える ${action} のイラスト一覧です。`;
 ---
 

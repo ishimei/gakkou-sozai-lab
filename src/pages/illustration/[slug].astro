@@ -14,10 +14,18 @@ const { item } = Astro.props;
 const samePose = illustrations.filter(
   (i) => i.pose === item.pose && i.slug !== item.slug
 );
+const sameAction = illustrations.filter(
+  (i) => i.action === item.action && i.slug !== item.slug
+);
 ---
 
 <BaseLayout title={item.title} description={item.description}>
-
+<nav class="breadcrumb">
+  <a href="/">トップ</a> >
+  <a href="/illustration">イラスト一覧</a> >
+  <a href={`/illustration/action/${item.action}`}>{item.action}</a> >
+  <span>{item.title}</span>
+</nav>
 <h2>{item.title}</h2>
 
 <img
@@ -37,7 +45,6 @@ const samePose = illustrations.filter(
 <hr />
 
 <h3>このポーズの別表情</h3>
-
 <div class="grid">
   {samePose.map((i) => (
     <a class="card" href={`/illustration/${i.slug}`}>
@@ -45,5 +52,13 @@ const samePose = illustrations.filter(
     </a>
   ))}
 </div>
+<h3>同じシーンのイラスト</h3>
 
+<div class="grid">
+  {sameAction.map((i) => (
+    <a class="card" href={`/illustration/${i.slug}`}>
+      <img src={i.image} alt={i.title} />
+    </a>
+  ))}
+</div>
 </BaseLayout>
