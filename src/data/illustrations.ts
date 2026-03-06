@@ -6,6 +6,7 @@ export type Illustration = {
   character: string;
   emotion: string;
   pose: string;
+  action: string;
   grade: number;
 };
 
@@ -39,6 +40,7 @@ export const illustrations: Illustration[] = poses.flatMap((pose) =>
     character: "girl01",
     emotion,
     pose,
+    action: actionFromPose(pose), 
     grade: 1,
   }))
 );
@@ -54,5 +56,20 @@ function emotionLabel(emotion: string) {
     case "surprised": return "びっくり";
     case "thinking": return "考える";
     default: return emotion;
+  }
+}
+function actionFromPose(pose: string) {
+  switch (pose) {
+    case "standA": return "stand";
+    case "standB": return "present";
+    case "standC": return "polite";
+    case "standD": return "raise_hand";
+    case "standE": return "point";
+
+    case "action_raise_hand_A": return "raise_hand";
+    case "action_write_note_A": return "write_note";
+    case "action_read_textbook_A": return "read_textbook";
+
+    default: return "stand";
   }
 }

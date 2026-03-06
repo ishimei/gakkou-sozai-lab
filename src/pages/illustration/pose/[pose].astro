@@ -1,0 +1,34 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import { illustrations } from "../../../data/illustrations";
+
+export function getStaticPaths() {
+  const poses = [...new Set(illustrations.map((item) => item.pose))];
+
+  return poses.map((pose) => ({
+    params: { pose },
+  }));
+}
+
+const { pose } = Astro.params;
+
+const filtered = illustrations.filter((item) => item.pose === pose);
+
+const title = `${pose} のイラスト一覧`;
+const description = `小学校で使える ${pose} のイラスト一覧です。`;
+---
+
+<BaseLayout title={title} description={description}>
+
+<h1>{title}</h1>
+
+<div class="grid">
+  {filtered.map((item) => (
+    <a class="card" href={`/illustration/${item.slug}`}>
+      <img src={item.image} alt={item.title} />
+      <p>{item.title}</p>
+    </a>
+  ))}
+</div>
+
+</BaseLayout>
