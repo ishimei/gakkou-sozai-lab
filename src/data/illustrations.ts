@@ -161,6 +161,47 @@ export const itemIllustrations: Illustration[] = [
     line_svg: "/images/item/line_svg/item_randoseru_front_red.svg",
     character: "item",
   },
+  {
+slug: "item-randoseru-diagonal-black",
+title: "ランドセル（黒・斜め）のイラスト",
+description: "小学校で使えるランドセルのフリーイラスト素材です。",
+png: "/images/item/png/item_randoseru_diagonal_black.png",
+svg: "/images/item/svg/item_randoseru_diagonal_black.svg",
+line_png: "/images/item/line/png/item_randoseru_diagonal_black.png",
+line_svg: "/images/item/line/svg/item_randoseru_diagonal_black.svg",
+character: "item"
+},
+
+{
+slug: "item-randoseru-diagonal-red",
+title: "ランドセル（赤・斜め）のイラスト",
+description: "小学校で使えるランドセルのフリーイラスト素材です。",
+png: "/images/item/png/item_randoseru_diagonal_red.png",
+svg: "/images/item/svg/item_randoseru_diagonal_red.svg",
+line_png: "/images/item/line/png/item_randoseru_diagonal_red.png",
+line_svg: "/images/item/line/svg/item_randoseru_diagonal_red.svg",
+character: "item"
+},
+{
+slug: "item-randoseru-diagonal2-black",
+title: "ランドセル（黒・斜め2）のイラスト",
+description: "小学校で使えるランドセルのフリーイラスト素材です。",
+png: "/images/item/png/item_randoseru_diagonal2_black.png",
+svg: "/images/item/svg/item_randoseru_diagonal2_black.svg",
+line_png: "/images/item/line/png/item_randoseru_diagonal2_black.png",
+line_svg: "/images/item/line/svg/item_randoseru_diagonal2_black.svg",
+character: "item"
+},
+{
+slug: "item-randoseru-diagonal2-red",
+title: "ランドセル（赤・斜め2）のイラスト",
+description: "小学校で使えるランドセルのフリーイラスト素材です。",
+png: "/images/item/png/item_randoseru_diagonal2_red.png",
+svg: "/images/item/svg/item_randoseru_diagonal2_red.svg",
+line_png: "/images/item/line/png/item_randoseru_diagonal2_red.png",
+line_svg: "/images/item/line/svg/item_randoseru_diagonal2_red.svg",
+character: "item"
+}
 ];
 export const allIllustrations: Illustration[] = [
   ...illustrations,
