@@ -1,13 +1,50 @@
-.download-buttons{
-  display:flex;
-  gap:16px;
-  margin-top:20px;
+.breadcrumb {
+  font-size: 14px;
+  margin-bottom: 20px;
 }
 
-.download-buttons a{
-  padding:10px 16px;
-  background:#4CAF50;
-  color:white;
-  text-decoration:none;
-  border-radius:6px;
+.breadcrumb span {
+  margin: 0 6px;
+}
+
+.illustration-title {
+  margin-bottom: 20px;
+}
+
+.illustration-image {
+  max-width: 400px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.illustration-description {
+  margin-bottom: 10px;
+}
+
+.illustration-license {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.download-buttons {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.download-btn {
+  background: #4cafef;
+  color: white;
+  padding: 10px 14px;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+.download-btn:hover {
+  background: #3797d6;
+}
+
+.section-title {
+  margin: 30px 0 15px;
 }

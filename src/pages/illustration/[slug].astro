@@ -1,9 +1,10 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
-import { illustrations } from "../../data/illustrations";
+import { allIllustrations } from "../../data/illustrations";
+import "../../styles/illustration.css";
 
 export function getStaticPaths() {
-  return illustrations.map((item) => ({
+  return allIllustrations.map((item) => ({
     params: { slug: item.slug },
     props: { item },
   }));
@@ -11,22 +12,38 @@ export function getStaticPaths() {
 
 const { item } = Astro.props;
 
-const samePose = illustrations.filter(
-  (i) => i.pose === item.pose && i.slug !== item.slug
-);
-const sameAction = illustrations.filter(
-  (i) => i.action === item.action && i.slug !== item.slug
-);
+const samePose = item.pose
+  ? allIllustrations.filter(
+      (i) => i.pose === item.pose && i.slug !== item.slug
+    )
+  : [];
+
+const sameAction = item.action
+  ? allIllustrations.filter(
+      (i) => i.action === item.action && i.slug !== item.slug
+    )
+  : [];
 ---
 
 <BaseLayout title={item.title} description={item.description}>
+
 <nav class="breadcrumb">
-  <a href="/">トップ</a> >
-  <a href="/illustration">イラスト一覧</a> >
-  <a href={`/illustration/action/${item.action}`}>{item.action}</a> >
+  <a href="/">トップ</a>
+  <span>›</span>
+  <a href="/illustration">イラスト一覧</a>
+
+  {item.action && (
+    <>
+      <span>›</span>
+      <a href={`/illustration/action/${item.action}`}>{item.action}</a>
+    </>
+  )}
+
+  <span>›</span>
   <span>{item.title}</span>
 </nav>
-<h2>{item.title}</h2>
+
+<h1 class="illustration-title">{item.title}</h1>
 
 <img
   src={item.png}
@@ -34,22 +51,42 @@ const sameAction = illustrations.filter(
   class="illustration-image"
 />
 
-<p>{item.description}</p>
+<p class="illustration-description">{item.description}</p>
 
-<p>PNG形式・背景透過。クレジット不要・商用利用可。</p>
+<p class="illustration-license">
+PNG形式・背景透過。クレジット不要・商用利用可。
+</p>
+
 <div class="download-buttons">
-<a href={item.png} download>
-⬇ PNGダウンロード
+
+<a href={item.png} download class="download-btn">
+PNGダウンロード
 </a>
-<a href={item.svg} download>
-⬇ SVGダウンロード
+
+<a href={item.svg} download class="download-btn">
+SVGダウンロード
 </a>
+
+{item.line_png && (
+<a href={item.line_png} download class="download-btn">
+線画PNG
+</a>
+)}
+
+{item.line_svg && (
+<a href={item.line_svg} download class="download-btn">
+線画SVG
+</a>
+)}
+
 </div>
 
-
+{samePose.length > 0 && (
+<>
 <hr />
 
-<h3>このポーズの別表情</h3>
+<h2 class="section-title">このポーズの別表情</h2>
+
 <div class="grid">
   {samePose.map((i) => (
     <a class="card" href={`/illustration/${i.slug}`}>
@@ -57,7 +94,14 @@ const sameAction = illustrations.filter(
     </a>
   ))}
 </div>
-<h3>同じシーンのイラスト</h3>
+</>
+)}
+
+{sameAction.length > 0 && (
+<>
+<hr />
+
+<h2 class="section-title">同じシーンのイラスト</h2>
 
 <div class="grid">
   {sameAction.map((i) => (
@@ -66,4 +110,7 @@ const sameAction = illustrations.filter(
     </a>
   ))}
 </div>
+</>
+)}
+
 </BaseLayout>

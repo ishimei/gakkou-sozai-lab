@@ -2,13 +2,18 @@ export type Illustration = {
   slug: string;
   title: string;
   description: string;
+
   png: string;
   svg: string;
+
+  line_png?: string;
+  line_svg?: string;
+
   character: string;
-  emotion: string;
-  pose: string;
-  action: string;
-  grade: number;
+  emotion?: string;
+  pose?: string;
+  action?: string;
+  grade?: number;
 };
 
 const poses = [
@@ -75,3 +80,89 @@ function actionFromPose(pose: string) {
     default: return "stand";
   }
 }
+export const itemIllustrations: Illustration[] = [
+  {
+    slug: "item-pencil-basic",
+    title: "鉛筆のイラスト",
+    description: "小学校で使える鉛筆のフリーイラスト素材です。",
+    png: "/images/item/png/item_pencil_basic.png",
+    svg: "/images/item/svg/item_pencil_basic.svg",
+    line_png: "/images/item/line_png/item_pencil_basic.png",
+    line_svg: "/images/item/line_svg/item_pencil_basic.svg",
+    character: "item",
+  },
+  {
+    slug: "item-pencil-eraser",
+    title: "消しゴム付き鉛筆のイラスト",
+    description: "小学校で使える消しゴム付き鉛筆のフリーイラスト素材です。",
+    png: "/images/item/png/item_pencil_eraser.png",
+    svg: "/images/item/svg/item_pencil_eraser.svg",
+    line_png: "/images/item/line_png/item_pencil_eraser.png",
+    line_svg: "/images/item/line_svg/item_pencil_eraser.svg",
+    character: "item",
+  },
+  {
+    slug: "item-pencil-red",
+    title: "赤鉛筆のイラスト",
+    description: "小学校で使える赤鉛筆のフリーイラスト素材です。",
+    png: "/images/item/png/item_pencil_red.png",
+    svg: "/images/item/svg/item_pencil_red.svg",
+    line_png: "/images/item/line_png/item_pencil_red.png",
+    line_svg: "/images/item/line_svg/item_pencil_red.svg",
+    character: "item",
+  },
+  {
+    slug: "item-pencil-short",
+    title: "短い鉛筆のイラスト",
+    description: "小学校で使える短い鉛筆のフリーイラスト素材です。",
+    png: "/images/item/png/item_pencil_short.png",
+    svg: "/images/item/svg/item_pencil_short.svg",
+    line_png: "/images/item/line_png/item_pencil_short.png",
+    line_svg: "/images/item/line_svg/item_pencil_short.svg",
+    character: "item",
+  },
+  {
+    slug: "item-eraser-basic",
+    title: "消しゴムのイラスト",
+    description: "小学校で使える消しゴムのフリーイラスト素材です。",
+    png: "/images/item/png/item_eraser_basic.png",
+    svg: "/images/item/svg/item_eraser_basic.svg",
+    line_png: "/images/item/line_png/item_eraser_basic.png",
+    line_svg: "/images/item/line_svg/item_eraser_basic.svg",
+    character: "item",
+  },
+  {
+    slug: "item-eraser-diagonal",
+    title: "消しゴム（斜め）のイラスト",
+    description: "小学校で使える消しゴム（斜め）のフリーイラスト素材です。",
+    png: "/images/item/png/item_eraser_diagonal.png",
+    svg: "/images/item/svg/item_eraser_diagonal.svg",
+    line_png: "/images/item/line_png/item_eraser_diagonal.png",
+    line_svg: "/images/item/line_svg/item_eraser_diagonal.svg",
+    character: "item",
+  },
+  {
+    slug: "item-randoseru-front-black",
+    title: "ランドセル（黒・正面）のイラスト",
+    description: "小学校で使えるランドセル（黒・正面）のフリーイラスト素材です。",
+    png: "/images/item/png/item_randoseru_front_black.png",
+    svg: "/images/item/svg/item_randoseru_front_black.svg",
+    line_png: "/images/item/line_png/item_randoseru_front_black.png",
+    line_svg: "/images/item/line_svg/item_randoseru_front_black.svg",
+    character: "item",
+  },
+  {
+    slug: "item-randoseru-front-red",
+    title: "ランドセル（赤・正面）のイラスト",
+    description: "小学校で使えるランドセル（赤・正面）のフリーイラスト素材です。",
+    png: "/images/item/png/item_randoseru_front_red.png",
+    svg: "/images/item/svg/item_randoseru_front_red.svg",
+    line_png: "/images/item/line_png/item_randoseru_front_red.png",
+    line_svg: "/images/item/line_svg/item_randoseru_front_red.svg",
+    character: "item",
+  },
+];
+export const allIllustrations: Illustration[] = [
+  ...illustrations,
+  ...itemIllustrations,
+];
