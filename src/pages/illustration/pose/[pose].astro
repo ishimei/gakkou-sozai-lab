@@ -3,7 +3,14 @@ import BaseLayout from "../../../layouts/BaseLayout.astro";
 import { allIllustrations } from "../../../data/illustrations";
 
 export function getStaticPaths() {
-  const poses = [...new Set(allIllustrations.map((item) => item.pose))];
+
+  const poses = [
+    ...new Set(
+      allIllustrations
+        .filter((item) => item.pose)
+        .map((item) => item.pose)
+    ),
+  ];
 
   return poses.map((pose) => ({
     params: { pose },
@@ -12,7 +19,9 @@ export function getStaticPaths() {
 
 const { pose } = Astro.params;
 
-const filtered = allIllustrations.filter((item) => item.pose === pose);
+const filtered = allIllustrations.filter(
+  (item) => item.pose === pose
+);
 
 const title = `${pose} のイラスト一覧`;
 const description = `小学校で使える ${pose} のイラスト一覧です。`;
