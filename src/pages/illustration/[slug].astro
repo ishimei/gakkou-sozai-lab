@@ -28,19 +28,61 @@ const sameAction = item.action
 <BaseLayout title={item.title} description={item.description}>
 
 <nav class="breadcrumb">
-  <a href="/">トップ</a>
-  <span>›</span>
-  <a href="/illustration">イラスト一覧</a>
 
-  {item.action && (
-    <>
-      <span>›</span>
-      <a href={`/illustration/action/${item.action}`}>{item.action}</a>
-    </>
-  )}
+<a href="/">トップ</a>
 
-  <span>›</span>
-  <span>{item.title}</span>
+<span>›</span>
+
+<a href="/illustration">イラスト一覧</a>
+
+<span>›</span>
+
+{item.character === "item" ? (
+<>
+<a href="/illustration/item">アイテムイラスト</a>
+
+{item.slug.includes("pencil") && (
+<>
+<span>›</span>
+<a href="/illustration/item/pencil">鉛筆</a>
+</>
+)}
+
+{item.slug.includes("eraser") && (
+<>
+<span>›</span>
+<a href="/illustration/item/eraser">消しゴム</a>
+</>
+)}
+
+{item.slug.includes("randoseru") && (
+<>
+<span>›</span>
+<a href="/illustration/item/randoseru">ランドセル</a>
+</>
+)}
+
+</>
+) : (
+<>
+<a href="/illustration/character">人物イラスト</a>
+
+{item.action && (
+<>
+<span>›</span>
+<a href={`/illustration/action/${item.action}`}>
+{item.action}
+</a>
+</>
+)}
+
+</>
+)}
+
+<span>›</span>
+
+<span>{item.title}</span>
+
 </nav>
 
 <h1 class="illustration-title">{item.title}</h1>
