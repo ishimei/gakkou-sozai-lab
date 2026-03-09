@@ -1,0 +1,26 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import { allIllustrations } from "../../../data/illustrations";
+
+const characters = allIllustrations.filter(
+  (item) => item.character !== "item"
+);
+
+const title = "人物イラスト一覧";
+const description = "小学生の人物イラスト素材一覧です。";
+---
+
+<BaseLayout title={title} description={description}>
+
+<h1>人物イラスト一覧</h1>
+
+<div class="grid">
+  {characters.map((item) => (
+    <a class="card" href={`/illustration/${item.slug}`}>
+      <img src={item.png} alt={item.title} />
+      <p>{item.title}</p>
+    </a>
+  ))}
+</div>
+
+</BaseLayout>

@@ -1,29 +1,34 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
-import {allIllustrations} from "../../data/illustrations";
 
 const title = "イラスト一覧";
-const description = "小学校で使えるフリーイラスト素材の一覧ページ。";
+const description = "小学校で使えるフリーイラスト素材のカテゴリ一覧ページ。";
 ---
 
 <BaseLayout title={title} description={description}>
-  <h2>ポーズ別イラスト</h2>
 
+<h1>イラスト一覧</h1>
+
+<p>
+小学校で使えるフリーイラスト素材です。人物イラストや文房具イラストなどのカテゴリから探せます。
+</p>
+
+<h2>人物イラスト</h2>
+<a href="/illustration/character">人物イラスト一覧を見る</a>
 <ul>
   <li><a href="/illustration/action/write_note">ノートを書く</a></li>
   <li><a href="/illustration/action/read_textbook">教科書を読む</a></li>
   <li><a href="/illustration/action/raise_hand">手を挙げる</a></li>
 </ul>
 
-<h2>イラスト一覧</h2>
-
-<div class="grid">
-  {allIllustrations.map((item) => (
-    <a href={`/illustration/${item.slug}`} class="card">
-      <img src={item.png} alt={item.title} />
-      <p>{item.title}</p>
-    </a>
-  ))}
-</div>
+<h2>アイテムイラスト</h2>
+<a href="/illustration/item">
+アイテムイラストをすべて見る
+</a>
+<ul>
+  <li><a href="/illustration/item/pencil">鉛筆</a></li>
+  <li><a href="/illustration/item/eraser">消しゴム</a></li>
+  <li><a href="/illustration/item/randoseru">ランドセル</a></li>
+</ul>
 
 </BaseLayout>
