@@ -144,13 +144,29 @@ SVGダウンロード
 <hr />
 
 <h2 class="section-title">同じシーンのイラスト</h2>
-
 <div class="grid">
   {sameAction.map((i) => (
     <a class="card" href={`/illustration/${i.slug}`}>
       <img src={i.png} alt={i.title} />
     </a>
   ))}
+</div>
+<h2 class="section-title">同じキャラクターのイラスト</h2>
+
+<div class="grid">
+  {allIllustrations
+    .filter(
+      (i) =>
+        i.character === item.character &&
+        i.slug !== item.slug
+    )
+    .sort(() => Math.random() - 0.5)
+    .slice(0, 8)
+    .map((i) => (
+      <a class="card" href={`/illustration/${i.slug}`}>
+        <img src={i.png} alt={i.title} />
+      </a>
+    ))}
 </div>
 </>
 )}
