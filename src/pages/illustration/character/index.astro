@@ -12,8 +12,17 @@ const description = "小学生の人物イラスト素材一覧です。";
 
 <BaseLayout title={title} description={description}>
 
-<h1>人物イラスト一覧</h1>
-
+<h2>人物イラストカテゴリ</h2>
+<ul>
+  <li><a href="/illustration/action/write_note">ノートを書く</a></li>
+  <li><a href="/illustration/action/read_textbook">教科書を読む</a></li>
+  <li><a href="/illustration/action/raise_hand">手を挙げる</a></li>
+</ul>
+<h2>アイテムイラスト</h2>
+<a href="/illustration/item">
+アイテムイラストをすべて見る
+</a>
+<h2>人物イラスト</h2>
 <div class="grid">
   {characters.map((item) => (
     <a class="card" href={`/illustration/${item.slug}`}>
