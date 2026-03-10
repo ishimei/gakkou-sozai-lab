@@ -85,47 +85,47 @@ const sameAction = item.action
 
 </nav>
 
-<h1 class="illustration-title">{item.title}</h1>
-
+<div class="illustration-page">
 <img
   src={item.png}
   alt={item.title}
   class="illustration-image"
 />
-
-<p class="illustration-description">{item.description}</p>
-
-<p class="illustration-license">
-クレジット不要・商用利用可。
-</p>
 <div class="download-buttons">
 
 <a href={item.png} download class="download-btn">
-PNGダウンロード
+⬇ PNGダウンロード
 </a>
 
 <a href={item.svg} download class="download-btn">
-SVGダウンロード
+⬇ SVGダウンロード
 </a>
 
 {item.line_png && (
 <a href={item.line_png} download class="download-btn">
-線画PNG
+⬇ 線画PNG
 </a>
 )}
 
 {item.line_svg && (
 <a href={item.line_svg} download class="download-btn">
-線画SVG
+⬇ 線画SVG
 </a>
 )}
+<h2 class="illustration-title">{item.title}</h2>
 </div>
-<ul class="usage-list">
-<li>学校のおたより・掲示物に使えます。</li>
-<li>Canva・PowerPoint・Wordで使用できます。</li>
-<li>商用利用OK（クレジット不要）</li>
-<li>素材の再配布は禁止です。</li>
-</ul>
+  <p class="illustration-description">{item.description}</p>
+  <p class="illustration-license">
+  クレジット不要・商用利用可。
+  </p>
+  <ul class="usage-list">
+  <li>学校のおたより・掲示物に使えます。</li>
+  <li>Canva・PowerPoint・Wordで使用できます。</li>
+  <li>商用利用OK（クレジット不要）</li>
+  <li>素材の再配布は禁止です。</li>
+  </ul>
+</div>
+
 {samePose.length > 0 && (
 <>
 <hr />

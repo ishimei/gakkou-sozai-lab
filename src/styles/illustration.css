@@ -6,17 +6,22 @@
 .breadcrumb span {
   margin: 0 6px;
 }
-
+.illustration-page{
+    max-width:700px;
+    margin:0 auto;
+    text-align:center;
+}
 .illustration-title {
   margin-bottom: 20px;
 }
 
 .illustration-image {
-  max-width: 400px;
-  width: 100%;
-  margin-bottom: 20px;
+    width:auto;
+    max-height:420px;
+    display:block;
+    margin:30px auto;
+    background:#fff;
 }
-
 .illustration-description {
   margin-bottom: 10px;
 }
@@ -26,23 +31,29 @@
   margin-bottom: 20px;
 }
 
-.download-buttons {
-  display: flex;
-  gap: 12px;
-  flex-wrap: wrap;
-  margin-bottom: 30px;
+.download-buttons{
+display:flex;
+gap:14px;
+flex-wrap:wrap;
+margin:30px 0;
+justify-content:center;
 }
 
-.download-btn {
-  background: #4cafef;
-  color: white;
-  padding: 10px 14px;
-  border-radius: 6px;
-  text-decoration: none;
+.download-btn{
+display:inline-block;
+padding:12px 18px;
+background:#e49d39;
+color:white;
+border-radius:8px;
+text-decoration:none;
+font-weight:bold;
+font-size:14px;
+transition:0.2s;
 }
 
-.download-btn:hover {
-  background: #3797d6;
+.download-btn:hover{
+background:#c9862e;
+transform:translateY(-1px);
 }
 
 .section-title {
@@ -53,4 +64,5 @@ margin: 10px 0 20px;
 padding-left: 20px;
 font-size: 14px;
 line-height: 1.6;
+list-style: none;
 }
