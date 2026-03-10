@@ -1,0 +1,43 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { allIllustrations } from "../../data/illustrations";
+
+export function getStaticPaths(){
+
+  const tags = [
+    ...new Set(
+      allIllustrations.flatMap(i => i.tags || [])
+    )
+  ]
+
+  return tags.map(tag => ({
+    params:{ tag }
+  }))
+}
+
+const { tag } = Astro.params
+
+const filtered = allIllustrations.filter(
+  i => i.tags?.includes(tag)
+)
+
+const title = `${tag}のイラスト`
+const description = `${tag}のフリーイラスト素材です`
+---
+
+<BaseLayout title={title} description={description}>
+
+<h1>{title}</h1>
+
+<div class="grid">
+{filtered.map(i => (
+
+<a class="card" href={`/illustration/${i.slug}`}>
+<img src={i.png} alt={i.title} />
+<p>{i.title}</p>
+</a>
+
+))}
+</div>
+
+</BaseLayout>

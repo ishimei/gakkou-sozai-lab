@@ -12,16 +12,27 @@ export function getStaticPaths() {
 
 const { item } = Astro.props;
 
+/* 同じポーズ */
 const samePose = item.pose
   ? allIllustrations.filter(
       (i) => i.pose === item.pose && i.slug !== item.slug
     )
   : [];
 
+/* 同じアクション */
 const sameAction = item.action
   ? allIllustrations.filter(
       (i) => i.action === item.action && i.slug !== item.slug
     )
+  : [];
+
+/* 同じタグ */
+const sameTag = item.tags?.[0]
+  ? allIllustrations.filter(
+      (i) =>
+        i.tags?.includes(item.tags[0]) &&
+        i.slug !== item.slug
+    ).slice(0,8)
   : [];
 ---
 
@@ -35,44 +46,33 @@ const sameAction = item.action
 
 <a href="/illustration">イラスト一覧</a>
 
-<span>›</span>
-
-{item.character === "item" ? (
-<>
-<a href="/illustration/item">アイテムイラスト</a>
-
-{item.slug.includes("pencil") && (
+{item.character === "item" && item.tags?.[0] && (
 <>
 <span>›</span>
-<a href="/illustration/item/pencil">鉛筆</a>
+
+<a href={`/tag/${item.tags[0]}`}>
+{item.tags[0]}
+</a>
+
 </>
 )}
 
-{item.slug.includes("eraser") && (
+{item.character !== "item" && (
 <>
 <span>›</span>
-<a href="/illustration/item/eraser">消しゴム</a>
-</>
-)}
 
-{item.slug.includes("randoseru") && (
-<>
-<span>›</span>
-<a href="/illustration/item/randoseru">ランドセル</a>
-</>
-)}
-
-</>
-) : (
-<>
-<a href="/illustration/character">人物イラスト</a>
+<a href="/illustration/character">
+人物イラスト
+</a>
 
 {item.action && (
 <>
 <span>›</span>
+
 <a href={`/illustration/action/${item.action}`}>
 {item.action}
 </a>
+
 </>
 )}
 
@@ -86,11 +86,13 @@ const sameAction = item.action
 </nav>
 
 <div class="illustration-page">
+
 <img
-  src={item.png}
-  alt={item.title}
-  class="illustration-image"
+src={item.png}
+alt={item.title}
+class="illustration-image"
 />
+
 <div class="download-buttons">
 
 <a href={item.png} download class="download-btn">
@@ -112,65 +114,77 @@ const sameAction = item.action
 ⬇ 線画SVG
 </a>
 )}
+
 <h2 class="illustration-title">{item.title}</h2>
+
 </div>
-  <p class="illustration-description">{item.description}</p>
-  <p class="illustration-license">
-  クレジット不要・商用利用可。
-  </p>
-  <ul class="usage-list">
-  <li>学校のおたより・掲示物に使えます。</li>
-  <li>Canva・PowerPoint・Wordで使用できます。</li>
-  <li>商用利用OK（クレジット不要）</li>
-  <li>素材の再配布は禁止です。</li>
-  </ul>
+
+<p class="illustration-description">{item.description}</p>
+
+<p class="illustration-license">
+クレジット不要・商用利用可。
+</p>
+
+<ul class="usage-list">
+<li>学校のおたより・掲示物に使えます。</li>
+<li>Canva・PowerPoint・Wordで使用できます。</li>
+<li>商用利用OK（クレジット不要）</li>
+<li>素材の再配布は禁止です。</li>
+</ul>
+
 </div>
 
 {samePose.length > 0 && (
 <>
+
 <hr />
 
 <h2 class="section-title">このポーズの別表情</h2>
 
 <div class="grid">
-  {samePose.map((i) => (
-    <a class="card" href={`/illustration/${i.slug}`}>
-      <img src={i.png} alt={i.title} />
-    </a>
-  ))}
+{samePose.map((i) => (
+<a class="card" href={`/illustration/${i.slug}`}>
+<img src={i.png} alt={i.title} />
+</a>
+))}
 </div>
+
 </>
 )}
 
 {sameAction.length > 0 && (
 <>
+
 <hr />
 
 <h2 class="section-title">同じシーンのイラスト</h2>
-<div class="grid">
-  {sameAction.map((i) => (
-    <a class="card" href={`/illustration/${i.slug}`}>
-      <img src={i.png} alt={i.title} />
-    </a>
-  ))}
-</div>
-<h2 class="section-title">同じキャラクターのイラスト</h2>
 
 <div class="grid">
-  {allIllustrations
-    .filter(
-      (i) =>
-        i.character === item.character &&
-        i.slug !== item.slug
-    )
-    .sort(() => Math.random() - 0.5)
-    .slice(0, 8)
-    .map((i) => (
-      <a class="card" href={`/illustration/${i.slug}`}>
-        <img src={i.png} alt={i.title} />
-      </a>
-    ))}
+{sameAction.map((i) => (
+<a class="card" href={`/illustration/${i.slug}`}>
+<img src={i.png} alt={i.title} />
+</a>
+))}
 </div>
+
+</>
+)}
+
+{sameTag.length > 0 && (
+<>
+
+<hr />
+
+<h2 class="section-title">同じカテゴリのイラスト</h2>
+
+<div class="grid">
+{sameTag.map((i) => (
+<a class="card" href={`/illustration/${i.slug}`}>
+<img src={i.png} alt={i.title} />
+</a>
+))}
+</div>
+
 </>
 )}
 
