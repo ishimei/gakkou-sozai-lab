@@ -13,15 +13,16 @@ export async function getStaticPaths() {
 
 const { action } = Astro.params;
 
-const filtered = illustrations.filter(
-  (item) => item.action === action
-);
-
 const actionLabel = {
   write_note: "ノートを書く",
   read_textbook: "教科書を読む",
   raise_hand: "手を挙げる"
 };
+
+const label = actionLabel[action as keyof typeof actionLabel];
+const filtered = illustrations.filter(
+  (item) => item.tags?.includes(label)
+);
 
 const title = `${actionLabel[action]}小学生のイラスト一覧`;
 const description = `小学校で使える ${action} のイラスト一覧です。`;
