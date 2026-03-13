@@ -95,22 +95,22 @@ class="illustration-image"
 
 <div class="download-buttons">
 
-<a href={item.png} download class="download-btn">
+<a href={item.png} download class="download-btn" data-format="png" data-slug={item.slug} data-title={item.title}>
 ⬇ PNGダウンロード
 </a>
 
-<a href={item.svg} download class="download-btn">
+<a href={item.svg} download class="download-btn" data-format="svg" data-slug={item.slug} data-title={item.title}>
 ⬇ SVGダウンロード
 </a>
 
 {item.line_png && (
-<a href={item.line_png} download class="download-btn">
+<a href={item.line_png} download class="download-btn" data-format="line_png" data-slug={item.slug} data-title={item.title}>
 ⬇ 線画PNG
 </a>
 )}
 
 {item.line_svg && (
-<a href={item.line_svg} download class="download-btn">
+<a href={item.line_svg} download class="download-btn" data-format="line_svg" data-slug={item.slug} data-title={item.title}>
 ⬇ 線画SVG
 </a>
 )}
@@ -187,5 +187,21 @@ class="illustration-image"
 
 </>
 )}
+
+
+<script>
+  declare function gtag(...args: unknown[]): void;
+
+  document.querySelectorAll<HTMLAnchorElement>(".download-btn").forEach((btn) => {
+    btn.addEventListener("click", () => {
+    console.log("---")
+      gtag("event", "download", {
+        file_format: btn.dataset.format,
+        item_id: btn.dataset.slug,
+        item_name: btn.dataset.title,
+      });
+    });
+  });
+</script>
 
 </BaseLayout>
