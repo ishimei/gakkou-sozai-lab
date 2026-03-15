@@ -1,0 +1,34 @@
+---
+const title = "お問い合わせ | がっこうそざいラボ";
+const email = "gakkousozailab.202603@gmail.com";
+---
+
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{title}</title>
+  </head>
+
+  <body>
+    <main>
+      <h1>お問い合わせ</h1>
+
+      <p>
+        当サイトへのお問い合わせは、下記メールアドレスまでお願いいたします。
+      </p>
+
+      <p>
+        <a href={`mailto:${email}`}>{email}</a>
+      </p>
+
+      <p>
+        内容を確認後、必要に応じてご返信させていただきます。
+      </p>
+
+      <p>
+        ※お問い合わせ内容によっては、返信できない場合がありますのでご了承ください。
+      </p>
+    </main>
+  </body>
+</html>
