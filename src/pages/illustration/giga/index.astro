@@ -1,0 +1,26 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import { allIllustrations } from "../../../data/illustrations";
+const gigaIllustrations = allIllustrations
+  .filter((i) => i.tags?.includes("GIGA"));
+
+const title = "GIGAスクール イラスト";
+const description = "GIGAスクールで使えるICT関係のフリーイラスト素材です。";
+---
+
+<BaseLayout title={title} description={description}>
+
+<h1>{title}</h1>
+<h2>人物イラスト</h2>
+<a href="/illustration/character">人物イラスト一覧を見る</a>
+<h2>GIGAスクールの素材</h2>
+<div class="grid">
+  {gigaIllustrations.map((item) => (
+    <a class="card" href={`/illustration/${item.slug}`}>
+      <img src={item.png} alt={item.title} />
+      <p>{item.title}</p>
+    </a>
+  ))}
+</div>
+
+</BaseLayout>

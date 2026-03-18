@@ -923,6 +923,111 @@ export const illustrations: Illustration[] = [
     grade: 1,
     tags: ["困る", "ノートを書く", "勉強"],
   },
+  // ---- GIGA SCHOOLのイラスト ----
+  {
+    slug: "girl01-tablet-rule-walk-01",
+    title: "タブレットを持って歩く女の子（注意）のイラスト",
+    description:
+      "学校でのタブレット利用ルール。「歩きながらタブレットを使ってはいけません」を表す女の子のフリーイラスト素材です。",
+    png: "/images/girl01/png/girl01_tablet_rule_walk_01.png",
+    svg: "/images/girl01/svg/girl01_tablet_rule_walk_01.svg",
+    line_png: "/images/girl01/line_png/girl01_tablet_rule_walk_01.png",
+    line_svg: "/images/girl01/line_svg/girl01_tablet_rule_walk_01.svg",
+    character: "girl",
+    tags: ["GIGA", "iPad", "タブレット", "GIGAスクール", "学校", "ICT教育"],
+  },
+  {
+    slug: "girl01-tablet-rule-walk-02",
+    title: "タブレットを持って歩く女の子（注意）のイラスト",
+    description:
+      "学校でのタブレット利用ルール。「歩きながらタブレットを使ってはいけません」を表す女の子のフリーイラスト素材です。",
+    png: "/images/girl01/png/girl01_tablet_rule_walk_02.png",
+    svg: "/images/girl01/svg/girl01_tablet_rule_walk_02.svg",
+    line_png: "/images/girl01/line_png/girl01_tablet_rule_walk_02.png",
+    line_svg: "/images/girl01/line_svg/girl01_tablet_rule_walk_02.svg",
+    character: "girl",
+    tags: ["GIGA", "iPad", "タブレット", "GIGAスクール", "学校", "ICT教育"],
+  },
+  {
+    slug: "girl01-tablet-rule-hold-with-two-hands-01",
+    title: "タブレットを両手で持つ女の子のイラスト",
+    description:
+      "学校でのタブレット利用ルール。「タブレットは両手で持ちましょう。」を表す女の子のフリーイラスト素材です。",
+    png: "/images/girl01/png/girl01_tablet_rule_hold_with_two_hands_01.png",
+    svg: "/images/girl01/svg/girl01_tablet_rule_hold_with_two_hands_01.svg",
+    line_png:
+      "/images/girl01/line_png/girl01_tablet_rule_hold_with_two_hands_01.png",
+    line_svg:
+      "/images/girl01/line_svg/girl01_tablet_rule_hold_with_two_hands_01.svg",
+    character: "girl",
+    tags: ["GIGA", "iPad", "タブレット", "GIGAスクール", "学校", "ICT教育"],
+  },
+  {
+    slug: "girl01-tablet-rule-hold-with-two-hands-02",
+    title: "タブレットを両手で持つ女の子のイラスト",
+    description:
+      "学校でのタブレット利用ルール。「タブレットは両手で持ちましょう。」を表す女の子のフリーイラスト素材です。",
+    png: "/images/girl01/png/girl01_tablet_rule_hold_with_two_hands_02.png",
+    svg: "/images/girl01/svg/girl01_tablet_rule_hold_with_two_hands_02.svg",
+    line_png:
+      "/images/girl01/line_png/girl01_tablet_rule_hold_with_two_hands_02.png",
+    line_svg:
+      "/images/girl01/line_svg/girl01_tablet_rule_hold_with_two_hands_02.svg",
+    character: "girl",
+    tags: ["GIGA", "iPad", "タブレット", "GIGAスクール", "学校", "ICT教育"],
+  },
+  {
+    slug: "girl01-tablet-rule-no-play-with-tablet-01",
+    title: "タブレットをもって外で遊ばない女の子（ルール）のイラスト",
+    description:
+      "学校でのタブレット利用ルール。「タブレットを持ったまま外で遊ばない。」を表す女の子のフリーイラスト素材です。",
+    png: "/images/girl01/png/girl01_tablet_rule_no_play_with_tablet_01.png",
+    svg: "/images/girl01/svg/girl01_tablet_rule_no_play_with_tablet_01.svg",
+    line_png:
+      "/images/girl01/line_png/girl01_tablet_rule_no_play_with_tablet_01.png",
+    line_svg:
+      "/images/girl01/line_svg/girl01_tablet_rule_no_play_with_tablet_01.svg",
+    character: "girl",
+    tags: ["GIGA", "iPad", "タブレット", "GIGAスクール", "学校", "ICT教育"],
+  },
+  {
+    slug: "girl01-tablet-rule-no-play-with-tablet-02",
+    title: "タブレットをもって外で遊ばない女の子（ルール）のイラスト",
+    description:
+      "学校でのタブレット利用ルール。「タブレットを持ったまま外で遊ばない。」を表す女の子のフリーイラスト素材です。",
+    png: "/images/girl01/png/girl01_tablet_rule_no_play_with_tablet_02.png",
+    svg: "/images/girl01/svg/girl01_tablet_rule_no_play_with_tablet_02.svg",
+    line_png:
+      "/images/girl01/line_png/girl01_tablet_rule_no_play_with_tablet_02.png",
+    line_svg:
+      "/images/girl01/line_svg/girl01_tablet_rule_no_play_with_tablet_02.svg",
+    character: "girl",
+    tags: ["GIGA", "iPad", "タブレット", "GIGAスクール", "学校", "ICT教育"],
+  },
+  {
+    slug: "girl01-tablet-rule-put-top-01",
+    title: "タブレットをかばんに入れる女の子のイラスト",
+    description:
+      "学校でのタブレット利用ルール。「タブレットをしまうときは、一番上に入れる。」を表す女の子のフリーイラスト素材です。",
+    png: "/images/girl01/png/girl01_tablet_rule_put_top_01.png",
+    svg: "/images/girl01/svg/girl01_tablet_rule_put_top_01.svg",
+    line_png: "/images/girl01/line_png/girl01_tablet_rule_put_top_01.png",
+    line_svg: "/images/girl01/line_svg/girl01_tablet_rule_put_top_01.svg",
+    character: "girl",
+    tags: ["GIGA", "iPad", "タブレット", "GIGAスクール", "学校", "ICT教育"],
+  },
+  {
+    slug: "girl01-tablet-rule-put-top-02",
+    title: "タブレットをかばんに入れる女の子のイラスト",
+    description:
+      "学校でのタブレット利用ルール。「タブレットをしまうときは、一番上に入れる。」を表す女の子のフリーイラスト素材です。",
+    png: "/images/girl01/png/girl01_tablet_rule_put_top_02.png",
+    svg: "/images/girl01/svg/girl01_tablet_rule_put_top_02.svg",
+    line_png: "/images/girl01/line_png/girl01_tablet_rule_put_top_02.png",
+    line_svg: "/images/girl01/line_svg/girl01_tablet_rule_put_top_02.svg",
+    character: "girl",
+    tags: ["GIGA", "iPad", "タブレット", "GIGAスクール", "学校", "ICT教育"],
+  },
 ];
 export const itemIllustrations: Illustration[] = [
   {
