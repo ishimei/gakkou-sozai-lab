@@ -4,7 +4,11 @@ import { illustrations } from "../../../data/illustrations";
 
 export async function getStaticPaths() {
 
-  const actions = [...new Set(illustrations.map(i => i.action))];
+  const actions = [...new Set(
+    illustrations
+      .map(i => i.action)
+      .filter(Boolean)
+  )];
 
   return actions.map((action) => ({
     params: { action }
@@ -21,7 +25,7 @@ const actionLabel = {
 
 const label = actionLabel[action as keyof typeof actionLabel];
 const filtered = illustrations.filter(
-  (item) => item.tags?.includes(label)
+  (item) => item.action === action
 );
 
 const title = `${actionLabel[action]}小学生のイラスト一覧`;
