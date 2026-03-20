@@ -19,12 +19,11 @@ const itemIllustrations = allIllustrations
 
 <BaseLayout title={title} description={description}>
 
-<h2>ようこそ</h2>
-
+<h1>小学校素材中心のフリーイラスト素材サイト</h1>
 <p>
-ログイン不要。小学校でそのまま使えるフリーイラスト素材サイトです。線画だけもダウンロードできます。
+小学校・学級通信・授業プリントなどで使える無料イラスト。商用利用可能。ログイン不要。<br />
+線画だけのイラストもあります。<br />
 </p>
-<h1>イラスト一覧</h1>
 <div class="category-grid">
 <a class="category-card" href="/illustration/character">
 <h2>人物イラスト</h2>
@@ -40,7 +39,7 @@ const itemIllustrations = allIllustrations
 </a>
 
 </div>
-<h2>人物イラスト新着</h2>
+<h2 class="section-title">人物イラスト新着</h2>
 
 <div class="grid">
 {characterIllustrations.map((item) => (
@@ -52,11 +51,10 @@ const itemIllustrations = allIllustrations
 
 ))}
 </div>
-<h2>アイテムイラスト新着</h2>
+<h2 class="section-title">アイテムイラスト新着</h2>
 
 <div class="grid">
 {itemIllustrations.map((item) => (
-
 <a class="card" href={`/illustration/${item.slug}`}>
 <img src={item.png} alt={item.title} />
 <p>{item.title}</p>

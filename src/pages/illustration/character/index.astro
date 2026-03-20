@@ -5,20 +5,23 @@ import { allIllustrations } from "../../../data/illustrations";
 const characters = allIllustrations.filter(
   (item) => item.character !== "item"
 );
-
+const itemIllustrations = allIllustrations
+  .filter((i) => i.character === "item")
+  .slice(-8)
+  .reverse();
 const title = "人物イラスト一覧";
 const description = "小学生の人物イラスト素材一覧です。";
 ---
 
 <BaseLayout title={title} description={description}>
 
-<h2>人物イラストカテゴリ</h2>
-<ul>
+<h2 class="section-title">カテゴリ</h2>
+<ul class="tag-list">
   <li><a href="/illustration/action/write_note">ノートを書く</a></li>
   <li><a href="/illustration/action/read_textbook">教科書を読む</a></li>
   <li><a href="/illustration/action/raise_hand">手を挙げる</a></li>
 </ul>
-<h2>人物イラスト</h2>
+<h2 class="section-title">人物イラスト</h2>
 <div class="grid">
   {characters.map((item) => (
     <a class="card" href={`/illustration/${item.slug}`}>
@@ -27,7 +30,16 @@ const description = "小学生の人物イラスト素材一覧です。";
     </a>
   ))}
 </div>
-<h2>アイテムイラスト</h2>
+<h2 class="section-title">アイテムイラスト</h2>
+<div class="grid">
+{itemIllustrations.map((item) => (
+
+<a class="card" href={`/illustration/${item.slug}`}>
+<img src={item.png} alt={item.title} />
+</a>
+
+))}
+</div>
 <a href="/illustration/item">
 アイテムイラストをすべて見る
 </a>
