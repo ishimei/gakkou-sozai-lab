@@ -4,7 +4,7 @@ import { allIllustrations } from "../data/illustrations";
 
 const title = "がっこうそざいラボ";
 const description =
-  "ログイン不要。小学校でそのまま使えるフリーイラスト素材サイト。線画だけもダウンロードできます。";
+  "小学校で使えるフリーイラスト素材サイト。PNG・SVG対応、商用OK。線画もあります。";
 
 const characterIllustrations = allIllustrations
   .filter((i) => i.character !== "item")
@@ -18,12 +18,37 @@ const itemIllustrations = allIllustrations
 ---
 
 <BaseLayout title={title} description={description}>
+<!-- ヒーロー -->
+<section class="hero">
+  <div class="hero-inner">
+        <!-- 画像 -->
+    <div class="hero-images hero-images-left">
+        <div class="items">
+          <img src="/images/girl01/png/girl01_tablet_rule_put_top_02.png"/>
+      </div>
+    </div>
+    
+    <!-- テキスト -->
+    <div class="hero-text">
+        
+      <h1>
+        小学校で<wbr>そのまま使える<br />
+        無料イラスト<wbr>素材サイト
+      </h1>
+      <p class="sub">
+        PNG・SVG対応／商用OK／<wbr>クレジット不要／線画対応
+      </p>
+    </div>
+    <!-- 画像 -->
+    <div class="hero-images hero-images-right">
+        
+        <div class="items">
+        <img src="/images/item/png/item_randoseru_diagonal2_red.png" />
+      </div>
+    </div>
 
-<h1>小学校素材中心のフリーイラスト素材サイト</h1>
-<p>
-小学校・学級通信・授業プリントなどで使える無料イラスト。商用利用可能。ログイン不要。<br />
-線画だけのイラストもあります。<br />
-</p>
+  </div>
+</section>
 <div class="category-grid">
 <a class="category-card" href="/illustration/character">
 <h2>人物イラスト</h2>
@@ -59,7 +84,6 @@ const itemIllustrations = allIllustrations
 <img src={item.png} alt={item.title} />
 <p>{item.title}</p>
 </a>
-
 ))}
 </div>
 

@@ -1,8 +1,151 @@
+/* ===== Reset CSS ===== */
+
+/* 余白リセット */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* ベース */
+html,
+body {
+  height: 100%;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* 画像 */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* リスト */
+ul,
+ol {
+  list-style: none;
+}
+
+/* リンク */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* ボタン */
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+/* フォーム */
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+/* ===== グローバルスタイル ===== */
 body {
   font-family: sans-serif;
   margin: 20px;
+  letter-spacing: 0.02em;
+}
+/* ヘッダー */
+/* header */
+.site-header {
+  background: #ffffff;
+  border-bottom: 0.5px solid #0a8f54;
 }
 
+.header-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 12px 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 40px;
+}
+
+nav a {
+  margin-left: 16px;
+  text-decoration: none;
+  color: #0a8f54;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* hero */
+.hero {
+  padding: 40px 20px;
+}
+
+.hero-inner {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+/* テキスト */
+.hero-text {
+  flex: 1;
+  min-width: 0;
+  text-align: center;
+}
+
+.hero-text h1 {
+  font-size: 28px;
+  line-height: 1.6;
+  letter-spacing: 0.05em;
+  margin-bottom: 12px;
+  word-break: keep-all;
+}
+
+.sub {
+  font-size: 14px;
+  color: #ffffff;
+  word-break: keep-all;
+  background-color: #0a8f54;
+  border-radius: 3px;
+}
+
+/* 画像エリア */
+.hero-images {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hero-images-left {
+  align-items: end;
+}
+.hero-images-right {
+  align-items: start;
+}
+
+/* アイテム横並び */
+.items {
+  display: flex;
+  gap: 12px;
+}
+
+.items img {
+  width: clamp(80px, 15vw, 150px);
+  height: auto;
+}
 /* 一覧グリッド */
 
 .grid {
@@ -13,6 +156,7 @@ body {
 }
 /* タイトルテキスト */
 .section-title {
+  letter-spacing: 0.05em;
   text-align: center;
   font-size: 18px;
   margin: 30px 0 10px;

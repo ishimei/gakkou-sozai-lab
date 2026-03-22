@@ -25,15 +25,19 @@ const { title, description } = Astro.props;
   </head>
 
   <body>
-    <header>
-      <h1>
-        <a href="/" style="text-decoration:none; color:black;">
-          がっこうそざいラボ
-        </a>
-      </h1>
-      <p>ログイン不要。小学校でそのまま使えるフリーイラスト素材サイト。</p>
-      <hr />
-    </header>
+<header class="site-header">
+  <div class="header-inner">
+    <a href="/">
+      <img src="/logo.svg" class="logo" />
+    </a>
+
+    <nav>
+      <a href="/illustration">イラスト一覧</a>
+      <a href="/illustration/character">人物</a>
+      <a href="/illustration/item">アイテム</a>
+    </nav>
+  </div>
+</header>
 
     <main>
       <slot />
