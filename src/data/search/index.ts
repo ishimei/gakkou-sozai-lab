@@ -22,10 +22,14 @@ export const searchIndex = illustrations.map((item) => ({
 const map = new Map(illustrations.map((i) => [i.slug, i]));
 
 export function searchIllustrations(query: string) {
-  const words = query.toLowerCase().trim().split(" ");
+  if (!query) return [];
+
+  const q = query.toLowerCase().trim();
+
+  const terms = q.split(/\s+/).filter(Boolean);
 
   return searchIndex
-    .filter((item) => words.every((w) => item.keywords.includes(w)))
+    .filter((item) => terms.every((term) => item.keywords.includes(term)))
     .map((item) => map.get(item.slug))
     .filter((item): item is Illustration => !!item);
 }

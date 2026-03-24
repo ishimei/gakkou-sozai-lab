@@ -1,0 +1,41 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { searchIndex } from "@/data/search";
+import { illustrations } from "@/data/illustrations";
+---
+
+<BaseLayout title="検索" description="">
+  <div id="search-results">
+    <p>検索中...</p>
+  </div>
+</BaseLayout>
+
+<script is:inline define:vars={{ searchIndex, illustrations }}>
+  const params = new URLSearchParams(window.location.search);
+  const query = params.get("q") ?? "";
+  const container = document.getElementById("search-results");
+
+  if (!query) {
+    container.innerHTML = "<p>キーワードを入力してください</p>";
+  } else {
+    const q = query.toLowerCase().trim();
+    const terms = q.split(/\s+/).filter(Boolean);
+
+    const map = new Map(illustrations.map((i) => [i.slug, i]));
+    const results = searchIndex
+      .filter((item) => terms.every((term) => item.keywords.includes(term)))
+      .map((item) => map.get(item.slug))
+      .filter(Boolean);
+
+    if (results.length === 0) {
+      container.innerHTML = "<p>見つかりませんでした</p>";
+    } else {
+      container.innerHTML = `<div class="grid">${results
+        .map(
+          (item) =>
+            `<a href="/illustration/${item.slug}"><img src="${item.png}" alt="${item.title}" /><p>${item.title}</p></a>`
+        )
+        .join("")}</div>`;
+    }
+  }
+</script>

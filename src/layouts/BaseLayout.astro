@@ -21,7 +21,6 @@ const { title, description } = Astro.props;
     <meta name="description" content={description} />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
-    <meta property="og:type" content="website" />
   </head>
 
   <body>
@@ -30,12 +29,21 @@ const { title, description } = Astro.props;
     <a href="/">
       <img src="/logo.svg" class="logo" />
     </a>
-
-    <nav>
-      <a href="/illustration">イラスト一覧</a>
-      <a href="/illustration/character">人物</a>
-      <a href="/illustration/item">アイテム</a>
-    </nav>
+    <div class="header-right-area">
+      <nav>
+        <a href="/illustration">イラスト一覧</a>
+        <a href="/illustration/character">人物</a>
+        <a href="/illustration/item">アイテム</a>
+      </nav>
+      <form method="GET" action="/search" class="search-form">
+        <input
+        type="text"
+        name="q"
+        placeholder="キーワードで検索（例：笑顔）"
+        />
+        <button type="submit">検索</button>
+      </form>
+    </div>
   </div>
 </header>
 
