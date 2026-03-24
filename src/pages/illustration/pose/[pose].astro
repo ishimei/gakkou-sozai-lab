@@ -1,12 +1,12 @@
 ---
 import BaseLayout from "../../../layouts/BaseLayout.astro";
-import { allIllustrations } from "../../../data/illustrations";
+import { illustrations  } from "../../../data/illustrations";
 
 export function getStaticPaths() {
 
   const poses = [
     ...new Set(
-      allIllustrations
+      illustrations 
         .filter((item) => item.pose)
         .map((item) => item.pose)
     ),
@@ -19,7 +19,7 @@ export function getStaticPaths() {
 
 const { pose } = Astro.params;
 
-const filtered = allIllustrations.filter(
+const filtered = illustrations .filter(
   (item) => item.pose === pose
 );
 

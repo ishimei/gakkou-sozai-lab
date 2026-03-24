@@ -1,11 +1,11 @@
 ---
 import BaseLayout from "../../../layouts/BaseLayout.astro";
-import { allIllustrations } from "../../../data/illustrations";
+import { illustrations  } from "../../../data/illustrations";
 
-const items = allIllustrations.filter(
+const items = illustrations .filter(
   (item) => item.character === "item"
 );
-const characterIllustrations = allIllustrations
+const characterIllustrations = illustrations 
   .filter((i) => i.character !== "item")
   .slice(-8);
 const title = "学校の文房具イラスト";

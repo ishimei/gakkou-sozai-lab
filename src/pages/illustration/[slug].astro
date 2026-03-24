@@ -1,10 +1,10 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
-import { allIllustrations } from "../../data/illustrations";
+import { illustrations  } from "../../data/illustrations";
 import "../../styles/illustration.css";
 
 export function getStaticPaths() {
-  return allIllustrations.map((item) => ({
+  return illustrations .map((item) => ({
     params: { slug: item.slug },
     props: { item },
   }));
@@ -14,23 +14,16 @@ const { item } = Astro.props;
 
 /* 同じポーズ */
 const samePose = item.pose
-  ? allIllustrations.filter(
+  ? illustrations .filter(
       (i) => i.pose === item.pose && i.slug !== item.slug
-    )
-  : [];
-
-/* 同じアクション */
-const sameAction = item.action
-  ? allIllustrations.filter(
-      (i) => i.action === item.action && i.slug !== item.slug
     )
   : [];
 
 /* 同じタグ */
 const sameTag = item.tags?.[0]
-  ? allIllustrations.filter(
+  ? illustrations .filter(
       (i) =>
-        i.tags?.includes(item.tags[0]) &&
+        i.tags?.includes(item.tags?.[0] ?? "") &&
         i.slug !== item.slug
     ).slice(0,8)
   : [];
@@ -152,23 +145,6 @@ class="illustration-image"
 </>
 )}
 
-{sameAction.length > 0 && (
-<>
-
-<hr />
-
-<h2 class="section-title">同じシーンのイラスト</h2>
-
-<div class="grid">
-{sameAction.map((i) => (
-<a class="card" href={`/illustration/${i.slug}`}>
-<img src={i.png} alt={i.title} />
-</a>
-))}
-</div>
-
-</>
-)}
 
 {sameTag.length > 0 && (
 <>

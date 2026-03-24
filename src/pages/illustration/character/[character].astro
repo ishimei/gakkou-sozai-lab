@@ -1,12 +1,12 @@
 ---
 import BaseLayout from "../../../layouts/BaseLayout.astro";
-import { allIllustrations } from "../../../data/illustrations";
+import { illustrations  } from "../../../data/illustrations";
 
 export function getStaticPaths() {
 
   const characters = [
     ...new Set(
-      allIllustrations
+      illustrations 
         .map((i) => i.character)
     ),
   ];
@@ -18,7 +18,7 @@ export function getStaticPaths() {
 
 const { character } = Astro.params;
 
-const filtered = allIllustrations.filter(
+const filtered = illustrations .filter(
   (i) => i.character === character
 );
 

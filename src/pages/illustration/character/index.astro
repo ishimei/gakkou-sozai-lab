@@ -1,11 +1,11 @@
 ---
 import BaseLayout from "../../../layouts/BaseLayout.astro";
-import { allIllustrations } from "../../../data/illustrations";
+import { illustrations  } from "../../../data/illustrations";
 
-const characters = allIllustrations.filter(
+const characters = illustrations .filter(
   (item) => item.character !== "item"
 );
-const itemIllustrations = allIllustrations
+const itemIllustrations = illustrations 
   .filter((i) => i.character === "item")
   .slice(-8)
   .reverse();

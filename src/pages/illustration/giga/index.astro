@@ -1,12 +1,12 @@
 ---
 import BaseLayout from "../../../layouts/BaseLayout.astro";
-import { allIllustrations } from "../../../data/illustrations";
-const gigaIllustrations = allIllustrations
+import { illustrations  } from "../../../data/illustrations";
+const gigaIllustrations = illustrations 
   .filter((i) => i.tags?.includes("GIGA"));
-const characterIllustrations = allIllustrations
+const characterIllustrations = illustrations 
   .filter((i) => i.character !== "item")
   .slice(-8);
-const itemIllustrations = allIllustrations
+const itemIllustrations = illustrations 
   .filter((i) => i.character === "item")
   .slice(-8);
 const title = "GIGAスクール イラスト";
