@@ -33,7 +33,7 @@ import { illustrations } from "@/data/illustrations";
       container.innerHTML = `<div class="grid">${results
         .map(
           (item) =>
-            `<a href="/illustration/${item.slug}"><img src="${item.png}" alt="${item.title}" /><p>${item.title}</p></a>`
+            `<a class="card" href="/illustration/${item.slug}"><img src="${item.png}" alt="${item.title}" /><p>${item.title}</p></a>`
         )
         .join("")}</div>`;
     }
