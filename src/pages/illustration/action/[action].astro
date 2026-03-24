@@ -28,7 +28,7 @@ const filtered = illustrations.filter(
   (item) => item.action === action
 );
 
-const title = `${actionLabel[action]}小学生のイラスト一覧`;
+const title = `${actionLabel[action as keyof typeof actionLabel]}小学生のイラスト一覧`;
 const description = `小学校で使える ${action} のイラスト一覧です。`;
 ---
 

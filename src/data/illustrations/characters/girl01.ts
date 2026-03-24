@@ -976,7 +976,8 @@ export const characterIllustrations: Illustration[] = [
     svg: "/images/girl01/svg/girl01_tablet_rule_walk_01.svg",
     line_png: "/images/girl01/line_png/girl01_tablet_rule_walk_01.png",
     line_svg: "/images/girl01/line_svg/girl01_tablet_rule_walk_01.svg",
-    character: "girl",
+    character: "girl01",
+    category: "character",
     tags: [
       "GIGA",
       "iPad",
@@ -998,7 +999,8 @@ export const characterIllustrations: Illustration[] = [
     svg: "/images/girl01/svg/girl01_tablet_rule_walk_02.svg",
     line_png: "/images/girl01/line_png/girl01_tablet_rule_walk_02.png",
     line_svg: "/images/girl01/line_svg/girl01_tablet_rule_walk_02.svg",
-    character: "girl",
+    character: "girl01",
+    category: "character",
     tags: [
       "GIGA",
       "iPad",
@@ -1022,7 +1024,8 @@ export const characterIllustrations: Illustration[] = [
       "/images/girl01/line_png/girl01_tablet_rule_hold_with_two_hands_01.png",
     line_svg:
       "/images/girl01/line_svg/girl01_tablet_rule_hold_with_two_hands_01.svg",
-    character: "girl",
+    character: "girl01",
+    category: "character",
     tags: [
       "GIGA",
       "iPad",
@@ -1046,7 +1049,8 @@ export const characterIllustrations: Illustration[] = [
       "/images/girl01/line_png/girl01_tablet_rule_hold_with_two_hands_02.png",
     line_svg:
       "/images/girl01/line_svg/girl01_tablet_rule_hold_with_two_hands_02.svg",
-    character: "girl",
+    character: "girl01",
+    category: "character",
     tags: [
       "GIGA",
       "iPad",
@@ -1070,7 +1074,8 @@ export const characterIllustrations: Illustration[] = [
       "/images/girl01/line_png/girl01_tablet_rule_no_play_with_tablet_01.png",
     line_svg:
       "/images/girl01/line_svg/girl01_tablet_rule_no_play_with_tablet_01.svg",
-    character: "girl",
+    character: "girl01",
+    category: "character",
     tags: [
       "GIGA",
       "iPad",
@@ -1094,7 +1099,8 @@ export const characterIllustrations: Illustration[] = [
       "/images/girl01/line_png/girl01_tablet_rule_no_play_with_tablet_02.png",
     line_svg:
       "/images/girl01/line_svg/girl01_tablet_rule_no_play_with_tablet_02.svg",
-    character: "girl",
+    character: "girl01",
+    category: "character",
     tags: [
       "GIGA",
       "iPad",
@@ -1116,7 +1122,8 @@ export const characterIllustrations: Illustration[] = [
     svg: "/images/girl01/svg/girl01_tablet_rule_put_top_01.svg",
     line_png: "/images/girl01/line_png/girl01_tablet_rule_put_top_01.png",
     line_svg: "/images/girl01/line_svg/girl01_tablet_rule_put_top_01.svg",
-    character: "girl",
+    character: "girl01",
+    category: "character",
     tags: [
       "GIGA",
       "iPad",
@@ -1138,7 +1145,8 @@ export const characterIllustrations: Illustration[] = [
     svg: "/images/girl01/svg/girl01_tablet_rule_put_top_02.svg",
     line_png: "/images/girl01/line_png/girl01_tablet_rule_put_top_02.png",
     line_svg: "/images/girl01/line_svg/girl01_tablet_rule_put_top_02.svg",
-    character: "girl",
+    character: "girl01",
+    category: "character",
     tags: [
       "GIGA",
       "iPad",
