@@ -1,17 +1,16 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import { illustrations  } from "../data/illustrations";
-
 const title = "がっこうそざいラボ";
 const description =
   "小学校で使えるフリーイラスト素材サイト。PNG・SVG対応、商用OK。線画もあります。";
 
 const characterIllustrations = illustrations 
-  .filter((i) => i.character !== "item").reverse()
+  .filter((i) => i.category  !== "item").reverse()
   .slice(-8);
 
 const itemIllustrations = illustrations 
-  .filter((i) => i.character === "item").reverse()
+  .filter((i) => i.category === "item").reverse()
   .slice(-8);
 ---
 

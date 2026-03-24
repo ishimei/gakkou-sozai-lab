@@ -4,14 +4,14 @@ import { illustrations  } from "../../../data/illustrations";
 
 export function getStaticPaths() {
 
-  const characters = [
+  const category  = [
     ...new Set(
       illustrations 
         .map((i) => i.character)
     ),
   ];
 
-  return characters.map((character) => ({
+  return category .map((character) => ({
     params: { character },
   }));
 }

@@ -2,11 +2,11 @@
 import BaseLayout from "../../../layouts/BaseLayout.astro";
 import { illustrations  } from "../../../data/illustrations";
 
-const characters = illustrations .filter(
-  (item) => item.character !== "item"
+const category  = illustrations .filter(
+  (item) => item.category  !== "item"
 );
 const itemIllustrations = illustrations 
-  .filter((i) => i.character === "item")
+  .filter((i) => i.category === "item")
   .slice(-8)
   .reverse();
 const title = "人物イラスト一覧";
@@ -23,7 +23,7 @@ const description = "小学生の人物イラスト素材一覧です。";
 </ul>
 <h2 class="section-title">人物イラスト</h2>
 <div class="grid">
-  {characters.map((item) => (
+  {category .map((item) => (
     <a class="card" href={`/illustration/${item.slug}`}>
       <img src={item.png} alt={item.title} />
       <p>{item.title}</p>
