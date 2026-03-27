@@ -285,3 +285,18 @@ nav a {
 .download-button:hover {
   background: #45a049;
 }
+
+.load-more-btn {
+  display: inline-block;
+  width: 70%;
+  padding: 10px 16px;
+  background: #0a8f54;
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.load-more-btn:hover {
+  background: #097a47;
+}

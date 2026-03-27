@@ -1,35 +1,56 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
+import { characterIllustrations, itemIllustrations } from "../../data/illustrations";
 
 const title = "イラスト一覧";
 const description = "小学校で使えるフリーイラスト素材のカテゴリ一覧ページ。";
+
+const minLen = Math.min(characterIllustrations.length, itemIllustrations.length);
+const interleaved = [
+  ...Array.from({ length: minLen }, (_, i) => [characterIllustrations[i], itemIllustrations[i]]).flat(),
+  ...characterIllustrations.slice(minLen),
+  ...itemIllustrations.slice(minLen),
+];
+
+const PAGE_SIZE = 100;
+const initial = interleaved.slice(0, PAGE_SIZE);
+const rest = interleaved.slice(PAGE_SIZE);
 ---
 
 <BaseLayout title={title} description={description}>
 
-<h1>イラスト一覧</h1>
+<h1>{title}</h1>
 
-<p>
-小学校で使えるフリーイラスト素材です。人物イラストや文房具イラストなどのカテゴリから探せます。
-</p>
+<div class="grid" id="grid">
+  {initial.map((item) => (
+    <a class="card" href={`/illustration/${item.slug}`}>
+      <img src={item.png} alt={item.title} />
+      <p>{item.title}</p>
+    </a>
+  ))}
+</div>
 
-<h2 class="section-title">人物イラスト</h2>
-<a href="/illustration/character">人物イラスト一覧を見る</a>
-<ul class="tag-list">
-  <li><a href="/illustration/action/write_note">ノートを書く</a></li>
-  <li><a href="/illustration/action/read_textbook">教科書を読む</a></li>
-  <li><a href="/illustration/action/raise_hand">手を挙げる</a></li>
-</ul>
-
-<h2 class="section-title">アイテムイラスト</h2>
-<a href="/illustration/item">
-アイテムイラストをすべて見る
-</a>
-<ul class="tag-list">
-  <li><a href="/illustration/item/pencil">鉛筆</a></li>
-  <li><a href="/illustration/item/eraser">消しゴム</a></li>
-  <li><a href="/illustration/item/randoseru">ランドセル</a></li>
-  <li><a href="/illustration/item/uwabaki">上履き</a></li>
-</ul>
+{rest.length > 0 && (
+  <div style="text-align:center; margin-top:24px;">
+    <button id="load-more" class="load-more-btn">もっと見る</button>
+  </div>
+)}
 
 </BaseLayout>
+
+<script is:inline define:vars={{ rest }}>
+  const btn = document.getElementById("load-more");
+  if (btn) {
+    btn.addEventListener("click", () => {
+      const grid = document.getElementById("grid");
+      rest.forEach((item) => {
+        const a = document.createElement("a");
+        a.className = "card";
+        a.href = `/illustration/${item.slug}`;
+        a.innerHTML = `<img src="${item.png}" alt="${item.title}" /><p>${item.title}</p>`;
+        grid.appendChild(a);
+      });
+      btn.parentElement.remove();
+    });
+  }
+</script>
