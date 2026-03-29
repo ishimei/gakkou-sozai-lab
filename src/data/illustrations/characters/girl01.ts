@@ -1,6 +1,78 @@
 import type { Illustration } from "@/types/illustration";
 
 export const characterIllustrations: Illustration[] = [
+  {
+    slug: "girl01-clean-cleaning-cloth-bucket-02",
+    title: "バケツと雑巾で掃除する女の子（その2）",
+    description:
+      "小学校で使えるバケツと雑巾で掃除する女の子のフリーイラスト素材です。",
+    png: "/images/girl01/png/girl01_clean_cleaning_cloth_bucket_02.png",
+    svg: "/images/girl01/svg/girl01_clean_cleaning_cloth_bucket_02.svg",
+    line_png:
+      "/images/girl01/line_png/girl01_clean_cleaning_cloth_bucket_02.png",
+    line_svg:
+      "/images/girl01/line_svg/girl01_clean_cleaning_cloth_bucket_02.svg",
+    character: "girl01",
+    category: "character",
+    emotion: "normal",
+    pose: "cleaningClothBucket",
+    action: "clean",
+    grade: 1,
+    tags: ["掃除", "雑巾", "バケツ", "清掃"],
+  },
+  {
+    slug: "girl01-clean-broom-dustpan-01",
+    title: "ほうきとちりとりで掃除する女の子（その1）",
+    description:
+      "小学校で使えるほうきとちりとりで掃除する女の子のフリーイラスト素材です。",
+    png: "/images/girl01/png/girl01_clean_broom_dustpan_01.png",
+    svg: "/images/girl01/svg/girl01_clean_broom_dustpan_01.svg",
+    line_png: "/images/girl01/line_png/girl01_clean_broom_dustpan_01.png",
+    line_svg: "/images/girl01/line_svg/girl01_clean_broom_dustpan_01.svg",
+    character: "girl01",
+    category: "character",
+    emotion: "normal",
+    pose: "broomDustpan",
+    action: "clean",
+    grade: 1,
+    tags: ["掃除", "ほうき", "ちりとり", "清掃"],
+  },
+  {
+    slug: "girl01-clean-broom-dustpan-02",
+    title: "ほうきとちりとりで掃除する女の子（その2）",
+    description:
+      "小学校で使えるほうきとちりとりで掃除する女の子のフリーイラスト素材です。",
+    png: "/images/girl01/png/girl01_clean_broom_dustpan_02.png",
+    svg: "/images/girl01/svg/girl01_clean_broom_dustpan_02.svg",
+    line_png: "/images/girl01/line_png/girl01_clean_broom_dustpan_02.png",
+    line_svg: "/images/girl01/line_svg/girl01_clean_broom_dustpan_02.svg",
+    character: "girl01",
+    category: "character",
+    emotion: "normal",
+    pose: "broomDustpan",
+    action: "clean",
+    grade: 1,
+    tags: ["掃除", "ほうき", "ちりとり", "清掃"],
+  },
+  {
+    slug: "girl01-clean-cleaning-cloth-bucket-01",
+    title: "バケツと雑巾で掃除する女の子（その1）",
+    description:
+      "小学校で使えるバケツと雑巾で掃除する女の子のフリーイラスト素材です。",
+    png: "/images/girl01/png/girl01_clean_cleaning_cloth_bucket_01.png",
+    svg: "/images/girl01/svg/girl01_clean_cleaning_cloth_bucket_01.svg",
+    line_png:
+      "/images/girl01/line_png/girl01_clean_cleaning_cloth_bucket_01.png",
+    line_svg:
+      "/images/girl01/line_svg/girl01_clean_cleaning_cloth_bucket_01.svg",
+    character: "girl01",
+    category: "character",
+    emotion: "normal",
+    pose: "cleaningClothBucket",
+    action: "clean",
+    grade: 1,
+    tags: ["掃除", "雑巾", "バケツ", "清掃"],
+  },
   // ---- 立ちA ----
   {
     slug: "girl01-stand-a-angry",

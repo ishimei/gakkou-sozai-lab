@@ -2,6 +2,18 @@ import type { Illustration } from "@/types/illustration";
 
 export const itemIllustrations: Illustration[] = [
   {
+    slug: "item-dustpan-side",
+    title: "ちりとり（横向き）のイラスト",
+    description: "小学校で使えるちりとり（横向き）のフリーイラスト素材です。",
+    png: "/images/item/png/item_dustpan_side.png",
+    svg: "/images/item/svg/item_dustpan_side.svg",
+    line_png: "/images/item/line_png/item_dustpan_side.png",
+    line_svg: "/images/item/line_svg/item_dustpan_side.svg",
+    character: "item",
+    category: "item",
+    tags: ["掃除", "ちりとり", "清掃", "学校"],
+  },
+  {
     slug: "item-cleaning-cloth",
     title: "ぞうきんのイラスト",
     description: "小学校で使えるぞうきんのフリーイラスト素材です。",
