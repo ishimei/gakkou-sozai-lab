@@ -1,8 +1,8 @@
 ---
 import BaseLayout from "../../../layouts/BaseLayout.astro";
 import { illustrations  } from "../../../data/illustrations";
-const gigaIllustrations = illustrations 
-  .filter((i) => i.tags?.includes("GIGA"));
+const gigaIllustrations = illustrations
+  .filter((i) => i.category.includes("giga"));
 const characterIllustrations = illustrations 
   .filter((i) => i.character !== "item")
   .slice(-8);

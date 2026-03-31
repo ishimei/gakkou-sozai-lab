@@ -3,10 +3,10 @@ import BaseLayout from "../../../layouts/BaseLayout.astro";
 import { illustrations  } from "../../../data/illustrations";
 
 const category  = illustrations .filter(
-  (item) => item.category  !== "item"
+  (item) => !item.category.includes("item")
 );
-const itemIllustrations = illustrations 
-  .filter((i) => i.category === "item")
+const itemIllustrations = illustrations
+  .filter((i) => i.category.includes("item"))
   .slice(-8)
   .reverse();
 const title = "人物イラスト一覧";

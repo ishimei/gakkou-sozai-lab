@@ -6,11 +6,11 @@ const description =
   "小学校で使えるフリーイラスト素材サイト。PNG・SVG対応、商用OK。線画もあります。";
 
 const characterIllustrations = illustrations 
-  .filter((i) => i.category  !== "item").reverse()
+  .filter((i) => !i.category.includes("item")).reverse()
   .slice(-8);
 
 const itemIllustrations = illustrations 
-  .filter((i) => i.category === "item").reverse()
+  .filter((i) => i.category.includes("item")).reverse()
   .slice(-8);
 ---
 
@@ -58,6 +58,10 @@ const itemIllustrations = illustrations
 <a class="category-card" href="/illustration/giga">
 <h2>GIGAスクール</h2>
 <p>ICT関係の素材</p>
+</a>
+<a class="category-card" href="/illustration/frame">
+<h2>フレーム</h2>
+<p>装飾素材</p>
 </a>
 
 </div>

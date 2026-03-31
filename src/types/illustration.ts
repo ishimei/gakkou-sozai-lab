@@ -10,7 +10,7 @@ export type Illustration = {
   line_svg?: string;
 
   character: string;
-  category: "character" | "item";
+  category: string[];
   emotion?: string;
   pose?: string;
   action?: string;

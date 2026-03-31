@@ -39,7 +39,7 @@ const sameTag = item.tags?.[0]
 
 <a href="/illustration">イラスト一覧</a>
 
-{item.category === "item" && item.tags?.[0] && (
+{item.category.includes("item") && item.tags?.[0] && (
 <>
 <span>›</span>
 
@@ -50,7 +50,7 @@ const sameTag = item.tags?.[0]
 </>
 )}
 
-{item.category  !== "item" && (
+{!item.category.includes("item") && (
 <>
 <span>›</span>
 

@@ -1,0 +1,38 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import { illustrations } from "../../../data/illustrations";
+
+const items = illustrations.filter(
+  (item) => item.category.includes("frame")
+);
+const title = "フレームイラスト";
+const description = "小学校で使えるフレーム・装飾素材のフリーイラストです。おたよりや掲示物の飾り枠に。";
+---
+
+<BaseLayout title={title} description={description}>
+
+<nav class="breadcrumb">
+<a href="/">トップ</a>
+<span>›</span>
+<a href="/illustration">イラスト一覧</a>
+<span>›</span>
+<span>{title}</span>
+</nav>
+
+<h1 class="section-title">{title}</h1>
+<p>{description}</p>
+
+{items.length > 0 ? (
+  <div class="grid">
+    {items.map((item) => (
+      <a class="card" href={`/illustration/${item.slug}`}>
+        <img src={item.png} alt={item.title} />
+        <p>{item.title}</p>
+      </a>
+    ))}
+  </div>
+) : (
+  <p style="margin-top: 2rem; color: #666;">現在準備中です。</p>
+)}
+
+</BaseLayout>
