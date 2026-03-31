@@ -110,6 +110,14 @@ class="illustration-image"
 
 <h2 class="illustration-title">{item.title}</h2>
 
+{item.tags && item.tags.length > 0 && (
+  <div class="illustration-tags">
+    {item.tags.map((tag) => (
+      <a href={`/tag/${tag}`} class="tag-link">{tag}</a>
+    ))}
+  </div>
+)}
+
 </div>
 
 <p class="illustration-description">{item.description}</p>

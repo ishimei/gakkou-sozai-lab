@@ -12,7 +12,7 @@
   text-align: center;
 }
 .illustration-title {
-  margin-bottom: 20px;
+  margin-bottom: 5px;
 }
 
 .illustration-image {
@@ -65,4 +65,27 @@
   font-size: 14px;
   line-height: 1.6;
   list-style: none;
+}
+
+.illustration-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 5px;
+  width: 100%;
+  justify-content: center;
+}
+
+.tag-link {
+  display: inline-block;
+  padding: 3px 10px;
+  background: #f0f0f0;
+  border-radius: 20px;
+  font-size: 13px;
+  color: #333;
+  text-decoration: none;
+}
+
+.tag-link:hover {
+  background: #ddd;
 }
