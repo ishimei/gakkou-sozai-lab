@@ -15,7 +15,7 @@ export const characterIllustrations: Illustration[] = [
     pose: "running",
     action: "run",
     grade: 1,
-    tags: ["走る", "笑顔", "運動", "学校", "運動会", "体育"],
+    tags: ["走る", "笑顔", "運動", "学校", "運動会", "体育", "線画"],
   },
   {
     slug: "girl01-running-soccer",
@@ -32,7 +32,7 @@ export const characterIllustrations: Illustration[] = [
     pose: "running",
     action: "run",
     grade: 1,
-    tags: ["走る", "サッカー", "ボール", "運動", "体育"],
+    tags: ["走る", "サッカー", "ボール", "運動", "体育", "線画"],
   },
   {
     slug: "girl01-running-red-hat-sweat",
@@ -49,7 +49,7 @@ export const characterIllustrations: Illustration[] = [
     pose: "running",
     action: "run",
     grade: 1,
-    tags: ["走る", "帽子", "赤帽子", "汗", "運動会", "体育"],
+    tags: ["走る", "帽子", "赤帽子", "汗", "運動会", "体育", "線画"],
   },
   {
     slug: "girl01-running-white-hat-sweat",
@@ -66,7 +66,7 @@ export const characterIllustrations: Illustration[] = [
     pose: "running",
     action: "run",
     grade: 1,
-    tags: ["走る", "帽子", "白帽子", "汗", "運動会", "体育"],
+    tags: ["走る", "帽子", "白帽子", "汗", "運動会", "体育", "線画"],
   },
   {
     slug: "girl01-running-red-headband",
@@ -83,7 +83,7 @@ export const characterIllustrations: Illustration[] = [
     pose: "running",
     action: "run",
     grade: 1,
-    tags: ["走る", "運動", "ハチマキ", "赤", "運動会"],
+    tags: ["走る", "運動", "ハチマキ", "赤", "運動会", "線画"],
   },
   {
     slug: "girl01-running-red-headband-anchor",
@@ -100,7 +100,7 @@ export const characterIllustrations: Illustration[] = [
     pose: "running",
     action: "run",
     grade: 1,
-    tags: ["走る", "リレー", "アンカー", "ハチマキ", "赤", "運動会"],
+    tags: ["走る", "リレー", "アンカー", "ハチマキ", "赤", "運動会", "線画"],
   },
   {
     slug: "girl01-running-sweat",
@@ -116,7 +116,7 @@ export const characterIllustrations: Illustration[] = [
     pose: "running",
     action: "run",
     grade: 1,
-    tags: ["走る", "汗", "運動", "がんばる"],
+    tags: ["走る", "汗", "運動", "がんばる", "線画"],
   },
   {
     slug: "girl01-running-white-headband",
@@ -133,7 +133,7 @@ export const characterIllustrations: Illustration[] = [
     pose: "running",
     action: "run",
     grade: 1,
-    tags: ["走る", "ハチマキ", "白", "運動会"],
+    tags: ["走る", "ハチマキ", "白", "運動会", "線画"],
   },
   {
     slug: "girl01-running-white-headband-anchor",
@@ -188,7 +188,7 @@ export const characterIllustrations: Illustration[] = [
     pose: "broomDustpan",
     action: "clean",
     grade: 1,
-    tags: ["掃除", "ほうき", "ちりとり", "清掃"],
+    tags: ["掃除", "ほうき", "ちりとり", "清掃", "線画"],
   },
   {
     slug: "girl01-clean-broom-dustpan-02",
@@ -205,7 +205,7 @@ export const characterIllustrations: Illustration[] = [
     pose: "broomDustpan",
     action: "clean",
     grade: 1,
-    tags: ["掃除", "ほうき", "ちりとり", "清掃"],
+    tags: ["掃除", "ほうき", "ちりとり", "清掃", "線画"],
   },
   {
     slug: "girl01-clean-cleaning-cloth-bucket-01",
@@ -1212,8 +1212,7 @@ export const characterIllustrations: Illustration[] = [
       "ICT教育",
       "情報モラル",
       "ICTルール",
-      "タブレットルール",
-    ],
+      "タブレットルール",, "線画"],
   },
   {
     slug: "girl01-tablet-rule-walk-02",
@@ -1235,8 +1234,7 @@ export const characterIllustrations: Illustration[] = [
       "ICT教育",
       "情報モラル",
       "ICTルール",
-      "タブレットルール",
-    ],
+      "タブレットルール",, "線画"],
   },
   {
     slug: "girl01-tablet-rule-hold-with-two-hands-01",
@@ -1358,8 +1356,7 @@ export const characterIllustrations: Illustration[] = [
       "ICT教育",
       "情報モラル",
       "ICTルール",
-      "タブレットルール",
-    ],
+      "タブレットルール",, "線画"],
   },
   {
     slug: "girl01-tablet-rule-put-top-02",
@@ -1381,7 +1378,6 @@ export const characterIllustrations: Illustration[] = [
       "ICT教育",
       "情報モラル",
       "ICTルール",
-      "タブレットルール",
-    ],
+      "タブレットルール",, "線画"],
   },
 ];

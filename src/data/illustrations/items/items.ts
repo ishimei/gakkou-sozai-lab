@@ -21,8 +21,7 @@ export const itemIllustrations: Illustration[] = [
       "あご紐",
       "ゴム紐",
       "学校",
-      "運動会",
-    ],
+      "運動会",, "線画"],
   },
   {
     slug: "item-cap-front-red",
@@ -34,7 +33,7 @@ export const itemIllustrations: Illustration[] = [
     line_svg: "/images/item/line_svg/item_cap_front_red.svg",
     character: "item",
     category: ["item"],
-    tags: ["帽子", "紅白帽子", "赤白帽", "赤帽子", "正面", "学校", "運動会"],
+    tags: ["帽子", "紅白帽子", "赤白帽", "赤帽子", "正面", "学校", "運動会", "線画"],
   },
   {
     slug: "item-cap-front-red-chin-strap",
@@ -56,8 +55,7 @@ export const itemIllustrations: Illustration[] = [
       "あご紐",
       "ゴム紐",
       "学校",
-      "運動会",
-    ],
+      "運動会",, "線画"],
   },
   {
     slug: "item-cap-front-white",
@@ -69,7 +67,7 @@ export const itemIllustrations: Illustration[] = [
     line_svg: "/images/item/line_svg/item_cap_front_white.svg",
     character: "item",
     category: ["item"],
-    tags: ["帽子", "紅白帽子", "赤白帽", "白帽子", "正面", "学校", "運動会"],
+    tags: ["帽子", "紅白帽子", "赤白帽", "白帽子", "正面", "学校", "運動会", "線画"],
   },
   {
     slug: "item-cap-front-white-chin-strap",
@@ -91,8 +89,7 @@ export const itemIllustrations: Illustration[] = [
       "あご紐",
       "ゴム紐",
       "学校",
-      "運動会",
-    ],
+      "運動会",, "線画"],
   },
   {
     slug: "item-cap-side-red",
@@ -104,7 +101,7 @@ export const itemIllustrations: Illustration[] = [
     line_svg: "/images/item/line_svg/item_cap_side_red.svg",
     character: "item",
     category: ["item"],
-    tags: ["帽子", "紅白帽子", "赤白帽", "赤帽子", "横向き", "学校", "運動会"],
+    tags: ["帽子", "紅白帽子", "赤白帽", "赤帽子", "横向き", "学校", "運動会", "線画"],
   },
   {
     slug: "item-cap-side-red-chin-strap",
@@ -126,8 +123,7 @@ export const itemIllustrations: Illustration[] = [
       "あご紐",
       "ゴム紐",
       "学校",
-      "運動会",
-    ],
+      "運動会",, "線画"],
   },
   {
     slug: "item-cap-side-white",
@@ -139,7 +135,7 @@ export const itemIllustrations: Illustration[] = [
     line_svg: "/images/item/line_svg/item_cap_side_white.svg",
     character: "item",
     category: ["item"],
-    tags: ["帽子", "紅白帽子", "赤白帽", "白帽子", "横向き", "学校", "運動会"],
+    tags: ["帽子", "紅白帽子", "赤白帽", "白帽子", "横向き", "学校", "運動会", "線画"],
   },
   {
     slug: "item-binder-clip-paper-top-04",
@@ -152,7 +148,7 @@ export const itemIllustrations: Illustration[] = [
     line_svg: "/images/item/line_svg/item_binder_clip_paper_top_04.svg",
     character: "item",
     category: ["item", "frame"],
-    tags: ["文房具", "フレーム", "frame", "クリップ", "紙", "書類整理", "学校"],
+    tags: ["文房具", "フレーム", "frame", "クリップ", "紙", "書類整理", "学校", "線画"],
   },
   {
     slug: "item-bulldog-clip-angle",
@@ -164,7 +160,7 @@ export const itemIllustrations: Illustration[] = [
     line_svg: "/images/item/line_svg/item_bulldog_clip_angle.svg",
     character: "item",
     category: ["item"],
-    tags: ["文房具", "クリップ", "目玉クリップ", "学校"],
+    tags: ["文房具", "クリップ", "目玉クリップ", "学校", "線画"],
   },
   {
     slug: "item-bulldog-clip-front",
@@ -176,7 +172,7 @@ export const itemIllustrations: Illustration[] = [
     line_svg: "/images/item/line_svg/item_bulldog_clip_front.svg",
     character: "item",
     category: ["item"],
-    tags: ["文房具", "クリップ", "目玉クリップ", "学校"],
+    tags: ["文房具", "クリップ", "目玉クリップ", "学校", "線画"],
   },
   {
     slug: "item-bulldog-clip-paper-top-01",
@@ -189,7 +185,7 @@ export const itemIllustrations: Illustration[] = [
     line_svg: "/images/item/line_svg/item_bulldog_clip_paper_top_01.svg",
     character: "item",
     category: ["item", "frame"],
-    tags: ["文房具", "フレーム", "frame", "クリップ", "紙", "書類整理", "学校"],
+    tags: ["文房具", "フレーム", "frame", "クリップ", "紙", "書類整理", "学校", "線画"],
   },
   {
     slug: "item-bulldog-clip-paper-top-02",
@@ -202,7 +198,7 @@ export const itemIllustrations: Illustration[] = [
     line_svg: "/images/item/line_svg/item_bulldog_clip_paper_top_02.svg",
     character: "item",
     category: ["item", "frame"],
-    tags: ["文房具", "フレーム", "frame", "クリップ", "紙", "書類整理", "学校"],
+    tags: ["文房具", "フレーム", "frame", "クリップ", "紙", "書類整理", "学校", "線画"],
   },
   {
     slug: "item-bulldog-clip-paper-top-03",
@@ -215,7 +211,7 @@ export const itemIllustrations: Illustration[] = [
     line_svg: "/images/item/line_svg/item_bulldog_clip_paper_top_03.svg",
     character: "item",
     category: ["item", "frame"],
-    tags: ["文房具", "フレーム", "frame", "クリップ", "紙", "書類整理", "学校"],
+    tags: ["文房具", "フレーム", "frame", "クリップ", "紙", "書類整理", "学校", "線画"],
   },
   {
     slug: "item-bulldog-clip-paper-top-04",
@@ -228,7 +224,7 @@ export const itemIllustrations: Illustration[] = [
     line_svg: "/images/item/line_svg/item_bulldog_clip_paper_top_04.svg",
     character: "item",
     category: ["item", "frame"],
-    tags: ["文房具", "フレーム", "frame", "クリップ", "紙", "書類整理", "学校"],
+    tags: ["文房具", "フレーム", "frame", "クリップ", "紙", "書類整理", "学校", "線画"],
   },
   {
     slug: "item-clip-angle",
@@ -240,7 +236,7 @@ export const itemIllustrations: Illustration[] = [
     line_svg: "/images/item/line_svg/item_clip_angle.svg",
     character: "item",
     category: ["item"],
-    tags: ["文房具", "クリップ", "ゼムクリップ", "学校"],
+    tags: ["文房具", "クリップ", "ゼムクリップ", "学校", "線画"],
   },
   {
     slug: "item-clip-front",
@@ -252,7 +248,7 @@ export const itemIllustrations: Illustration[] = [
     line_svg: "/images/item/line_svg/item_clip_front.svg",
     character: "item",
     category: ["item"],
-    tags: ["文房具", "クリップ", "ゼムクリップ", "学校"],
+    tags: ["文房具", "クリップ", "ゼムクリップ", "学校", "線画"],
   },
   {
     slug: "item-clip-paper-right-01",
@@ -265,7 +261,7 @@ export const itemIllustrations: Illustration[] = [
     line_svg: "/images/item/line_svg/item_clip_paper_right_01.svg",
     character: "item",
     category: ["item"],
-    tags: ["文房具", "フレーム", "frame", "クリップ", "紙", "書類整理", "学校"],
+    tags: ["文房具", "フレーム", "frame", "クリップ", "紙", "書類整理", "学校", "線画"],
   },
   {
     slug: "item-clip-paper-right-02",
@@ -278,7 +274,7 @@ export const itemIllustrations: Illustration[] = [
     line_svg: "/images/item/line_svg/item_clip_paper_right_02.svg",
     character: "item",
     category: ["item", "frame"],
-    tags: ["文房具", "フレーム", "frame", "クリップ", "紙", "書類整理", "学校"],
+    tags: ["文房具", "フレーム", "frame", "クリップ", "紙", "書類整理", "学校", "線画"],
   },
   {
     slug: "item-clip-paper-right-03",
@@ -291,7 +287,7 @@ export const itemIllustrations: Illustration[] = [
     line_svg: "/images/item/line_svg/item_clip_paper_right_03.svg",
     character: "item",
     category: ["item", "frame"],
-    tags: ["文房具", "フレーム", "frame", "クリップ", "紙", "書類整理", "学校"],
+    tags: ["文房具", "フレーム", "frame", "クリップ", "紙", "書類整理", "学校", "線画"],
   },
   {
     slug: "item-clip-paper-right-04",
@@ -304,7 +300,7 @@ export const itemIllustrations: Illustration[] = [
     line_svg: "/images/item/line_svg/item_clip_paper_right_04.svg",
     character: "item",
     category: ["item", "frame"],
-    tags: ["文房具", "フレーム", "frame", "クリップ", "紙", "書類整理", "学校"],
+    tags: ["文房具", "フレーム", "frame", "クリップ", "紙", "書類整理", "学校", "線画"],
   },
   {
     slug: "item-binder-clip-angle",
@@ -317,7 +313,7 @@ export const itemIllustrations: Illustration[] = [
     line_svg: "/images/item/line_svg/item_binder_clip_angle.svg",
     character: "item",
     category: ["item"],
-    tags: ["文房具", "クリップ", "ダブルクリップ", "学校"],
+    tags: ["文房具", "クリップ", "ダブルクリップ", "学校", "線画"],
   },
   {
     slug: "item-binder-clip-front",
@@ -330,7 +326,7 @@ export const itemIllustrations: Illustration[] = [
     line_svg: "/images/item/line_svg/item_binder_clip_front.svg",
     character: "item",
     category: ["item"],
-    tags: ["文房具", "クリップ", "ダブルクリップ", "学校"],
+    tags: ["文房具", "クリップ", "ダブルクリップ", "学校", "線画"],
   },
   {
     slug: "item-binder-clip-paper-right-01",
@@ -343,7 +339,7 @@ export const itemIllustrations: Illustration[] = [
     line_svg: "/images/item/line_svg/item_binder_clip_paper_right_01.svg",
     character: "item",
     category: ["item"],
-    tags: ["文房具", "フレーム", "frame", "クリップ", "紙", "書類整理", "学校"],
+    tags: ["文房具", "フレーム", "frame", "クリップ", "紙", "書類整理", "学校", "線画"],
   },
   {
     slug: "item-binder-clip-paper-right-02",
@@ -356,7 +352,7 @@ export const itemIllustrations: Illustration[] = [
     line_svg: "/images/item/line_svg/item_binder_clip_paper_right_02.svg",
     character: "item",
     category: ["item", "frame"],
-    tags: ["文房具", "フレーム", "frame", "クリップ", "紙", "書類整理", "学校"],
+    tags: ["文房具", "フレーム", "frame", "クリップ", "紙", "書類整理", "学校", "線画"],
   },
   {
     slug: "item-binder-clip-paper-right-03",
@@ -369,7 +365,7 @@ export const itemIllustrations: Illustration[] = [
     line_svg: "/images/item/line_svg/item_binder_clip_paper_right_03.svg",
     character: "item",
     category: ["item", "frame"],
-    tags: ["文房具", "フレーム", "frame", "クリップ", "紙", "書類整理", "学校"],
+    tags: ["文房具", "フレーム", "frame", "クリップ", "紙", "書類整理", "学校", "線画"],
   },
   {
     slug: "item-binder-clip-paper-right-04",
@@ -382,7 +378,7 @@ export const itemIllustrations: Illustration[] = [
     line_svg: "/images/item/line_svg/item_binder_clip_paper_right_04.svg",
     character: "item",
     category: ["item", "frame"],
-    tags: ["文房具", "フレーム", "frame", "クリップ", "紙", "書類整理", "学校"],
+    tags: ["文房具", "フレーム", "frame", "クリップ", "紙", "書類整理", "学校", "線画"],
   },
   {
     slug: "item-binder-clip-paper-top-01",
@@ -395,7 +391,7 @@ export const itemIllustrations: Illustration[] = [
     line_svg: "/images/item/line_svg/item_binder_clip_paper_top_01.svg",
     character: "item",
     category: ["item", "frame"],
-    tags: ["文房具", "フレーム", "frame", "クリップ", "紙", "書類整理", "学校"],
+    tags: ["文房具", "フレーム", "frame", "クリップ", "紙", "書類整理", "学校", "線画"],
   },
   {
     slug: "item-binder-clip-paper-top-02",
@@ -408,7 +404,7 @@ export const itemIllustrations: Illustration[] = [
     line_svg: "/images/item/line_svg/item_binder_clip_paper_top_02.svg",
     character: "item",
     category: ["item", "frame"],
-    tags: ["文房具", "フレーム", "frame", "クリップ", "紙", "書類整理", "学校"],
+    tags: ["文房具", "フレーム", "frame", "クリップ", "紙", "書類整理", "学校", "線画"],
   },
   {
     slug: "item-binder-clip-paper-top-03",
@@ -421,7 +417,7 @@ export const itemIllustrations: Illustration[] = [
     line_svg: "/images/item/line_svg/item_binder_clip_paper_top_03.svg",
     character: "item",
     category: ["item", "frame"],
-    tags: ["文房具", "フレーム", "frame", "クリップ", "紙", "書類整理", "学校"],
+    tags: ["文房具", "フレーム", "frame", "クリップ", "紙", "書類整理", "学校", "線画"],
   },
   {
     slug: "item-dustpan-side",
@@ -433,7 +429,7 @@ export const itemIllustrations: Illustration[] = [
     line_svg: "/images/item/line_svg/item_dustpan_side.svg",
     character: "item",
     category: ["item"],
-    tags: ["掃除", "ちりとり", "清掃", "学校"],
+    tags: ["掃除", "ちりとり", "清掃", "学校", "線画"],
   },
   {
     slug: "item-cleaning-cloth",
@@ -445,7 +441,7 @@ export const itemIllustrations: Illustration[] = [
     line_svg: "/images/item/line_svg/item_cleaning_cloth.svg",
     character: "item",
     category: ["item"],
-    tags: ["掃除", "ぞうきん", "学校"],
+    tags: ["掃除", "ぞうきん", "学校", "線画"],
   },
   {
     slug: "item-dustpan-angle",
@@ -457,7 +453,7 @@ export const itemIllustrations: Illustration[] = [
     line_svg: "/images/item/line_svg/item_dustpan_angle.svg",
     character: "item",
     category: ["item"],
-    tags: ["掃除", "ちりとり", "学校"],
+    tags: ["掃除", "ちりとり", "学校", "線画"],
   },
   {
     slug: "item-dustpan-front",
@@ -469,7 +465,7 @@ export const itemIllustrations: Illustration[] = [
     line_svg: "/images/item/line_svg/item_dustpan_front.svg",
     character: "item",
     category: ["item"],
-    tags: ["掃除", "ちりとり", "学校"],
+    tags: ["掃除", "ちりとり", "学校", "線画"],
   },
   {
     slug: "item-broom-angle",
@@ -481,7 +477,7 @@ export const itemIllustrations: Illustration[] = [
     line_svg: "/images/item/line_svg/item_broom_angle.svg",
     character: "item",
     category: ["item"],
-    tags: ["掃除", "ほうき", "学校"],
+    tags: ["掃除", "ほうき", "学校", "線画"],
   },
   {
     slug: "item-broom-front",
@@ -493,7 +489,7 @@ export const itemIllustrations: Illustration[] = [
     line_svg: "/images/item/line_svg/item_broom_front.svg",
     character: "item",
     category: ["item"],
-    tags: ["掃除", "ほうき", "学校"],
+    tags: ["掃除", "ほうき", "学校", "線画"],
   },
   {
     slug: "item-bucket-angle",
@@ -505,7 +501,7 @@ export const itemIllustrations: Illustration[] = [
     line_svg: "/images/item/line_svg/item_bucket_angle.svg",
     character: "item",
     category: ["item"],
-    tags: ["掃除", "バケツ", "学校"],
+    tags: ["掃除", "バケツ", "学校", "線画"],
   },
   {
     slug: "item-bucket-front",
@@ -517,7 +513,7 @@ export const itemIllustrations: Illustration[] = [
     line_svg: "/images/item/line_svg/item_bucket_front.svg",
     character: "item",
     category: ["item"],
-    tags: ["掃除", "バケツ", "学校"],
+    tags: ["掃除", "バケツ", "学校", "線画"],
   },
   {
     slug: "item-bucket-with-cloth",
@@ -529,7 +525,7 @@ export const itemIllustrations: Illustration[] = [
     line_svg: "/images/item/line_svg/item_bucket_with_cloth.svg",
     character: "item",
     category: ["item"],
-    tags: ["掃除", "バケツ", "ぞうきん", "学校"],
+    tags: ["掃除", "バケツ", "ぞうきん", "学校", "線画"],
   },
   {
     slug: "item-pencil-basic",
@@ -541,7 +537,7 @@ export const itemIllustrations: Illustration[] = [
     line_svg: "/images/item/line_svg/item_pencil_basic.svg",
     character: "item",
     category: ["item"],
-    tags: ["鉛筆", "文房具", "勉強"],
+    tags: ["鉛筆", "文房具", "勉強", "線画"],
   },
   {
     slug: "item-pencil-eraser",
@@ -553,7 +549,7 @@ export const itemIllustrations: Illustration[] = [
     line_svg: "/images/item/line_svg/item_pencil_eraser.svg",
     character: "item",
     category: ["item"],
-    tags: ["鉛筆", "文房具", "勉強"],
+    tags: ["鉛筆", "文房具", "勉強", "線画"],
   },
   {
     slug: "item-pencil-red",
@@ -565,7 +561,7 @@ export const itemIllustrations: Illustration[] = [
     line_svg: "/images/item/line_svg/item_pencil_red.svg",
     character: "item",
     category: ["item"],
-    tags: ["鉛筆", "文房具", "勉強"],
+    tags: ["鉛筆", "文房具", "勉強", "線画"],
   },
   {
     slug: "item-pencil-short",
@@ -577,7 +573,7 @@ export const itemIllustrations: Illustration[] = [
     line_svg: "/images/item/line_svg/item_pencil_short.svg",
     character: "item",
     category: ["item"],
-    tags: ["鉛筆", "文房具", "勉強"],
+    tags: ["鉛筆", "文房具", "勉強", "線画"],
   },
   {
     slug: "item-eraser-basic",
@@ -589,7 +585,7 @@ export const itemIllustrations: Illustration[] = [
     line_svg: "/images/item/line_svg/item_eraser_basic.svg",
     character: "item",
     category: ["item"],
-    tags: ["消しゴム", "文房具", "勉強"],
+    tags: ["消しゴム", "文房具", "勉強", "線画"],
   },
   {
     slug: "item-eraser-diagonal",
@@ -601,7 +597,7 @@ export const itemIllustrations: Illustration[] = [
     line_svg: "/images/item/line_svg/item_eraser_diagonal.svg",
     character: "item",
     category: ["item"],
-    tags: ["消しゴム", "文房具", "勉強"],
+    tags: ["消しゴム", "文房具", "勉強", "線画"],
   },
   {
     slug: "item-randoseru-front-black",
@@ -613,7 +609,7 @@ export const itemIllustrations: Illustration[] = [
     line_svg: "/images/item/line_svg/item_randoseru_front_black.svg",
     character: "item",
     category: ["item"],
-    tags: ["ランドセル", "通学", "学校"],
+    tags: ["ランドセル", "通学", "学校", "線画"],
   },
   {
     slug: "item-randoseru-front-red",
@@ -625,7 +621,7 @@ export const itemIllustrations: Illustration[] = [
     line_svg: "/images/item/line_svg/item_randoseru_front_red.svg",
     character: "item",
     category: ["item"],
-    tags: ["ランドセル", "通学", "学校"],
+    tags: ["ランドセル", "通学", "学校", "線画"],
   },
   {
     slug: "item-randoseru-diagonal-black",
@@ -633,11 +629,11 @@ export const itemIllustrations: Illustration[] = [
     description: "小学校で使えるランドセルのフリーイラスト素材です。",
     png: "/images/item/png/item_randoseru_diagonal_black.png",
     svg: "/images/item/svg/item_randoseru_diagonal_black.svg",
-    line_png: "/images/item/line/png/item_randoseru_diagonal_black.png",
-    line_svg: "/images/item/line/svg/item_randoseru_diagonal_black.svg",
+    line_png: "/images/item/line_png/item_randoseru_diagonal_black.png",
+    line_svg: "/images/item/line_svg/item_randoseru_diagonal_black.svg",
     character: "item",
     category: ["item"],
-    tags: ["ランドセル", "通学", "学校"],
+    tags: ["ランドセル", "通学", "学校", "線画"],
   },
   {
     slug: "item-randoseru-diagonal-red",
@@ -645,11 +641,11 @@ export const itemIllustrations: Illustration[] = [
     description: "小学校で使えるランドセルのフリーイラスト素材です。",
     png: "/images/item/png/item_randoseru_diagonal_red.png",
     svg: "/images/item/svg/item_randoseru_diagonal_red.svg",
-    line_png: "/images/item/line/png/item_randoseru_diagonal_red.png",
-    line_svg: "/images/item/line/svg/item_randoseru_diagonal_red.svg",
+    line_png: "/images/item/line_png/item_randoseru_diagonal_red.png",
+    line_svg: "/images/item/line_svg/item_randoseru_diagonal_red.svg",
     character: "item",
     category: ["item"],
-    tags: ["ランドセル", "通学", "学校"],
+    tags: ["ランドセル", "通学", "学校", "線画"],
   },
   {
     slug: "item-randoseru-diagonal2-black",
@@ -657,11 +653,11 @@ export const itemIllustrations: Illustration[] = [
     description: "小学校で使えるランドセルのフリーイラスト素材です。",
     png: "/images/item/png/item_randoseru_diagonal2_black.png",
     svg: "/images/item/svg/item_randoseru_diagonal2_black.svg",
-    line_png: "/images/item/line/png/item_randoseru_diagonal2_black.png",
-    line_svg: "/images/item/line/svg/item_randoseru_diagonal2_black.svg",
+    line_png: "/images/item/line_png/item_randoseru_diagonal2_black.png",
+    line_svg: "/images/item/line_svg/item_randoseru_diagonal2_black.svg",
     character: "item",
     category: ["item"],
-    tags: ["ランドセル", "通学", "学校"],
+    tags: ["ランドセル", "通学", "学校", "線画"],
   },
   {
     slug: "item-randoseru-diagonal2-red",
@@ -669,11 +665,11 @@ export const itemIllustrations: Illustration[] = [
     description: "小学校で使えるランドセルのフリーイラスト素材です。",
     png: "/images/item/png/item_randoseru_diagonal2_red.png",
     svg: "/images/item/svg/item_randoseru_diagonal2_red.svg",
-    line_png: "/images/item/line/png/item_randoseru_diagonal2_red.png",
-    line_svg: "/images/item/line/svg/item_randoseru_diagonal2_red.svg",
+    line_png: "/images/item/line_png/item_randoseru_diagonal2_red.png",
+    line_svg: "/images/item/line_svg/item_randoseru_diagonal2_red.svg",
     character: "item",
     category: ["item"],
-    tags: ["ランドセル", "通学", "学校"],
+    tags: ["ランドセル", "通学", "学校", "線画"],
   },
   {
     slug: "item-randoseru-open-black",
@@ -685,7 +681,7 @@ export const itemIllustrations: Illustration[] = [
     line_svg: "/images/item/line_svg/item_randoseru_open_black.svg",
     character: "item",
     category: ["item"],
-    tags: ["ランドセル", "開いたランドセル"],
+    tags: ["ランドセル", "開いたランドセル", "線画"],
   },
   {
     slug: "item-randoseru-open-red",
@@ -697,7 +693,7 @@ export const itemIllustrations: Illustration[] = [
     line_svg: "/images/item/line_svg/item_randoseru_open_red.svg",
     character: "item",
     category: ["item"],
-    tags: ["ランドセル", "開いたランドセル"],
+    tags: ["ランドセル", "開いたランドセル", "線画"],
   },
   {
     slug: "item-randoseru-open2-black",
@@ -710,7 +706,7 @@ export const itemIllustrations: Illustration[] = [
     line_svg: "/images/item/line_svg/item_randoseru_open2_black.svg",
     character: "item",
     category: ["item"],
-    tags: ["ランドセル", "開いたランドセル"],
+    tags: ["ランドセル", "開いたランドセル", "線画"],
   },
   {
     slug: "item-randoseru-open2-red",
@@ -723,7 +719,7 @@ export const itemIllustrations: Illustration[] = [
     line_svg: "/images/item/line_svg/item_randoseru_open2_red.svg",
     character: "item",
     category: ["item"],
-    tags: ["ランドセル", "開いたランドセル"],
+    tags: ["ランドセル", "開いたランドセル", "線画"],
   },
   {
     slug: "item-uwabaki-blue",
@@ -735,7 +731,7 @@ export const itemIllustrations: Illustration[] = [
     line_svg: "/images/item/line_svg/item_uwabaki_blue.svg",
     character: "item",
     category: ["item"],
-    tags: ["上履き", "靴", "学校"],
+    tags: ["上履き", "靴", "学校", "線画"],
   },
   {
     slug: "item-uwabaki-blue-diagonal",
@@ -747,7 +743,7 @@ export const itemIllustrations: Illustration[] = [
     line_svg: "/images/item/line_svg/item_uwabaki_blue_diagonal.svg",
     character: "item",
     category: ["item"],
-    tags: ["上履き", "靴", "学校"],
+    tags: ["上履き", "靴", "学校", "線画"],
   },
   {
     slug: "item-uwabaki-white",
@@ -759,7 +755,7 @@ export const itemIllustrations: Illustration[] = [
     line_svg: "/images/item/line_svg/item_uwabaki_white.svg",
     character: "item",
     category: ["item"],
-    tags: ["上履き", "靴", "学校"],
+    tags: ["上履き", "靴", "学校", "線画"],
   },
   {
     slug: "item-uwabaki-green",
@@ -771,7 +767,7 @@ export const itemIllustrations: Illustration[] = [
     line_svg: "/images/item/line_svg/item_uwabaki_green.svg",
     character: "item",
     category: ["item"],
-    tags: ["上履き", "靴", "学校"],
+    tags: ["上履き", "靴", "学校", "線画"],
   },
   {
     slug: "item-uwabaki-red",
@@ -783,7 +779,7 @@ export const itemIllustrations: Illustration[] = [
     line_svg: "/images/item/line_svg/item_uwabaki_red.svg",
     character: "item",
     category: ["item"],
-    tags: ["上履き", "靴", "学校"],
+    tags: ["上履き", "靴", "学校", "線画"],
   },
   {
     slug: "item-shoes-bag-blue",
@@ -795,7 +791,7 @@ export const itemIllustrations: Illustration[] = [
     line_svg: "/images/item/line_svg/item_shoes_bag_blue.svg",
     character: "item",
     category: ["item"],
-    tags: ["上履き袋", "シューズバッグ", "通学"],
+    tags: ["上履き袋", "シューズバッグ", "通学", "線画"],
   },
   {
     slug: "item-shoes-bag-diagonal-blue",
@@ -807,7 +803,7 @@ export const itemIllustrations: Illustration[] = [
     line_svg: "/images/item/line_svg/item_shoes_bag_diagonal_blue.svg",
     character: "item",
     category: ["item"],
-    tags: ["上履き袋", "シューズバッグ", "通学"],
+    tags: ["上履き袋", "シューズバッグ", "通学", "線画"],
   },
   {
     slug: "item-shoes-bag-green",
@@ -819,7 +815,7 @@ export const itemIllustrations: Illustration[] = [
     line_svg: "/images/item/line_svg/item_shoes_bag_green.svg",
     character: "item",
     category: ["item"],
-    tags: ["上履き袋", "シューズバッグ", "通学"],
+    tags: ["上履き袋", "シューズバッグ", "通学", "線画"],
   },
   {
     slug: "item-shoes-bag-red",
@@ -831,7 +827,7 @@ export const itemIllustrations: Illustration[] = [
     line_svg: "/images/item/line_svg/item_shoes_bag_red.svg",
     character: "item",
     category: ["item"],
-    tags: ["上履き袋", "シューズバッグ", "通学"],
+    tags: ["上履き袋", "シューズバッグ", "通学", "線画"],
   },
   {
     slug: "item-shoes-bag-yellow",
@@ -843,7 +839,7 @@ export const itemIllustrations: Illustration[] = [
     line_svg: "/images/item/line_svg/item_shoes_bag_yellow.svg",
     character: "item",
     category: ["item"],
-    tags: ["上履き袋", "シューズバッグ", "通学"],
+    tags: ["上履き袋", "シューズバッグ", "通学", "線画"],
   },
   {
     slug: "item-desk-front",
@@ -855,7 +851,7 @@ export const itemIllustrations: Illustration[] = [
     line_svg: "/images/item/line_svg/item_desk_front.svg",
     character: "item",
     category: ["item"],
-    tags: ["机", "学校", "教室"],
+    tags: ["机", "学校", "教室", "線画"],
   },
   {
     slug: "item-desk-side",
@@ -867,7 +863,7 @@ export const itemIllustrations: Illustration[] = [
     line_svg: "/images/item/line_svg/item_desk_side.svg",
     character: "item",
     category: ["item"],
-    tags: ["机", "学校", "教室"],
+    tags: ["机", "学校", "教室", "線画"],
   },
   {
     slug: "item-desk-diagonal",
@@ -879,7 +875,7 @@ export const itemIllustrations: Illustration[] = [
     line_svg: "/images/item/line_svg/item_desk_diagonal.svg",
     character: "item",
     category: ["item"],
-    tags: ["机", "学校", "教室"],
+    tags: ["机", "学校", "教室", "線画"],
   },
   {
     slug: "item-chair-front",
@@ -891,7 +887,7 @@ export const itemIllustrations: Illustration[] = [
     line_svg: "/images/item/line_svg/item_chair_front.svg",
     character: "item",
     category: ["item"],
-    tags: ["椅子", "学校", "教室"],
+    tags: ["椅子", "学校", "教室", "線画"],
   },
   {
     slug: "item-chair-side",
@@ -903,7 +899,7 @@ export const itemIllustrations: Illustration[] = [
     line_svg: "/images/item/line_svg/item_chair_side.svg",
     character: "item",
     category: ["item"],
-    tags: ["椅子", "学校", "教室"],
+    tags: ["椅子", "学校", "教室", "線画"],
   },
   {
     slug: "item-chair-diagonal",
@@ -915,7 +911,7 @@ export const itemIllustrations: Illustration[] = [
     line_svg: "/images/item/line_svg/item_chair_diagonal.svg",
     character: "item",
     category: ["item"],
-    tags: ["椅子", "学校", "教室"],
+    tags: ["椅子", "学校", "教室", "線画"],
   },
   {
     slug: "item-textbook-front-japanese",
@@ -927,7 +923,7 @@ export const itemIllustrations: Illustration[] = [
     line_svg: "/images/item/line_svg/item_textbook_front_japanese.svg",
     character: "item",
     category: ["item"],
-    tags: ["教科書", "国語", "学校", "勉強"],
+    tags: ["教科書", "国語", "学校", "勉強", "線画"],
   },
   {
     slug: "item-textbook-front-math",
@@ -939,7 +935,7 @@ export const itemIllustrations: Illustration[] = [
     line_svg: "/images/item/line_svg/item_textbook_front_math.svg",
     character: "item",
     category: ["item"],
-    tags: ["教科書", "算数", "学校", "勉強"],
+    tags: ["教科書", "算数", "学校", "勉強", "線画"],
   },
   {
     slug: "item-textbook-front-science",
@@ -951,7 +947,7 @@ export const itemIllustrations: Illustration[] = [
     line_svg: "/images/item/line_svg/item_textbook_front_science.svg",
     character: "item",
     category: ["item"],
-    tags: ["教科書", "理科", "学校", "勉強"],
+    tags: ["教科書", "理科", "学校", "勉強", "線画"],
   },
   {
     slug: "item-textbook-open-japanese",
@@ -964,7 +960,7 @@ export const itemIllustrations: Illustration[] = [
     line_svg: "/images/item/line_svg/item_textbook_open_japanese.svg",
     character: "item",
     category: ["item"],
-    tags: ["教科書", "国語", "学校", "勉強"],
+    tags: ["教科書", "国語", "学校", "勉強", "線画"],
   },
   {
     slug: "item-textbook-open-math",
@@ -977,7 +973,7 @@ export const itemIllustrations: Illustration[] = [
     line_svg: "/images/item/line_svg/item_textbook_open_math.svg",
     character: "item",
     category: ["item"],
-    tags: ["教科書", "算数", "学校", "勉強"],
+    tags: ["教科書", "算数", "学校", "勉強", "線画"],
   },
   {
     slug: "item-textbook-open-science",
@@ -990,7 +986,7 @@ export const itemIllustrations: Illustration[] = [
     line_svg: "/images/item/line_svg/item_textbook_open_science.svg",
     character: "item",
     category: ["item"],
-    tags: ["教科書", "理科", "学校", "勉強"],
+    tags: ["教科書", "理科", "学校", "勉強", "線画"],
   },
   // ---- GIGA SCHOOLのイラスト ----
   {
@@ -1013,8 +1009,7 @@ export const itemIllustrations: Illustration[] = [
       "ICT教育",
       "情報モラル",
       "ICTルール",
-      "タブレットルール",
-    ],
+      "タブレットルール",, "線画"],
   },
   {
     slug: "item-tablet-rule-center-on-desk",
@@ -1036,8 +1031,7 @@ export const itemIllustrations: Illustration[] = [
       "ICT教育",
       "情報モラル",
       "ICTルール",
-      "タブレットルール",
-    ],
+      "タブレットルール",, "線画"],
   },
   {
     slug: "item-tablet-rule-no-edge",
@@ -1059,8 +1053,7 @@ export const itemIllustrations: Illustration[] = [
       "ICT教育",
       "情報モラル",
       "ICTルール",
-      "タブレットルール",
-    ],
+      "タブレットルール",, "線画"],
   },
   {
     slug: "item-tablet-rule-no-water",
@@ -1082,7 +1075,6 @@ export const itemIllustrations: Illustration[] = [
       "ICT教育",
       "情報モラル",
       "ICTルール",
-      "タブレットルール",
-    ],
+      "タブレットルール",, "線画"],
   },
 ];

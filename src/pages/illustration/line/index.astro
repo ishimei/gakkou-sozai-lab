@@ -1,0 +1,72 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import { illustrations } from "../../../data/illustrations";
+
+const title = "線画イラスト一覧";
+const description = "小学校で使える線画・塗り絵のフリーイラスト素材です。";
+
+const lineChars = illustrations.filter(
+  (i) => !!i.line_png && i.category.includes("character")
+);
+const lineItems = illustrations.filter(
+  (i) => !!i.line_png && i.category.includes("item")
+);
+
+const minLen = Math.min(lineChars.length, lineItems.length);
+const interleaved = [
+  ...Array.from({ length: minLen }, (_, i) => [lineChars[i], lineItems[i]]).flat(),
+  ...lineChars.slice(minLen),
+  ...lineItems.slice(minLen),
+];
+
+const PAGE_SIZE = 100;
+const initial = interleaved.slice(0, PAGE_SIZE);
+const rest = interleaved.slice(PAGE_SIZE);
+---
+
+<BaseLayout title={title} description={description}>
+
+<nav class="breadcrumb">
+<a href="/">トップ</a>
+<span>›</span>
+<a href="/illustration">イラスト一覧</a>
+<span>›</span>
+<span>{title}</span>
+</nav>
+
+<h1 class="section-title">{title}</h1>
+<p>{description}</p>
+
+<div class="grid" id="grid">
+  {initial.map((item) => (
+    <a class="card" href={`/illustration/${item.slug}`}>
+      <img src={item.line_png} alt={item.title} />
+      <p>{item.title}</p>
+    </a>
+  ))}
+</div>
+
+{rest.length > 0 && (
+  <div style="text-align:center; margin-top:24px;">
+    <button id="load-more" class="load-more-btn">Load more</button>
+  </div>
+)}
+
+</BaseLayout>
+
+<script is:inline define:vars={{ rest }}>
+  const btn = document.getElementById("load-more");
+  if (btn) {
+    btn.addEventListener("click", () => {
+      const grid = document.getElementById("grid");
+      rest.forEach((item) => {
+        const a = document.createElement("a");
+        a.className = "card";
+        a.href = `/illustration/${item.slug}`;
+        a.innerHTML = `<img src="${item.line_png}" alt="${item.title}" /><p>${item.title}</p>`;
+        grid.appendChild(a);
+      });
+      btn.parentElement.remove();
+    });
+  }
+</script>
