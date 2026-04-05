@@ -3,7 +3,7 @@ import type { Illustration } from "@/types/illustration";
 export const itemIllustrations: Illustration[] = [
   {
     slug: "item-cap-side-white-chin-strap",
-    title: "赤白帽（白・横・あご紐あり）のイラスト",
+    title: "赤白帽（白・横・あご紐あり）",
     description:
       "小学校で使える赤白帽（白・横・あご紐あり）のフリーイラスト素材です。",
     png: "/images/item/png/item_cap_side_white_chin_strap.png",
@@ -27,7 +27,7 @@ export const itemIllustrations: Illustration[] = [
   },
   {
     slug: "item-cap-front-red",
-    title: "赤白帽（赤・正面）のイラスト",
+    title: "赤白帽（赤・正面）",
     description: "小学校で使える赤白帽（赤・正面）のフリーイラスト素材です。",
     png: "/images/item/png/item_cap_front_red.png",
     svg: "/images/item/svg/item_cap_front_red.svg",
@@ -48,7 +48,7 @@ export const itemIllustrations: Illustration[] = [
   },
   {
     slug: "item-cap-front-red-chin-strap",
-    title: "赤白帽（赤・正面・あご紐あり）のイラスト",
+    title: "赤白帽（赤・正面・あご紐あり）",
     description:
       "小学校で使える赤白帽（赤・正面・あご紐あり）のフリーイラスト素材です。",
     png: "/images/item/png/item_cap_front_red_chin_strap.png",
@@ -72,7 +72,7 @@ export const itemIllustrations: Illustration[] = [
   },
   {
     slug: "item-cap-front-white",
-    title: "赤白帽（白・正面）のイラスト",
+    title: "赤白帽（白・正面）",
     description: "小学校で使える赤白帽（白・正面）のフリーイラスト素材です。",
     png: "/images/item/png/item_cap_front_white.png",
     svg: "/images/item/svg/item_cap_front_white.svg",
@@ -93,7 +93,7 @@ export const itemIllustrations: Illustration[] = [
   },
   {
     slug: "item-cap-front-white-chin-strap",
-    title: "赤白帽（白・正面・あご紐あり）のイラスト",
+    title: "赤白帽（白・正面・あご紐あり）",
     description:
       "小学校で使える赤白帽（白・正面・あご紐あり）のフリーイラスト素材です。",
     png: "/images/item/png/item_cap_front_white_chin_strap.png",
@@ -117,7 +117,7 @@ export const itemIllustrations: Illustration[] = [
   },
   {
     slug: "item-cap-side-red",
-    title: "赤白帽（赤・横）のイラスト",
+    title: "赤白帽（赤・横）",
     description: "小学校で使える赤白帽（赤・横）のフリーイラスト素材です。",
     png: "/images/item/png/item_cap_side_red.png",
     svg: "/images/item/svg/item_cap_side_red.svg",
@@ -138,7 +138,7 @@ export const itemIllustrations: Illustration[] = [
   },
   {
     slug: "item-cap-side-red-chin-strap",
-    title: "赤白帽（赤・横・あご紐あり）のイラスト",
+    title: "赤白帽（赤・横・あご紐あり）",
     description:
       "小学校で使える赤白帽（赤・横・あご紐あり）のフリーイラスト素材です。",
     png: "/images/item/png/item_cap_side_red_chin_strap.png",
@@ -162,7 +162,7 @@ export const itemIllustrations: Illustration[] = [
   },
   {
     slug: "item-cap-side-white",
-    title: "赤白帽（白・横）のイラスト",
+    title: "赤白帽（白・横）",
     description: "小学校で使える赤白帽（白・横）のフリーイラスト素材です。",
     png: "/images/item/png/item_cap_side_white.png",
     svg: "/images/item/svg/item_cap_side_white.svg",
@@ -183,7 +183,7 @@ export const itemIllustrations: Illustration[] = [
   },
   {
     slug: "item-binder-clip-paper-top-04",
-    title: "ダブルクリップで紙を留める（上・その4）のイラスト",
+    title: "ダブルクリップで紙を留める（上・その4）",
     description:
       "小学校で使えるダブルクリップで紙を留める（上・その4）のフリーイラスト素材です。",
     png: "/images/item/png/item_binder_clip_paper_top_04.png",
@@ -205,7 +205,7 @@ export const itemIllustrations: Illustration[] = [
   },
   {
     slug: "item-bulldog-clip-angle",
-    title: "目玉クリップ（角度）のイラスト",
+    title: "目玉クリップ（角度）",
     description: "小学校で使える目玉クリップ（角度）のフリーイラスト素材です。",
     png: "/images/item/png/item_bulldog_clip_angle.png",
     svg: "/images/item/svg/item_bulldog_clip_angle.svg",
@@ -217,7 +217,7 @@ export const itemIllustrations: Illustration[] = [
   },
   {
     slug: "item-bulldog-clip-front",
-    title: "目玉クリップ（正面）のイラスト",
+    title: "目玉クリップ（正面）",
     description: "小学校で使える目玉クリップ（正面）のフリーイラスト素材です。",
     png: "/images/item/png/item_bulldog_clip_front.png",
     svg: "/images/item/svg/item_bulldog_clip_front.svg",
@@ -229,7 +229,7 @@ export const itemIllustrations: Illustration[] = [
   },
   {
     slug: "item-bulldog-clip-paper-top-01",
-    title: "目玉クリップで紙を留める（上・その1）のイラスト",
+    title: "目玉クリップで紙を留める（上・その1）",
     description:
       "小学校で使える目玉クリップで紙を留める（上・その1）のフリーイラスト素材です。",
     png: "/images/item/png/item_bulldog_clip_paper_top_01.png",
@@ -251,7 +251,7 @@ export const itemIllustrations: Illustration[] = [
   },
   {
     slug: "item-bulldog-clip-paper-top-02",
-    title: "目玉クリップで紙を留める（上・その2）のイラスト",
+    title: "目玉クリップで紙を留める（上・その2）",
     description:
       "小学校で使える目玉クリップで紙を留める（上・その2）のフリーイラスト素材です。",
     png: "/images/item/png/item_bulldog_clip_paper_top_02.png",
@@ -273,7 +273,7 @@ export const itemIllustrations: Illustration[] = [
   },
   {
     slug: "item-bulldog-clip-paper-top-03",
-    title: "目玉クリップで紙を留める（上・その3）のイラスト",
+    title: "目玉クリップで紙を留める（上・その3）",
     description:
       "小学校で使える目玉クリップで紙を留める（上・その3）のフリーイラスト素材です。",
     png: "/images/item/png/item_bulldog_clip_paper_top_03.png",
@@ -295,7 +295,7 @@ export const itemIllustrations: Illustration[] = [
   },
   {
     slug: "item-bulldog-clip-paper-top-04",
-    title: "目玉クリップで紙を留める（上・その4）のイラスト",
+    title: "目玉クリップで紙を留める（上・その4）",
     description:
       "小学校で使える目玉クリップで紙を留める（上・その4）のフリーイラスト素材です。",
     png: "/images/item/png/item_bulldog_clip_paper_top_04.png",
@@ -317,7 +317,7 @@ export const itemIllustrations: Illustration[] = [
   },
   {
     slug: "item-clip-angle",
-    title: "ゼムクリップ（角度）のイラスト",
+    title: "ゼムクリップ（角度）",
     description: "小学校で使えるゼムクリップ（角度）のフリーイラスト素材です。",
     png: "/images/item/png/item_clip_angle.png",
     svg: "/images/item/svg/item_clip_angle.svg",
@@ -329,7 +329,7 @@ export const itemIllustrations: Illustration[] = [
   },
   {
     slug: "item-clip-front",
-    title: "ゼムクリップ（正面）のイラスト",
+    title: "ゼムクリップ（正面）",
     description: "小学校で使えるゼムクリップ（正面）のフリーイラスト素材です。",
     png: "/images/item/png/item_clip_front.png",
     svg: "/images/item/svg/item_clip_front.svg",
@@ -341,7 +341,7 @@ export const itemIllustrations: Illustration[] = [
   },
   {
     slug: "item-clip-paper-right-01",
-    title: "ゼムクリップで紙を留める（右・その1）のイラスト",
+    title: "ゼムクリップで紙を留める（右・その1）",
     description:
       "小学校で使えるゼムクリップで紙を留める（右・その1）のフリーイラスト素材です。",
     png: "/images/item/png/item_clip_paper_right_01.png",
@@ -363,7 +363,7 @@ export const itemIllustrations: Illustration[] = [
   },
   {
     slug: "item-clip-paper-right-02",
-    title: "ゼムクリップで紙を留める（右・その2）のイラスト",
+    title: "ゼムクリップで紙を留める（右・その2）",
     description:
       "小学校で使えるゼムクリップで紙を留める（右・その2）のフリーイラスト素材です。",
     png: "/images/item/png/item_clip_paper_right_02.png",
@@ -385,7 +385,7 @@ export const itemIllustrations: Illustration[] = [
   },
   {
     slug: "item-clip-paper-right-03",
-    title: "ゼムクリップで紙を留める（右・その3）のイラスト",
+    title: "ゼムクリップで紙を留める（右・その3）",
     description:
       "小学校で使えるゼムクリップで紙を留める（右・その3）のフリーイラスト素材です。",
     png: "/images/item/png/item_clip_paper_right_03.png",
@@ -407,7 +407,7 @@ export const itemIllustrations: Illustration[] = [
   },
   {
     slug: "item-clip-paper-right-04",
-    title: "ゼムクリップで紙を留める（右・その4）のイラスト",
+    title: "ゼムクリップで紙を留める（右・その4）",
     description:
       "小学校で使えるゼムクリップで紙を留める（右・その4）のフリーイラスト素材です。",
     png: "/images/item/png/item_clip_paper_right_04.png",
@@ -429,7 +429,7 @@ export const itemIllustrations: Illustration[] = [
   },
   {
     slug: "item-binder-clip-angle",
-    title: "ダブルクリップ（角度）のイラスト",
+    title: "ダブルクリップ（角度）",
     description:
       "小学校で使えるダブルクリップ（角度）のフリーイラスト素材です。",
     png: "/images/item/png/item_binder_clip_angle.png",
@@ -442,7 +442,7 @@ export const itemIllustrations: Illustration[] = [
   },
   {
     slug: "item-binder-clip-front",
-    title: "ダブルクリップ（正面）のイラスト",
+    title: "ダブルクリップ（正面）",
     description:
       "小学校で使えるダブルクリップ（正面）のフリーイラスト素材です。",
     png: "/images/item/png/item_binder_clip_front.png",
@@ -455,7 +455,7 @@ export const itemIllustrations: Illustration[] = [
   },
   {
     slug: "item-binder-clip-paper-right-01",
-    title: "ダブルクリップで紙を留める（右・その1）のイラスト",
+    title: "ダブルクリップで紙を留める（右・その1）",
     description:
       "小学校で使えるダブルクリップで紙を留める（右・その1）のフリーイラスト素材です。",
     png: "/images/item/png/item_binder_clip_paper_right_01.png",
@@ -477,7 +477,7 @@ export const itemIllustrations: Illustration[] = [
   },
   {
     slug: "item-binder-clip-paper-right-02",
-    title: "ダブルクリップで紙を留める（右・その2）のイラスト",
+    title: "ダブルクリップで紙を留める（右・その2）",
     description:
       "小学校で使えるダブルクリップで紙を留める（右・その2）のフリーイラスト素材です。",
     png: "/images/item/png/item_binder_clip_paper_right_02.png",
@@ -499,7 +499,7 @@ export const itemIllustrations: Illustration[] = [
   },
   {
     slug: "item-binder-clip-paper-right-03",
-    title: "ダブルクリップで紙を留める（右・その3）のイラスト",
+    title: "ダブルクリップで紙を留める（右・その3）",
     description:
       "小学校で使えるダブルクリップで紙を留める（右・その3）のフリーイラスト素材です。",
     png: "/images/item/png/item_binder_clip_paper_right_03.png",
@@ -521,7 +521,7 @@ export const itemIllustrations: Illustration[] = [
   },
   {
     slug: "item-binder-clip-paper-right-04",
-    title: "ダブルクリップで紙を留める（右・その4）のイラスト",
+    title: "ダブルクリップで紙を留める（右・その4）",
     description:
       "小学校で使えるダブルクリップで紙を留める（右・その4）のフリーイラスト素材です。",
     png: "/images/item/png/item_binder_clip_paper_right_04.png",
@@ -543,7 +543,7 @@ export const itemIllustrations: Illustration[] = [
   },
   {
     slug: "item-binder-clip-paper-top-01",
-    title: "ダブルクリップで紙を留める（上・その1）のイラスト",
+    title: "ダブルクリップで紙を留める（上・その1）",
     description:
       "小学校で使えるダブルクリップで紙を留める（上・その1）のフリーイラスト素材です。",
     png: "/images/item/png/item_binder_clip_paper_top_01.png",
@@ -565,7 +565,7 @@ export const itemIllustrations: Illustration[] = [
   },
   {
     slug: "item-binder-clip-paper-top-02",
-    title: "ダブルクリップで紙を留める（上・その2）のイラスト",
+    title: "ダブルクリップで紙を留める（上・その2）",
     description:
       "小学校で使えるダブルクリップで紙を留める（上・その2）のフリーイラスト素材です。",
     png: "/images/item/png/item_binder_clip_paper_top_02.png",
@@ -587,7 +587,7 @@ export const itemIllustrations: Illustration[] = [
   },
   {
     slug: "item-binder-clip-paper-top-03",
-    title: "ダブルクリップで紙を留める（上・その3）のイラスト",
+    title: "ダブルクリップで紙を留める（上・その3）",
     description:
       "小学校で使えるダブルクリップで紙を留める（上・その3）のフリーイラスト素材です。",
     png: "/images/item/png/item_binder_clip_paper_top_03.png",
@@ -609,7 +609,7 @@ export const itemIllustrations: Illustration[] = [
   },
   {
     slug: "item-dustpan-side",
-    title: "ちりとり（横向き）のイラスト",
+    title: "ちりとり（横向き）",
     description: "小学校で使えるちりとり（横向き）のフリーイラスト素材です。",
     png: "/images/item/png/item_dustpan_side.png",
     svg: "/images/item/svg/item_dustpan_side.svg",
@@ -621,7 +621,7 @@ export const itemIllustrations: Illustration[] = [
   },
   {
     slug: "item-cleaning-cloth",
-    title: "ぞうきんのイラスト",
+    title: "ぞうきん",
     description: "小学校で使えるぞうきんのフリーイラスト素材です。",
     png: "/images/item/png/item_cleaning_cloth.png",
     svg: "/images/item/svg/item_cleaning_cloth.svg",
@@ -633,7 +633,7 @@ export const itemIllustrations: Illustration[] = [
   },
   {
     slug: "item-dustpan-angle",
-    title: "ちりとり（斜め）のイラスト",
+    title: "ちりとり（斜め）",
     description: "小学校で使えるちりとり（斜め）のフリーイラスト素材です。",
     png: "/images/item/png/item_dustpan_angle.png",
     svg: "/images/item/svg/item_dustpan_angle.svg",
@@ -645,7 +645,7 @@ export const itemIllustrations: Illustration[] = [
   },
   {
     slug: "item-dustpan-front",
-    title: "ちりとり（正面）のイラスト",
+    title: "ちりとり（正面）",
     description: "小学校で使えるちりとり（正面）のフリーイラスト素材です。",
     png: "/images/item/png/item_dustpan_front.png",
     svg: "/images/item/svg/item_dustpan_front.svg",
@@ -657,7 +657,7 @@ export const itemIllustrations: Illustration[] = [
   },
   {
     slug: "item-broom-angle",
-    title: "ほうき（斜め）のイラスト",
+    title: "ほうき（斜め）",
     description: "小学校で使えるほうき（斜め）のフリーイラスト素材です。",
     png: "/images/item/png/item_broom_angle.png",
     svg: "/images/item/svg/item_broom_angle.svg",
@@ -669,7 +669,7 @@ export const itemIllustrations: Illustration[] = [
   },
   {
     slug: "item-broom-front",
-    title: "ほうき（正面）のイラスト",
+    title: "ほうき（正面）",
     description: "小学校で使えるほうき（正面）のフリーイラスト素材です。",
     png: "/images/item/png/item_broom_front.png",
     svg: "/images/item/svg/item_broom_front.svg",
@@ -681,7 +681,7 @@ export const itemIllustrations: Illustration[] = [
   },
   {
     slug: "item-bucket-angle",
-    title: "バケツ（斜め）のイラスト",
+    title: "バケツ（斜め）",
     description: "小学校で使えるバケツ（斜め）のフリーイラスト素材です。",
     png: "/images/item/png/item_bucket_angle.png",
     svg: "/images/item/svg/item_bucket_angle.svg",
@@ -693,7 +693,7 @@ export const itemIllustrations: Illustration[] = [
   },
   {
     slug: "item-bucket-front",
-    title: "バケツ（正面）のイラスト",
+    title: "バケツ（正面）",
     description: "小学校で使えるバケツ（正面）のフリーイラスト素材です。",
     png: "/images/item/png/item_bucket_front.png",
     svg: "/images/item/svg/item_bucket_front.svg",
@@ -705,7 +705,7 @@ export const itemIllustrations: Illustration[] = [
   },
   {
     slug: "item-bucket-with-cloth",
-    title: "ぞうきん入りバケツのイラスト",
+    title: "ぞうきん入りバケツ",
     description: "小学校で使えるぞうきん入りバケツのフリーイラスト素材です。",
     png: "/images/item/png/item_bucket_with_cloth.png",
     svg: "/images/item/svg/item_bucket_with_cloth.svg",
@@ -717,7 +717,7 @@ export const itemIllustrations: Illustration[] = [
   },
   {
     slug: "item-pencil-basic",
-    title: "鉛筆のイラスト",
+    title: "鉛筆",
     description: "小学校で使える鉛筆のフリーイラスト素材です。",
     png: "/images/item/png/item_pencil_basic.png",
     svg: "/images/item/svg/item_pencil_basic.svg",
@@ -729,7 +729,7 @@ export const itemIllustrations: Illustration[] = [
   },
   {
     slug: "item-pencil-eraser",
-    title: "消しゴム付き鉛筆のイラスト",
+    title: "消しゴム付き鉛筆",
     description: "小学校で使える消しゴム付き鉛筆のフリーイラスト素材です。",
     png: "/images/item/png/item_pencil_eraser.png",
     svg: "/images/item/svg/item_pencil_eraser.svg",
@@ -741,7 +741,7 @@ export const itemIllustrations: Illustration[] = [
   },
   {
     slug: "item-pencil-red",
-    title: "赤鉛筆のイラスト",
+    title: "赤鉛筆",
     description: "小学校で使える赤鉛筆のフリーイラスト素材です。",
     png: "/images/item/png/item_pencil_red.png",
     svg: "/images/item/svg/item_pencil_red.svg",
@@ -753,7 +753,7 @@ export const itemIllustrations: Illustration[] = [
   },
   {
     slug: "item-pencil-short",
-    title: "短い鉛筆のイラスト",
+    title: "短い鉛筆",
     description: "小学校で使える短い鉛筆のフリーイラスト素材です。",
     png: "/images/item/png/item_pencil_short.png",
     svg: "/images/item/svg/item_pencil_short.svg",
@@ -765,7 +765,7 @@ export const itemIllustrations: Illustration[] = [
   },
   {
     slug: "item-eraser-basic",
-    title: "消しゴムのイラスト",
+    title: "消しゴム",
     description: "小学校で使える消しゴムのフリーイラスト素材です。",
     png: "/images/item/png/item_eraser_basic.png",
     svg: "/images/item/svg/item_eraser_basic.svg",
@@ -777,7 +777,7 @@ export const itemIllustrations: Illustration[] = [
   },
   {
     slug: "item-eraser-diagonal",
-    title: "消しゴム（斜め）のイラスト",
+    title: "消しゴム（斜め）",
     description: "小学校で使える消しゴム（斜め）のフリーイラスト素材です。",
     png: "/images/item/png/item_eraser_diagonal.png",
     svg: "/images/item/svg/item_eraser_diagonal.svg",
@@ -789,7 +789,7 @@ export const itemIllustrations: Illustration[] = [
   },
   {
     slug: "item-randoseru-front-black",
-    title: "ランドセル（黒・正面）のイラスト",
+    title: "ランドセル（黒・正面）",
     description: "小学校で使えるランドセルのフリーイラスト素材です。",
     png: "/images/item/png/item_randoseru_front_black.png",
     svg: "/images/item/svg/item_randoseru_front_black.svg",
@@ -801,7 +801,7 @@ export const itemIllustrations: Illustration[] = [
   },
   {
     slug: "item-randoseru-front-red",
-    title: "ランドセル（赤・正面）のイラスト",
+    title: "ランドセル（赤・正面）",
     description: "小学校で使えるランドセルのフリーイラスト素材です。",
     png: "/images/item/png/item_randoseru_front_red.png",
     svg: "/images/item/svg/item_randoseru_front_red.svg",
@@ -813,7 +813,7 @@ export const itemIllustrations: Illustration[] = [
   },
   {
     slug: "item-randoseru-diagonal-black",
-    title: "ランドセル（黒・斜め）のイラスト",
+    title: "ランドセル（黒・斜め）",
     description: "小学校で使えるランドセルのフリーイラスト素材です。",
     png: "/images/item/png/item_randoseru_diagonal_black.png",
     svg: "/images/item/svg/item_randoseru_diagonal_black.svg",
@@ -825,7 +825,7 @@ export const itemIllustrations: Illustration[] = [
   },
   {
     slug: "item-randoseru-diagonal-red",
-    title: "ランドセル（赤・斜め）のイラスト",
+    title: "ランドセル（赤・斜め）",
     description: "小学校で使えるランドセルのフリーイラスト素材です。",
     png: "/images/item/png/item_randoseru_diagonal_red.png",
     svg: "/images/item/svg/item_randoseru_diagonal_red.svg",
@@ -837,7 +837,7 @@ export const itemIllustrations: Illustration[] = [
   },
   {
     slug: "item-randoseru-diagonal2-black",
-    title: "ランドセル（黒・斜め2）のイラスト",
+    title: "ランドセル（黒・斜め2）",
     description: "小学校で使えるランドセルのフリーイラスト素材です。",
     png: "/images/item/png/item_randoseru_diagonal2_black.png",
     svg: "/images/item/svg/item_randoseru_diagonal2_black.svg",
@@ -849,7 +849,7 @@ export const itemIllustrations: Illustration[] = [
   },
   {
     slug: "item-randoseru-diagonal2-red",
-    title: "ランドセル（赤・斜め2）のイラスト",
+    title: "ランドセル（赤・斜め2）",
     description: "小学校で使えるランドセルのフリーイラスト素材です。",
     png: "/images/item/png/item_randoseru_diagonal2_red.png",
     svg: "/images/item/svg/item_randoseru_diagonal2_red.svg",
@@ -861,7 +861,7 @@ export const itemIllustrations: Illustration[] = [
   },
   {
     slug: "item-randoseru-open-black",
-    title: "開いた黒いランドセルのイラスト",
+    title: "開いた黒いランドセル",
     description: "小学校で使える開いた黒いランドセルのフリーイラスト素材です。",
     png: "/images/item/png/item_randoseru_open_black.png",
     svg: "/images/item/svg/item_randoseru_open_black.svg",
@@ -873,7 +873,7 @@ export const itemIllustrations: Illustration[] = [
   },
   {
     slug: "item-randoseru-open-red",
-    title: "開いた赤いランドセルのイラスト",
+    title: "開いた赤いランドセル",
     description: "小学校で使える開いた赤いランドセルのフリーイラスト素材です。",
     png: "/images/item/png/item_randoseru_open_red.png",
     svg: "/images/item/svg/item_randoseru_open_red.svg",
@@ -885,7 +885,7 @@ export const itemIllustrations: Illustration[] = [
   },
   {
     slug: "item-randoseru-open2-black",
-    title: "大きく開いた黒いランドセルのイラスト",
+    title: "大きく開いた黒いランドセル",
     description:
       "小学校で使える大きく開いた黒いランドセルのフリーイラスト素材です。",
     png: "/images/item/png/item_randoseru_open2_black.png",
@@ -898,7 +898,7 @@ export const itemIllustrations: Illustration[] = [
   },
   {
     slug: "item-randoseru-open2-red",
-    title: "大きく開いた赤いランドセルのイラスト",
+    title: "大きく開いた赤いランドセル",
     description:
       "小学校で使える大きく開いた赤いランドセルのフリーイラスト素材です。",
     png: "/images/item/png/item_randoseru_open2_red.png",
@@ -911,7 +911,7 @@ export const itemIllustrations: Illustration[] = [
   },
   {
     slug: "item-uwabaki-blue",
-    title: "上履きのイラスト（青）",
+    title: "上履き（青）",
     description: "小学校で使える上履きのフリーイラスト素材です。",
     png: "/images/item/png/item_uwabaki_blue.png",
     svg: "/images/item/svg/item_uwabaki_blue.svg",
@@ -923,7 +923,7 @@ export const itemIllustrations: Illustration[] = [
   },
   {
     slug: "item-uwabaki-blue-diagonal",
-    title: "上履きのイラスト（青・斜め）",
+    title: "上履き（青・斜め）",
     description: "小学校で使える上履きのフリーイラスト素材です。",
     png: "/images/item/png/item_uwabaki_blue_diagonal.png",
     svg: "/images/item/svg/item_uwabaki_blue_diagonal.svg",
@@ -935,7 +935,7 @@ export const itemIllustrations: Illustration[] = [
   },
   {
     slug: "item-uwabaki-white",
-    title: "上履きのイラスト（白）",
+    title: "上履き（白）",
     description: "小学校で使える上履きのフリーイラスト素材です。",
     png: "/images/item/png/item_uwabaki_white.png",
     svg: "/images/item/svg/item_uwabaki_white.svg",
@@ -947,7 +947,7 @@ export const itemIllustrations: Illustration[] = [
   },
   {
     slug: "item-uwabaki-green",
-    title: "上履きのイラスト（緑）",
+    title: "上履き（緑）",
     description: "小学校で使える上履きのフリーイラスト素材です。",
     png: "/images/item/png/item_uwabaki_green.png",
     svg: "/images/item/svg/item_uwabaki_green.svg",
@@ -959,7 +959,7 @@ export const itemIllustrations: Illustration[] = [
   },
   {
     slug: "item-uwabaki-red",
-    title: "上履きのイラスト（赤）",
+    title: "上履き（赤）",
     description: "小学校で使える上履きのフリーイラスト素材です。",
     png: "/images/item/png/item_uwabaki_red.png",
     svg: "/images/item/svg/item_uwabaki_red.svg",
@@ -971,7 +971,7 @@ export const itemIllustrations: Illustration[] = [
   },
   {
     slug: "item-shoes-bag-blue",
-    title: "上履き袋（青）のイラスト",
+    title: "上履き袋（青）",
     description: "小学校で使える上履き袋のフリーイラスト素材です。",
     png: "/images/item/png/item_shoes_bag_blue.png",
     svg: "/images/item/svg/item_shoes_bag_blue.svg",
@@ -983,7 +983,7 @@ export const itemIllustrations: Illustration[] = [
   },
   {
     slug: "item-shoes-bag-diagonal-blue",
-    title: "上履き袋（青・斜め）のイラスト",
+    title: "上履き袋（青・斜め）",
     description: "小学校で使える上履き袋のフリーイラスト素材です。",
     png: "/images/item/png/item_shoes_bag_diagonal_blue.png",
     svg: "/images/item/svg/item_shoes_bag_diagonal_blue.svg",
@@ -995,7 +995,7 @@ export const itemIllustrations: Illustration[] = [
   },
   {
     slug: "item-shoes-bag-green",
-    title: "上履き袋（緑）のイラスト",
+    title: "上履き袋（緑）",
     description: "小学校で使える上履き袋のフリーイラスト素材です。",
     png: "/images/item/png/item_shoes_bag_green.png",
     svg: "/images/item/svg/item_shoes_bag_green.svg",
@@ -1007,7 +1007,7 @@ export const itemIllustrations: Illustration[] = [
   },
   {
     slug: "item-shoes-bag-red",
-    title: "上履き袋（赤）のイラスト",
+    title: "上履き袋（赤）",
     description: "小学校で使える上履き袋のフリーイラスト素材です。",
     png: "/images/item/png/item_shoes_bag_red.png",
     svg: "/images/item/svg/item_shoes_bag_red.svg",
@@ -1019,7 +1019,7 @@ export const itemIllustrations: Illustration[] = [
   },
   {
     slug: "item-shoes-bag-yellow",
-    title: "上履き袋（黄色）のイラスト",
+    title: "上履き袋（黄色）",
     description: "小学校で使える上履き袋のフリーイラスト素材です。",
     png: "/images/item/png/item_shoes_bag_yellow.png",
     svg: "/images/item/svg/item_shoes_bag_yellow.svg",
@@ -1031,7 +1031,7 @@ export const itemIllustrations: Illustration[] = [
   },
   {
     slug: "item-desk-front",
-    title: "学校の机（正面）のイラスト",
+    title: "学校の机（正面）",
     description: "小学校で使える学校の机（正面）のフリーイラスト素材です。",
     png: "/images/item/png/item_desk_front.png",
     svg: "/images/item/svg/item_desk_front.svg",
@@ -1043,7 +1043,7 @@ export const itemIllustrations: Illustration[] = [
   },
   {
     slug: "item-desk-side",
-    title: "学校の机（横）のイラスト",
+    title: "学校の机（横）",
     description: "小学校で使える学校の机（横）のフリーイラスト素材です。",
     png: "/images/item/png/item_desk_side.png",
     svg: "/images/item/svg/item_desk_side.svg",
@@ -1055,7 +1055,7 @@ export const itemIllustrations: Illustration[] = [
   },
   {
     slug: "item-desk-diagonal",
-    title: "学校の机（斜め）のイラスト",
+    title: "学校の机（斜め）",
     description: "小学校で使える学校の机（斜め）のフリーイラスト素材です。",
     png: "/images/item/png/item_desk_diagonal.png",
     svg: "/images/item/svg/item_desk_diagonal.svg",
@@ -1067,7 +1067,7 @@ export const itemIllustrations: Illustration[] = [
   },
   {
     slug: "item-chair-front",
-    title: "学校の椅子（正面）のイラスト",
+    title: "学校の椅子（正面）",
     description: "小学校で使える学校の椅子（正面）のフリーイラスト素材です。",
     png: "/images/item/png/item_chair_front.png",
     svg: "/images/item/svg/item_chair_front.svg",
@@ -1079,7 +1079,7 @@ export const itemIllustrations: Illustration[] = [
   },
   {
     slug: "item-chair-side",
-    title: "学校の椅子（横）のイラスト",
+    title: "学校の椅子（横）",
     description: "小学校で使える学校の椅子（横）のフリーイラスト素材です。",
     png: "/images/item/png/item_chair_side.png",
     svg: "/images/item/svg/item_chair_side.svg",
@@ -1091,7 +1091,7 @@ export const itemIllustrations: Illustration[] = [
   },
   {
     slug: "item-chair-diagonal",
-    title: "学校の椅子（斜め）のイラスト",
+    title: "学校の椅子（斜め）",
     description: "小学校で使える学校の椅子（斜め）のフリーイラスト素材です。",
     png: "/images/item/png/item_chair_diagonal.png",
     svg: "/images/item/svg/item_chair_diagonal.svg",
@@ -1103,7 +1103,7 @@ export const itemIllustrations: Illustration[] = [
   },
   {
     slug: "item-textbook-front-japanese",
-    title: "国語の教科書（表紙）のイラスト",
+    title: "国語の教科書（表紙）",
     description: "小学校で使える国語の教科書（表紙）のフリーイラスト素材です。",
     png: "/images/item/png/item_textbook_front_japanese.png",
     svg: "/images/item/svg/item_textbook_front_japanese.svg",
@@ -1115,7 +1115,7 @@ export const itemIllustrations: Illustration[] = [
   },
   {
     slug: "item-textbook-front-math",
-    title: "算数の教科書（表紙）のイラスト",
+    title: "算数の教科書（表紙）",
     description: "小学校で使える算数の教科書（表紙）のフリーイラスト素材です。",
     png: "/images/item/png/item_textbook_front_math.png",
     svg: "/images/item/svg/item_textbook_front_math.svg",
@@ -1127,7 +1127,7 @@ export const itemIllustrations: Illustration[] = [
   },
   {
     slug: "item-textbook-front-science",
-    title: "理科の教科書（表紙）のイラスト",
+    title: "理科の教科書（表紙）",
     description: "小学校で使える理科の教科書（表紙）のフリーイラスト素材です。",
     png: "/images/item/png/item_textbook_front_science.png",
     svg: "/images/item/svg/item_textbook_front_science.svg",
@@ -1139,7 +1139,7 @@ export const itemIllustrations: Illustration[] = [
   },
   {
     slug: "item-textbook-open-japanese",
-    title: "国語の教科書（開いた状態）のイラスト",
+    title: "国語の教科書（開いた状態）",
     description:
       "小学校で使える国語の教科書（開いた状態）のフリーイラスト素材です。",
     png: "/images/item/png/item_textbook_open_japanese.png",
@@ -1152,7 +1152,7 @@ export const itemIllustrations: Illustration[] = [
   },
   {
     slug: "item-textbook-open-math",
-    title: "算数の教科書（開いた状態）のイラスト",
+    title: "算数の教科書（開いた状態）",
     description:
       "小学校で使える算数の教科書（開いた状態）のフリーイラスト素材です。",
     png: "/images/item/png/item_textbook_open_math.png",
@@ -1165,7 +1165,7 @@ export const itemIllustrations: Illustration[] = [
   },
   {
     slug: "item-textbook-open-science",
-    title: "理科の教科書（開いた状態）のイラスト",
+    title: "理科の教科書（開いた状態）",
     description:
       "小学校で使える理科の教科書（開いた状態）のフリーイラスト素材です。",
     png: "/images/item/png/item_textbook_open_science.png",
@@ -1176,7 +1176,7 @@ export const itemIllustrations: Illustration[] = [
     category: ["item"],
     tags: ["教科書", "理科", "学校", "勉強", "線画"],
   },
-  // ---- GIGA SCHOOLのイラスト ----
+  // ---- GIGA SCHOOL ----
   {
     slug: "item-tablet-rule-top-of-bag",
     title: "タブレットをかばんの一番上に入れるイラスト",

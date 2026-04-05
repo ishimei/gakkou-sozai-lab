@@ -3,7 +3,7 @@ import type { Illustration } from "@/types/illustration";
 export const characterIllustrations: Illustration[] = [
   {
     slug: "girl01-running-smile",
-    title: "笑顔で走る女の子のイラスト",
+    title: "笑顔で走る女の子",
     description: "小学校で使える笑顔で走る女の子のフリーイラスト素材です。",
     png: "/images/girl01/png/girl01_running_smile.png",
     svg: "/images/girl01/svg/girl01_running_smile.svg",
@@ -19,7 +19,7 @@ export const characterIllustrations: Illustration[] = [
   },
   {
     slug: "girl01-running-soccer",
-    title: "サッカーをしながら走る女の子のイラスト",
+    title: "サッカーをしながら走る女の子",
     description:
       "小学校で使えるサッカーをしながら走る女の子のフリーイラスト素材です。",
     png: "/images/girl01/png/girl01_running_soccer.png",
@@ -36,7 +36,7 @@ export const characterIllustrations: Illustration[] = [
   },
   {
     slug: "girl01-running-red-hat-sweat",
-    title: "赤帽子で汗をかいて走る女の子のイラスト",
+    title: "赤帽子で汗をかいて走る女の子",
     description:
       "小学校で使える赤帽子で汗をかいて走る女の子のフリーイラスト素材です。",
     png: "/images/girl01/png/girl01_running_red_hat_sweat.png",
@@ -53,7 +53,7 @@ export const characterIllustrations: Illustration[] = [
   },
   {
     slug: "girl01-running-white-hat-sweat",
-    title: "白帽子で汗をかいて走る女の子のイラスト",
+    title: "白帽子で汗をかいて走る女の子",
     description:
       "小学校で使える白帽子で汗をかいて走る女の子のフリーイラスト素材です。",
     png: "/images/girl01/png/girl01_running_white_hat_sweat.png",
@@ -70,7 +70,7 @@ export const characterIllustrations: Illustration[] = [
   },
   {
     slug: "girl01-running-red-headband",
-    title: "走る女の子（赤ハチマキ）のイラスト",
+    title: "走る女の子（赤ハチマキ）",
     description:
       "小学校で使える走る女の子（赤ハチマキ）のフリーイラスト素材です。",
     png: "/images/girl01/png/girl01_running_red_headband.png",
@@ -87,7 +87,7 @@ export const characterIllustrations: Illustration[] = [
   },
   {
     slug: "girl01-running-red-headband-anchor",
-    title: "走る女の子（赤ハチマキ・アンカー）のイラスト",
+    title: "走る女の子（赤ハチマキ・アンカー）",
     description:
       "小学校で使える走る女の子（赤ハチマキ・アンカー）のフリーイラスト素材です。",
     png: "/images/girl01/png/girl01_running_red_headband_anchor.png",
@@ -104,7 +104,7 @@ export const characterIllustrations: Illustration[] = [
   },
   {
     slug: "girl01-running-sweat",
-    title: "汗をかいて走る女の子のイラスト",
+    title: "汗をかいて走る女の子",
     description: "小学校で使える汗をかいて走る女の子のフリーイラスト素材です。",
     png: "/images/girl01/png/girl01_running_sweat.png",
     svg: "/images/girl01/svg/girl01_running_sweat.svg",
@@ -120,7 +120,7 @@ export const characterIllustrations: Illustration[] = [
   },
   {
     slug: "girl01-running-white-headband",
-    title: "走る女の子（白ハチマキ）のイラスト",
+    title: "走る女の子（白ハチマキ）",
     description:
       "小学校で使える走る女の子（白ハチマキ）のフリーイラスト素材です。",
     png: "/images/girl01/png/girl01_running_white_headband.png",
@@ -137,7 +137,7 @@ export const characterIllustrations: Illustration[] = [
   },
   {
     slug: "girl01-running-white-headband-anchor",
-    title: "走る女の子（白ハチマキ・アンカー）のイラスト",
+    title: "走る女の子（白ハチマキ・アンカー）",
     description:
       "小学校で使える走る女の子（白ハチマキ・アンカー）のフリーイラスト素材です。",
     png: "/images/girl01/png/girl01_running_white_headband_anchor.png",
@@ -229,7 +229,7 @@ export const characterIllustrations: Illustration[] = [
   // ---- 立ちA ----
   {
     slug: "girl01-stand-a-angry",
-    title: "小学生の女の子（怒り・立ちA）のイラスト",
+    title: "小学生の女の子（怒り・立ちA）",
     description: "小学校で使える怒った小学生の女の子のフリーイラスト素材です。",
     png: "/images/girl01/png/girl01_standA_angry.png",
     svg: "/images/girl01/svg/girl01_standA_angry.svg",
@@ -243,7 +243,7 @@ export const characterIllustrations: Illustration[] = [
   },
   {
     slug: "girl01-stand-a-cry",
-    title: "小学生の女の子（泣き・立ちA）のイラスト",
+    title: "小学生の女の子（泣き・立ちA）",
     description:
       "小学校で使える泣いている小学生の女の子のフリーイラスト素材です。",
     png: "/images/girl01/png/girl01_standA_cry.png",
@@ -258,7 +258,7 @@ export const characterIllustrations: Illustration[] = [
   },
   {
     slug: "girl01-stand-a-laugh",
-    title: "小学生の女の子（笑い・立ちA）のイラスト",
+    title: "小学生の女の子（笑い・立ちA）",
     description:
       "小学校で使える笑っている小学生の女の子のフリーイラスト素材です。",
     png: "/images/girl01/png/girl01_standA_laugh.png",
@@ -273,7 +273,7 @@ export const characterIllustrations: Illustration[] = [
   },
   {
     slug: "girl01-stand-a-sad",
-    title: "小学生の女の子（悲しみ・立ちA）のイラスト",
+    title: "小学生の女の子（悲しみ・立ちA）",
     description:
       "小学校で使える悲しんでいる小学生の女の子のフリーイラスト素材です。",
     png: "/images/girl01/png/girl01_standA_sad.png",
@@ -288,7 +288,7 @@ export const characterIllustrations: Illustration[] = [
   },
   {
     slug: "girl01-stand-a-smile",
-    title: "小学生の女の子（笑顔・立ちA）のイラスト",
+    title: "小学生の女の子（笑顔・立ちA）",
     description: "小学校で使える笑顔の小学生の女の子のフリーイラスト素材です。",
     png: "/images/girl01/png/girl01_standA_smile.png",
     svg: "/images/girl01/svg/girl01_standA_smile.svg",
@@ -302,7 +302,7 @@ export const characterIllustrations: Illustration[] = [
   },
   {
     slug: "girl01-stand-a-surprised",
-    title: "小学生の女の子（驚き・立ちA）のイラスト",
+    title: "小学生の女の子（驚き・立ちA）",
     description:
       "小学校で使える驚いている小学生の女の子のフリーイラスト素材です。",
     png: "/images/girl01/png/girl01_standA_surprised.png",
@@ -317,7 +317,7 @@ export const characterIllustrations: Illustration[] = [
   },
   {
     slug: "girl01-stand-a-thinking",
-    title: "小学生の女の子（考え・立ちA）のイラスト",
+    title: "小学生の女の子（考え・立ちA）",
     description:
       "小学校で使える考えている小学生の女の子のフリーイラスト素材です。",
     png: "/images/girl01/png/girl01_standA_thinking.png",
@@ -332,7 +332,7 @@ export const characterIllustrations: Illustration[] = [
   },
   {
     slug: "girl01-stand-a-trouble",
-    title: "小学生の女の子（困り・立ちA）のイラスト",
+    title: "小学生の女の子（困り・立ちA）",
     description:
       "小学校で使える困っている小学生の女の子のフリーイラスト素材です。",
     png: "/images/girl01/png/girl01_standA_trouble.png",
@@ -349,7 +349,7 @@ export const characterIllustrations: Illustration[] = [
   // ---- 立ちB ----
   {
     slug: "girl01-stand-b-angry",
-    title: "小学生の女の子（怒り・立ちB）のイラスト",
+    title: "小学生の女の子（怒り・立ちB）",
     description: "小学校で使える怒った小学生の女の子のフリーイラスト素材です。",
     png: "/images/girl01/png/girl01_standB_angry.png",
     svg: "/images/girl01/svg/girl01_standB_angry.svg",
@@ -363,7 +363,7 @@ export const characterIllustrations: Illustration[] = [
   },
   {
     slug: "girl01-stand-b-cry",
-    title: "小学生の女の子（泣き・立ちB）のイラスト",
+    title: "小学生の女の子（泣き・立ちB）",
     description:
       "小学校で使える泣いている小学生の女の子のフリーイラスト素材です。",
     png: "/images/girl01/png/girl01_standB_cry.png",
@@ -378,7 +378,7 @@ export const characterIllustrations: Illustration[] = [
   },
   {
     slug: "girl01-stand-b-laugh",
-    title: "小学生の女の子（笑い・立ちB）のイラスト",
+    title: "小学生の女の子（笑い・立ちB）",
     description:
       "小学校で使える笑っている小学生の女の子のフリーイラスト素材です。",
     png: "/images/girl01/png/girl01_standB_laugh.png",
@@ -393,7 +393,7 @@ export const characterIllustrations: Illustration[] = [
   },
   {
     slug: "girl01-stand-b-sad",
-    title: "小学生の女の子（悲しみ・立ちB）のイラスト",
+    title: "小学生の女の子（悲しみ・立ちB）",
     description:
       "小学校で使える悲しんでいる小学生の女の子のフリーイラスト素材です。",
     png: "/images/girl01/png/girl01_standB_sad.png",
@@ -408,7 +408,7 @@ export const characterIllustrations: Illustration[] = [
   },
   {
     slug: "girl01-stand-b-smile",
-    title: "小学生の女の子（笑顔・立ちB）のイラスト",
+    title: "小学生の女の子（笑顔・立ちB）",
     description: "小学校で使える笑顔の小学生の女の子のフリーイラスト素材です。",
     png: "/images/girl01/png/girl01_standB_smile.png",
     svg: "/images/girl01/svg/girl01_standB_smile.svg",
@@ -422,7 +422,7 @@ export const characterIllustrations: Illustration[] = [
   },
   {
     slug: "girl01-stand-b-surprised",
-    title: "小学生の女の子（驚き・立ちB）のイラスト",
+    title: "小学生の女の子（驚き・立ちB）",
     description:
       "小学校で使える驚いている小学生の女の子のフリーイラスト素材です。",
     png: "/images/girl01/png/girl01_standB_surprised.png",
@@ -437,7 +437,7 @@ export const characterIllustrations: Illustration[] = [
   },
   {
     slug: "girl01-stand-b-thinking",
-    title: "小学生の女の子（考え・立ちB）のイラスト",
+    title: "小学生の女の子（考え・立ちB）",
     description:
       "小学校で使える考えている小学生の女の子のフリーイラスト素材です。",
     png: "/images/girl01/png/girl01_standB_thinking.png",
@@ -452,7 +452,7 @@ export const characterIllustrations: Illustration[] = [
   },
   {
     slug: "girl01-stand-b-trouble",
-    title: "小学生の女の子（困り・立ちB）のイラスト",
+    title: "小学生の女の子（困り・立ちB）",
     description:
       "小学校で使える困っている小学生の女の子のフリーイラスト素材です。",
     png: "/images/girl01/png/girl01_standB_trouble.png",
@@ -469,7 +469,7 @@ export const characterIllustrations: Illustration[] = [
   // ---- 立ちC ----
   {
     slug: "girl01-stand-c-angry",
-    title: "小学生の女の子（怒り・立ちC）のイラスト",
+    title: "小学生の女の子（怒り・立ちC）",
     description: "小学校で使える怒った小学生の女の子のフリーイラスト素材です。",
     png: "/images/girl01/png/girl01_standC_angry.png",
     svg: "/images/girl01/svg/girl01_standC_angry.svg",
@@ -483,7 +483,7 @@ export const characterIllustrations: Illustration[] = [
   },
   {
     slug: "girl01-stand-c-cry",
-    title: "小学生の女の子（泣き・立ちC）のイラスト",
+    title: "小学生の女の子（泣き・立ちC）",
     description:
       "小学校で使える泣いている小学生の女の子のフリーイラスト素材です。",
     png: "/images/girl01/png/girl01_standC_cry.png",
@@ -498,7 +498,7 @@ export const characterIllustrations: Illustration[] = [
   },
   {
     slug: "girl01-stand-c-laugh",
-    title: "小学生の女の子（笑い・立ちC）のイラスト",
+    title: "小学生の女の子（笑い・立ちC）",
     description:
       "小学校で使える笑っている小学生の女の子のフリーイラスト素材です。",
     png: "/images/girl01/png/girl01_standC_laugh.png",
@@ -513,7 +513,7 @@ export const characterIllustrations: Illustration[] = [
   },
   {
     slug: "girl01-stand-c-sad",
-    title: "小学生の女の子（悲しみ・立ちC）のイラスト",
+    title: "小学生の女の子（悲しみ・立ちC）",
     description:
       "小学校で使える悲しんでいる小学生の女の子のフリーイラスト素材です。",
     png: "/images/girl01/png/girl01_standC_sad.png",
@@ -528,7 +528,7 @@ export const characterIllustrations: Illustration[] = [
   },
   {
     slug: "girl01-stand-c-smile",
-    title: "小学生の女の子（笑顔・立ちC）のイラスト",
+    title: "小学生の女の子（笑顔・立ちC）",
     description: "小学校で使える笑顔の小学生の女の子のフリーイラスト素材です。",
     png: "/images/girl01/png/girl01_standC_smile.png",
     svg: "/images/girl01/svg/girl01_standC_smile.svg",
@@ -542,7 +542,7 @@ export const characterIllustrations: Illustration[] = [
   },
   {
     slug: "girl01-stand-c-surprised",
-    title: "小学生の女の子（驚き・立ちC）のイラスト",
+    title: "小学生の女の子（驚き・立ちC）",
     description:
       "小学校で使える驚いている小学生の女の子のフリーイラスト素材です。",
     png: "/images/girl01/png/girl01_standC_surprised.png",
@@ -557,7 +557,7 @@ export const characterIllustrations: Illustration[] = [
   },
   {
     slug: "girl01-stand-c-thinking",
-    title: "小学生の女の子（考え・立ちC）のイラスト",
+    title: "小学生の女の子（考え・立ちC）",
     description:
       "小学校で使える考えている小学生の女の子のフリーイラスト素材です。",
     png: "/images/girl01/png/girl01_standC_thinking.png",
@@ -572,7 +572,7 @@ export const characterIllustrations: Illustration[] = [
   },
   {
     slug: "girl01-stand-c-trouble",
-    title: "小学生の女の子（困り・立ちC）のイラスト",
+    title: "小学生の女の子（困り・立ちC）",
     description:
       "小学校で使える困っている小学生の女の子のフリーイラスト素材です。",
     png: "/images/girl01/png/girl01_standC_trouble.png",
@@ -589,7 +589,7 @@ export const characterIllustrations: Illustration[] = [
   // ---- 立ちD ----
   {
     slug: "girl01-stand-d-angry",
-    title: "小学生の女の子（怒り・立ちD）のイラスト",
+    title: "小学生の女の子（怒り・立ちD）",
     description: "小学校で使える怒った小学生の女の子のフリーイラスト素材です。",
     png: "/images/girl01/png/girl01_standD_angry.png",
     svg: "/images/girl01/svg/girl01_standD_angry.svg",
@@ -603,7 +603,7 @@ export const characterIllustrations: Illustration[] = [
   },
   {
     slug: "girl01-stand-d-cry",
-    title: "小学生の女の子（泣き・立ちD）のイラスト",
+    title: "小学生の女の子（泣き・立ちD）",
     description:
       "小学校で使える泣いている小学生の女の子のフリーイラスト素材です。",
     png: "/images/girl01/png/girl01_standD_cry.png",
@@ -618,7 +618,7 @@ export const characterIllustrations: Illustration[] = [
   },
   {
     slug: "girl01-stand-d-laugh",
-    title: "小学生の女の子（笑い・立ちD）のイラスト",
+    title: "小学生の女の子（笑い・立ちD）",
     description:
       "小学校で使える笑っている小学生の女の子のフリーイラスト素材です。",
     png: "/images/girl01/png/girl01_standD_laugh.png",
@@ -633,7 +633,7 @@ export const characterIllustrations: Illustration[] = [
   },
   {
     slug: "girl01-stand-d-sad",
-    title: "小学生の女の子（悲しみ・立ちD）のイラスト",
+    title: "小学生の女の子（悲しみ・立ちD）",
     description:
       "小学校で使える悲しんでいる小学生の女の子のフリーイラスト素材です。",
     png: "/images/girl01/png/girl01_standD_sad.png",
@@ -648,7 +648,7 @@ export const characterIllustrations: Illustration[] = [
   },
   {
     slug: "girl01-stand-d-smile",
-    title: "小学生の女の子（笑顔・立ちD）のイラスト",
+    title: "小学生の女の子（笑顔・立ちD）",
     description: "小学校で使える笑顔の小学生の女の子のフリーイラスト素材です。",
     png: "/images/girl01/png/girl01_standD_smile.png",
     svg: "/images/girl01/svg/girl01_standD_smile.svg",
@@ -662,7 +662,7 @@ export const characterIllustrations: Illustration[] = [
   },
   {
     slug: "girl01-stand-d-surprised",
-    title: "小学生の女の子（驚き・立ちD）のイラスト",
+    title: "小学生の女の子（驚き・立ちD）",
     description:
       "小学校で使える驚いている小学生の女の子のフリーイラスト素材です。",
     png: "/images/girl01/png/girl01_standD_surprised.png",
@@ -677,7 +677,7 @@ export const characterIllustrations: Illustration[] = [
   },
   {
     slug: "girl01-stand-d-thinking",
-    title: "小学生の女の子（考え・立ちD）のイラスト",
+    title: "小学生の女の子（考え・立ちD）",
     description:
       "小学校で使える考えている小学生の女の子のフリーイラスト素材です。",
     png: "/images/girl01/png/girl01_standD_thinking.png",
@@ -692,7 +692,7 @@ export const characterIllustrations: Illustration[] = [
   },
   {
     slug: "girl01-stand-d-trouble",
-    title: "小学生の女の子（困り・立ちD）のイラスト",
+    title: "小学生の女の子（困り・立ちD）",
     description:
       "小学校で使える困っている小学生の女の子のフリーイラスト素材です。",
     png: "/images/girl01/png/girl01_standD_trouble.png",
@@ -709,7 +709,7 @@ export const characterIllustrations: Illustration[] = [
   // ---- 立ちE ----
   {
     slug: "girl01-stand-e-angry",
-    title: "小学生の女の子（怒り・立ちE）のイラスト",
+    title: "小学生の女の子（怒り・立ちE）",
     description: "小学校で使える怒った小学生の女の子のフリーイラスト素材です。",
     png: "/images/girl01/png/girl01_standE_angry.png",
     svg: "/images/girl01/svg/girl01_standE_angry.svg",
@@ -723,7 +723,7 @@ export const characterIllustrations: Illustration[] = [
   },
   {
     slug: "girl01-stand-e-cry",
-    title: "小学生の女の子（泣き・立ちE）のイラスト",
+    title: "小学生の女の子（泣き・立ちE）",
     description:
       "小学校で使える泣いている小学生の女の子のフリーイラスト素材です。",
     png: "/images/girl01/png/girl01_standE_cry.png",
@@ -738,7 +738,7 @@ export const characterIllustrations: Illustration[] = [
   },
   {
     slug: "girl01-stand-e-laugh",
-    title: "小学生の女の子（笑い・立ちE）のイラスト",
+    title: "小学生の女の子（笑い・立ちE）",
     description:
       "小学校で使える笑っている小学生の女の子のフリーイラスト素材です。",
     png: "/images/girl01/png/girl01_standE_laugh.png",
@@ -753,7 +753,7 @@ export const characterIllustrations: Illustration[] = [
   },
   {
     slug: "girl01-stand-e-sad",
-    title: "小学生の女の子（悲しみ・立ちE）のイラスト",
+    title: "小学生の女の子（悲しみ・立ちE）",
     description:
       "小学校で使える悲しんでいる小学生の女の子のフリーイラスト素材です。",
     png: "/images/girl01/png/girl01_standE_sad.png",
@@ -768,7 +768,7 @@ export const characterIllustrations: Illustration[] = [
   },
   {
     slug: "girl01-stand-e-smile",
-    title: "小学生の女の子（笑顔・立ちE）のイラスト",
+    title: "小学生の女の子（笑顔・立ちE）",
     description: "小学校で使える笑顔の小学生の女の子のフリーイラスト素材です。",
     png: "/images/girl01/png/girl01_standE_smile.png",
     svg: "/images/girl01/svg/girl01_standE_smile.svg",
@@ -782,7 +782,7 @@ export const characterIllustrations: Illustration[] = [
   },
   {
     slug: "girl01-stand-e-surprised",
-    title: "小学生の女の子（驚き・立ちE）のイラスト",
+    title: "小学生の女の子（驚き・立ちE）",
     description:
       "小学校で使える驚いている小学生の女の子のフリーイラスト素材です。",
     png: "/images/girl01/png/girl01_standE_surprised.png",
@@ -797,7 +797,7 @@ export const characterIllustrations: Illustration[] = [
   },
   {
     slug: "girl01-stand-e-thinking",
-    title: "小学生の女の子（考え・立ちE）のイラスト",
+    title: "小学生の女の子（考え・立ちE）",
     description:
       "小学校で使える考えている小学生の女の子のフリーイラスト素材です。",
     png: "/images/girl01/png/girl01_standE_thinking.png",
@@ -812,7 +812,7 @@ export const characterIllustrations: Illustration[] = [
   },
   {
     slug: "girl01-stand-e-trouble",
-    title: "小学生の女の子（困り・立ちE）のイラスト",
+    title: "小学生の女の子（困り・立ちE）",
     description:
       "小学校で使える困っている小学生の女の子のフリーイラスト素材です。",
     png: "/images/girl01/png/girl01_standE_trouble.png",
@@ -829,7 +829,7 @@ export const characterIllustrations: Illustration[] = [
   // ---- 手を挙げるA ----
   {
     slug: "girl01-raise-hand-a-angry",
-    title: "手を挙げる小学生の女の子（怒り）のイラスト",
+    title: "手を挙げる小学生の女の子（怒り）",
     description:
       "小学校で使える手を挙げる小学生の女の子のフリーイラスト素材です。",
     png: "/images/girl01/png/girl01_action_raise_hand_A_angry.png",
@@ -844,7 +844,7 @@ export const characterIllustrations: Illustration[] = [
   },
   {
     slug: "girl01-raise-hand-a-cry",
-    title: "手を挙げる小学生の女の子（泣き）のイラスト",
+    title: "手を挙げる小学生の女の子（泣き）",
     description:
       "小学校で使える手を挙げる小学生の女の子のフリーイラスト素材です。",
     png: "/images/girl01/png/girl01_action_raise_hand_A_cry.png",
@@ -859,7 +859,7 @@ export const characterIllustrations: Illustration[] = [
   },
   {
     slug: "girl01-raise-hand-a-laugh",
-    title: "手を挙げる小学生の女の子（笑い）のイラスト",
+    title: "手を挙げる小学生の女の子（笑い）",
     description:
       "小学校で使える手を挙げる小学生の女の子のフリーイラスト素材です。",
     png: "/images/girl01/png/girl01_action_raise_hand_A_laugh.png",
@@ -874,7 +874,7 @@ export const characterIllustrations: Illustration[] = [
   },
   {
     slug: "girl01-raise-hand-a-sad",
-    title: "手を挙げる小学生の女の子（悲しみ）のイラスト",
+    title: "手を挙げる小学生の女の子（悲しみ）",
     description:
       "小学校で使える手を挙げる小学生の女の子のフリーイラスト素材です。",
     png: "/images/girl01/png/girl01_action_raise_hand_A_sad.png",
@@ -889,7 +889,7 @@ export const characterIllustrations: Illustration[] = [
   },
   {
     slug: "girl01-raise-hand-a-smile",
-    title: "手を挙げる小学生の女の子（笑顔）のイラスト",
+    title: "手を挙げる小学生の女の子（笑顔）",
     description:
       "小学校で使える手を挙げる小学生の女の子のフリーイラスト素材です。",
     png: "/images/girl01/png/girl01_action_raise_hand_A_smile.png",
@@ -904,7 +904,7 @@ export const characterIllustrations: Illustration[] = [
   },
   {
     slug: "girl01-raise-hand-a-surprised",
-    title: "手を挙げる小学生の女の子（驚き）のイラスト",
+    title: "手を挙げる小学生の女の子（驚き）",
     description:
       "小学校で使える手を挙げる小学生の女の子のフリーイラスト素材です。",
     png: "/images/girl01/png/girl01_action_raise_hand_A_surprised.png",
@@ -919,7 +919,7 @@ export const characterIllustrations: Illustration[] = [
   },
   {
     slug: "girl01-raise-hand-a-thinking",
-    title: "手を挙げる小学生の女の子（考え）のイラスト",
+    title: "手を挙げる小学生の女の子（考え）",
     description:
       "小学校で使える手を挙げる小学生の女の子のフリーイラスト素材です。",
     png: "/images/girl01/png/girl01_action_raise_hand_A_thinking.png",
@@ -934,7 +934,7 @@ export const characterIllustrations: Illustration[] = [
   },
   {
     slug: "girl01-raise-hand-a-trouble",
-    title: "手を挙げる小学生の女の子（困り）のイラスト",
+    title: "手を挙げる小学生の女の子（困り）",
     description:
       "小学校で使える手を挙げる小学生の女の子のフリーイラスト素材です。",
     png: "/images/girl01/png/girl01_action_raise_hand_A_trouble.png",
@@ -951,7 +951,7 @@ export const characterIllustrations: Illustration[] = [
   // ---- 教科書を読むA ----
   {
     slug: "girl01-read-textbook-a-angry",
-    title: "教科書を読む小学生の女の子（怒り）のイラスト",
+    title: "教科書を読む小学生の女の子（怒り）",
     description:
       "小学校で使える教科書を読む小学生の女の子のフリーイラスト素材です。",
     png: "/images/girl01/png/girl01_action_read_textbook_A_angry.png",
@@ -966,7 +966,7 @@ export const characterIllustrations: Illustration[] = [
   },
   {
     slug: "girl01-read-textbook-a-cry",
-    title: "教科書を読む小学生の女の子（泣き）のイラスト",
+    title: "教科書を読む小学生の女の子（泣き）",
     description:
       "小学校で使える教科書を読む小学生の女の子のフリーイラスト素材です。",
     png: "/images/girl01/png/girl01_action_read_textbook_A_cry.png",
@@ -981,7 +981,7 @@ export const characterIllustrations: Illustration[] = [
   },
   {
     slug: "girl01-read-textbook-a-laugh",
-    title: "教科書を読む小学生の女の子（笑い）のイラスト",
+    title: "教科書を読む小学生の女の子（笑い）",
     description:
       "小学校で使える教科書を読む小学生の女の子のフリーイラスト素材です。",
     png: "/images/girl01/png/girl01_action_read_textbook_A_laugh.png",
@@ -996,7 +996,7 @@ export const characterIllustrations: Illustration[] = [
   },
   {
     slug: "girl01-read-textbook-a-sad",
-    title: "教科書を読む小学生の女の子（悲しみ）のイラスト",
+    title: "教科書を読む小学生の女の子（悲しみ）",
     description:
       "小学校で使える教科書を読む小学生の女の子のフリーイラスト素材です。",
     png: "/images/girl01/png/girl01_action_read_textbook_A_sad.png",
@@ -1011,7 +1011,7 @@ export const characterIllustrations: Illustration[] = [
   },
   {
     slug: "girl01-read-textbook-a-smile",
-    title: "教科書を読む小学生の女の子（笑顔）のイラスト",
+    title: "教科書を読む小学生の女の子（笑顔）",
     description:
       "小学校で使える教科書を読む小学生の女の子のフリーイラスト素材です。",
     png: "/images/girl01/png/girl01_action_read_textbook_A_smile.png",
@@ -1026,7 +1026,7 @@ export const characterIllustrations: Illustration[] = [
   },
   {
     slug: "girl01-read-textbook-a-surprised",
-    title: "教科書を読む小学生の女の子（驚き）のイラスト",
+    title: "教科書を読む小学生の女の子（驚き）",
     description:
       "小学校で使える教科書を読む小学生の女の子のフリーイラスト素材です。",
     png: "/images/girl01/png/girl01_action_read_textbook_A_surprised.png",
@@ -1041,7 +1041,7 @@ export const characterIllustrations: Illustration[] = [
   },
   {
     slug: "girl01-read-textbook-a-thinking",
-    title: "教科書を読む小学生の女の子（考え）のイラスト",
+    title: "教科書を読む小学生の女の子（考え）",
     description:
       "小学校で使える教科書を読む小学生の女の子のフリーイラスト素材です。",
     png: "/images/girl01/png/girl01_action_read_textbook_A_thinking.png",
@@ -1056,7 +1056,7 @@ export const characterIllustrations: Illustration[] = [
   },
   {
     slug: "girl01-read-textbook-a-trouble",
-    title: "教科書を読む小学生の女の子（困り）のイラスト",
+    title: "教科書を読む小学生の女の子（困り）",
     description:
       "小学校で使える教科書を読む小学生の女の子のフリーイラスト素材です。",
     png: "/images/girl01/png/girl01_action_read_textbook_A_trouble.png",
@@ -1073,7 +1073,7 @@ export const characterIllustrations: Illustration[] = [
   // ---- ノートを書くA ----
   {
     slug: "girl01-write-note-a-angry",
-    title: "ノートを書く小学生の女の子（怒り）のイラスト",
+    title: "ノートを書く小学生の女の子（怒り）",
     description:
       "小学校で使えるノートを書く小学生の女の子のフリーイラスト素材です。",
     png: "/images/girl01/png/girl01_action_write_note_A_angry.png",
@@ -1088,7 +1088,7 @@ export const characterIllustrations: Illustration[] = [
   },
   {
     slug: "girl01-write-note-a-cry",
-    title: "ノートを書く小学生の女の子（泣き）のイラスト",
+    title: "ノートを書く小学生の女の子（泣き）",
     description:
       "小学校で使えるノートを書く小学生の女の子のフリーイラスト素材です。",
     png: "/images/girl01/png/girl01_action_write_note_A_cry.png",
@@ -1103,7 +1103,7 @@ export const characterIllustrations: Illustration[] = [
   },
   {
     slug: "girl01-write-note-a-laugh",
-    title: "ノートを書く小学生の女の子（笑い）のイラスト",
+    title: "ノートを書く小学生の女の子（笑い）",
     description:
       "小学校で使えるノートを書く小学生の女の子のフリーイラスト素材です。",
     png: "/images/girl01/png/girl01_action_write_note_A_laugh.png",
@@ -1118,7 +1118,7 @@ export const characterIllustrations: Illustration[] = [
   },
   {
     slug: "girl01-write-note-a-sad",
-    title: "ノートを書く小学生の女の子（悲しみ）のイラスト",
+    title: "ノートを書く小学生の女の子（悲しみ）",
     description:
       "小学校で使えるノートを書く小学生の女の子のフリーイラスト素材です。",
     png: "/images/girl01/png/girl01_action_write_note_A_sad.png",
@@ -1133,7 +1133,7 @@ export const characterIllustrations: Illustration[] = [
   },
   {
     slug: "girl01-write-note-a-smile",
-    title: "ノートを書く小学生の女の子（笑顔）のイラスト",
+    title: "ノートを書く小学生の女の子（笑顔）",
     description:
       "小学校で使えるノートを書く小学生の女の子のフリーイラスト素材です。",
     png: "/images/girl01/png/girl01_action_write_note_A_smile.png",
@@ -1148,7 +1148,7 @@ export const characterIllustrations: Illustration[] = [
   },
   {
     slug: "girl01-write-note-a-surprised",
-    title: "ノートを書く小学生の女の子（驚き）のイラスト",
+    title: "ノートを書く小学生の女の子（驚き）",
     description:
       "小学校で使えるノートを書く小学生の女の子のフリーイラスト素材です。",
     png: "/images/girl01/png/girl01_action_write_note_A_surprised.png",
@@ -1163,7 +1163,7 @@ export const characterIllustrations: Illustration[] = [
   },
   {
     slug: "girl01-write-note-a-thinking",
-    title: "ノートを書く小学生の女の子（考え）のイラスト",
+    title: "ノートを書く小学生の女の子（考え）",
     description:
       "小学校で使えるノートを書く小学生の女の子のフリーイラスト素材です。",
     png: "/images/girl01/png/girl01_action_write_note_A_thinking.png",
@@ -1178,7 +1178,7 @@ export const characterIllustrations: Illustration[] = [
   },
   {
     slug: "girl01-write-note-a-trouble",
-    title: "ノートを書く小学生の女の子（困り）のイラスト",
+    title: "ノートを書く小学生の女の子（困り）",
     description:
       "小学校で使えるノートを書く小学生の女の子のフリーイラスト素材です。",
     png: "/images/girl01/png/girl01_action_write_note_A_trouble.png",
@@ -1191,10 +1191,10 @@ export const characterIllustrations: Illustration[] = [
     grade: 1,
     tags: ["困る", "ノートを書く", "勉強"],
   },
-  // ---- GIGA SCHOOLのイラスト ----
+  // ---- GIGA SCHOOL ----
   {
     slug: "girl01-tablet-rule-walk-01",
-    title: "タブレットを持って歩く女の子（注意）のイラスト",
+    title: "タブレットを持って歩く女の子（注意）",
     description:
       "学校でのタブレット利用ルール。「歩きながらタブレットを使ってはいけません」を表す女の子のフリーイラスト素材です。",
     png: "/images/girl01/png/girl01_tablet_rule_walk_01.png",
@@ -1218,7 +1218,7 @@ export const characterIllustrations: Illustration[] = [
   },
   {
     slug: "girl01-tablet-rule-walk-02",
-    title: "タブレットを持って歩く女の子（注意）のイラスト",
+    title: "タブレットを持って歩く女の子（注意）",
     description:
       "学校でのタブレット利用ルール。「歩きながらタブレットを使ってはいけません」を表す女の子のフリーイラスト素材です。",
     png: "/images/girl01/png/girl01_tablet_rule_walk_02.png",
@@ -1242,7 +1242,7 @@ export const characterIllustrations: Illustration[] = [
   },
   {
     slug: "girl01-tablet-rule-hold-with-two-hands-01",
-    title: "タブレットを両手で持つ女の子のイラスト",
+    title: "タブレットを両手で持つ女の子",
     description:
       "学校でのタブレット利用ルール。「タブレットは両手で持ちましょう。」を表す女の子のフリーイラスト素材です。",
     png: "/images/girl01/png/girl01_tablet_rule_hold_with_two_hands_01.png",
@@ -1267,7 +1267,7 @@ export const characterIllustrations: Illustration[] = [
   },
   {
     slug: "girl01-tablet-rule-hold-with-two-hands-02",
-    title: "タブレットを両手で持つ女の子のイラスト",
+    title: "タブレットを両手で持つ女の子",
     description:
       "学校でのタブレット利用ルール。「タブレットは両手で持ちましょう。」を表す女の子のフリーイラスト素材です。",
     png: "/images/girl01/png/girl01_tablet_rule_hold_with_two_hands_02.png",
@@ -1292,7 +1292,7 @@ export const characterIllustrations: Illustration[] = [
   },
   {
     slug: "girl01-tablet-rule-no-play-with-tablet-01",
-    title: "タブレットをもって外で遊ばない女の子（ルール）のイラスト",
+    title: "タブレットをもって外で遊ばない女の子（ルール）",
     description:
       "学校でのタブレット利用ルール。「タブレットを持ったまま外で遊ばない。」を表す女の子のフリーイラスト素材です。",
     png: "/images/girl01/png/girl01_tablet_rule_no_play_with_tablet_01.png",
@@ -1317,7 +1317,7 @@ export const characterIllustrations: Illustration[] = [
   },
   {
     slug: "girl01-tablet-rule-no-play-with-tablet-02",
-    title: "タブレットをもって外で遊ばない女の子（ルール）のイラスト",
+    title: "タブレットをもって外で遊ばない女の子（ルール）",
     description:
       "学校でのタブレット利用ルール。「タブレットを持ったまま外で遊ばない。」を表す女の子のフリーイラスト素材です。",
     png: "/images/girl01/png/girl01_tablet_rule_no_play_with_tablet_02.png",
@@ -1342,7 +1342,7 @@ export const characterIllustrations: Illustration[] = [
   },
   {
     slug: "girl01-tablet-rule-put-top-01",
-    title: "タブレットをかばんに入れる女の子のイラスト",
+    title: "タブレットをかばんに入れる女の子",
     description:
       "学校でのタブレット利用ルール。「タブレットをしまうときは、一番上に入れる。」を表す女の子のフリーイラスト素材です。",
     png: "/images/girl01/png/girl01_tablet_rule_put_top_01.png",
@@ -1366,7 +1366,7 @@ export const characterIllustrations: Illustration[] = [
   },
   {
     slug: "girl01-tablet-rule-put-top-02",
-    title: "タブレットをかばんに入れる女の子のイラスト",
+    title: "タブレットをかばんに入れる女の子",
     description:
       "学校でのタブレット利用ルール。「タブレットをしまうときは、一番上に入れる。」を表す女の子のフリーイラスト素材です。",
     png: "/images/girl01/png/girl01_tablet_rule_put_top_02.png",
