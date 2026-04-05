@@ -1,15 +1,16 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import { illustrations  } from "../data/illustrations";
+import IllustrationCard from "../components/IllustrationCard.astro";
 const title = "がっこうそざいラボ";
 const description =
   "小学校で使えるフリーイラスト素材サイト。PNG・SVG対応、商用OK。線画もあります。";
 
-const characterIllustrations = illustrations 
+const characterIllustrations = illustrations
   .filter((i) => !i.category.includes("item")).reverse()
   .slice(-8);
 
-const itemIllustrations = illustrations 
+const itemIllustrations = illustrations
   .filter((i) => i.category.includes("item")).reverse()
   .slice(-8);
 ---
@@ -24,10 +25,10 @@ const itemIllustrations = illustrations
           <img src="/images/girl01/png/girl01_tablet_rule_put_top_02.png"/>
       </div>
     </div>
-    
+
     <!-- テキスト -->
     <div class="hero-text">
-        
+
       <h1>
         小学校で<wbr>そのまま使える<br />
         無料イラスト<wbr>素材サイト
@@ -38,7 +39,7 @@ const itemIllustrations = illustrations
     </div>
     <!-- 画像 -->
     <div class="hero-images hero-images-right">
-        
+
         <div class="items">
         <img src="/images/item/png/item_randoseru_diagonal2_red.png" />
       </div>
@@ -77,22 +78,14 @@ const itemIllustrations = illustrations
 
 <div class="grid">
 {characterIllustrations.map((item) => (
-
-<a class="card" href={`/illustration/${item.slug}`}>
-<img src={item.png} alt={item.title} />
-<p>{item.title}</p>
-</a>
-
+  <IllustrationCard item={item} />
 ))}
 </div>
 <h2 class="section-title">アイテムイラスト新着</h2>
 
 <div class="grid">
 {itemIllustrations.map((item) => (
-<a class="card" href={`/illustration/${item.slug}`}>
-<img src={item.png} alt={item.title} />
-<p>{item.title}</p>
-</a>
+  <IllustrationCard item={item} />
 ))}
 </div>
 

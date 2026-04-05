@@ -1,6 +1,7 @@
 ---
 import BaseLayout from "../../../layouts/BaseLayout.astro";
 import { illustrations  } from "../../../data/illustrations";
+import IllustrationCard from "../../../components/IllustrationCard.astro";
 const gigaIllustrations = illustrations
   .filter((i) => i.category.includes("giga"));
 const characterIllustrations = illustrations 
@@ -18,27 +19,20 @@ const description = "学校で使えるタブレット（iPad）利用ルール�
 <h2 class="section-title">GIGAスクールの素材</h2>
 <div class="grid">
   {gigaIllustrations.map((item) => (
-    <a class="card" href={`/illustration/${item.slug}`}>
-      <img src={item.png} alt={item.title} />
-      <p>{item.title}</p>
-    </a>
+    <IllustrationCard item={item} />
   ))}
 </div>
 <h2 class="section-title">人物イラスト</h2>
 <div class="grid">
 {characterIllustrations.map((item) => (
-<a class="card" href={`/illustration/${item.slug}`}>
-<img src={item.png} alt={item.title} />
-</a>
+<IllustrationCard item={item} />
 ))}
 </div>
 <a href="/illustration/character">人物イラスト一覧を見る</a>
 <h2 class="section-title">アイテムイラスト</h2>
 <div class="grid">
 {itemIllustrations.map((item) => (
-<a class="card" href={`/illustration/${item.slug}`}>
-<img src={item.png} alt={item.title} />
-</a>
+<IllustrationCard item={item} />
 ))}
 </div>
 <a href="/illustration/item">アイテムイラスト一覧を見る</a>

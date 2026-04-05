@@ -31,10 +31,10 @@ import { illustrations } from "@/data/illustrations";
       container.innerHTML = "<p>見つかりませんでした</p>";
     } else {
       container.innerHTML = `<div class="grid">${results
-        .map(
-          (item) =>
-            `<a class="card" href="/illustration/${item.slug}"><img src="${item.png}" alt="${item.title}" /><p>${item.title}</p></a>`
-        )
+        .map((item) => {
+          const badges = `<div class="card-badges">${item.line_png ? '<span class="card-badge card-badge--line">線画</span>' : ''}${item.svg ? '<span class="card-badge card-badge--svg">SVG</span>' : ''}</div>`;
+          return `<a class="card" href="/illustration/${item.slug}">${badges}<img src="${item.png}" alt="${item.title}" /><p>${item.title}</p></a>`;
+        })
         .join("")}</div>`;
     }
   }

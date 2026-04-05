@@ -1,6 +1,7 @@
 ---
 import BaseLayout from "../../../layouts/BaseLayout.astro";
 import { illustrations  } from "../../../data/illustrations";
+import IllustrationCard from "../../../components/IllustrationCard.astro";
 
 const category  = illustrations .filter(
   (item) => !item.category.includes("item")
@@ -24,20 +25,13 @@ const description = "小学生の人物イラスト素材一覧です。";
 <h2 class="section-title">人物イラスト</h2>
 <div class="grid">
   {category .map((item) => (
-    <a class="card" href={`/illustration/${item.slug}`}>
-      <img src={item.png} alt={item.title} />
-      <p>{item.title}</p>
-    </a>
+    <IllustrationCard item={item} />
   ))}
 </div>
 <h2 class="section-title">アイテムイラスト</h2>
 <div class="grid">
 {itemIllustrations.map((item) => (
-
-<a class="card" href={`/illustration/${item.slug}`}>
-<img src={item.png} alt={item.title} />
-</a>
-
+  <IllustrationCard item={item} />
 ))}
 </div>
 <a href="/illustration/item">

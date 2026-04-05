@@ -1,6 +1,7 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import { illustrations  } from "../../data/illustrations";
+import IllustrationCard from "../../components/IllustrationCard.astro";
 import "../../styles/illustration.css";
 
 export function getStaticPaths() {
@@ -144,9 +145,7 @@ class="illustration-image"
 
 <div class="grid">
 {samePose.map((i) => (
-<a class="card" href={`/illustration/${i.slug}`}>
-<img src={i.png} alt={i.title} />
-</a>
+<IllustrationCard item={i} />
 ))}
 </div>
 
@@ -163,9 +162,7 @@ class="illustration-image"
 
 <div class="grid">
 {sameTag.map((i) => (
-<a class="card" href={`/illustration/${i.slug}`}>
-<img src={i.png} alt={i.title} />
-</a>
+<IllustrationCard item={i} />
 ))}
 </div>
 

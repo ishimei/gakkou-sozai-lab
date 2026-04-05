@@ -1,6 +1,7 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import { illustrations  } from "../../data/illustrations";
+import IllustrationCard from "../../components/IllustrationCard.astro";
 
 export function getStaticPaths(){
 
@@ -31,12 +32,7 @@ const description = `${tag}のフリーイラスト素材です`
 
 <div class="grid">
 {filtered.map(i => (
-
-<a class="card" href={`/illustration/${i.slug}`}>
-<img src={i.png} alt={i.title} />
-<p>{i.title}</p>
-</a>
-
+  <IllustrationCard item={i} />
 ))}
 </div>
 

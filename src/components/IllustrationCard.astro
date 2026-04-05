@@ -1,0 +1,18 @@
+---
+import type { Illustration } from "@/types/illustration";
+
+interface Props {
+  item: Illustration;
+}
+
+const { item } = Astro.props;
+---
+
+<a class="card" href={`/illustration/${item.slug}`}>
+  <div class="card-badges">
+    {item.line_png && <span class="card-badge card-badge--line">線画</span>}
+    {item.svg && <span class="card-badge card-badge--svg">SVG</span>}
+  </div>
+  <img src={item.png} alt={item.title} />
+  <p>{item.title}</p>
+</a>

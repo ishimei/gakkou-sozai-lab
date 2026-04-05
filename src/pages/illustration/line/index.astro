@@ -1,6 +1,7 @@
 ---
 import BaseLayout from "../../../layouts/BaseLayout.astro";
 import { illustrations } from "../../../data/illustrations";
+import IllustrationCard from "../../../components/IllustrationCard.astro";
 
 const title = "線画イラスト一覧";
 const description = "小学校で使える線画・塗り絵のフリーイラスト素材です。";
@@ -39,10 +40,7 @@ const rest = interleaved.slice(PAGE_SIZE);
 
 <div class="grid" id="grid">
   {initial.map((item) => (
-    <a class="card" href={`/illustration/${item.slug}`}>
-      <img src={item.line_png} alt={item.title} />
-      <p>{item.title}</p>
-    </a>
+    <IllustrationCard item={item} />
   ))}
 </div>
 
@@ -63,7 +61,8 @@ const rest = interleaved.slice(PAGE_SIZE);
         const a = document.createElement("a");
         a.className = "card";
         a.href = `/illustration/${item.slug}`;
-        a.innerHTML = `<img src="${item.line_png}" alt="${item.title}" /><p>${item.title}</p>`;
+        const badges = `<div class="card-badges">${item.line_png ? '<span class="card-badge card-badge--line">線画</span>' : ''}${item.svg ? '<span class="card-badge card-badge--svg">SVG</span>' : ''}</div>`;
+        a.innerHTML = `${badges}<img src="${item.line_png}" alt="${item.title}" /><p>${item.title}</p>`;
         grid.appendChild(a);
       });
       btn.parentElement.remove();

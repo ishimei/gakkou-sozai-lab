@@ -1,6 +1,7 @@
 ---
 import BaseLayout from "@/layouts/BaseLayout.astro";
 import { illustrations } from "@/data/illustrations";
+import IllustrationCard from "@/components/IllustrationCard.astro";
 
 const items = illustrations.filter(
   (item) => item.category.includes("sportsDay")
@@ -25,10 +26,7 @@ const description = "小学校で使える運動会・体育のフリーイラ�
 {items.length > 0 ? (
   <div class="grid">
     {items.map((item) => (
-      <a class="card" href={`/illustration/${item.slug}`}>
-        <img src={item.png} alt={item.title} />
-        <p>{item.title}</p>
-      </a>
+      <IllustrationCard item={item} />
     ))}
   </div>
 ) : (
