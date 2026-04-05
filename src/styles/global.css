@@ -243,13 +243,18 @@ nav a {
 
 .category-card {
   display: block;
-  border: 1px solid #ddd;
+  border: 1px solid #0a8f54;
   border-radius: 10px;
   padding: 20px;
   text-decoration: none;
-  color: black;
+  color: #000000;
   background: white;
   transition: 0.2s;
+  font-size: 14px;
+}
+.category-card h2 {
+  color: #0a8f54;
+  font-weight: bold;
 }
 
 .category-card:hover {
