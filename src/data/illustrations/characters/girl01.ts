@@ -1212,7 +1212,9 @@ export const characterIllustrations: Illustration[] = [
       "ICT教育",
       "情報モラル",
       "ICTルール",
-      "タブレットルール",, "線画"],
+      "タブレットルール",
+      "線画",
+    ],
   },
   {
     slug: "girl01-tablet-rule-walk-02",
@@ -1234,7 +1236,9 @@ export const characterIllustrations: Illustration[] = [
       "ICT教育",
       "情報モラル",
       "ICTルール",
-      "タブレットルール",, "線画"],
+      "タブレットルール",
+      "線画",
+    ],
   },
   {
     slug: "girl01-tablet-rule-hold-with-two-hands-01",
@@ -1356,7 +1360,9 @@ export const characterIllustrations: Illustration[] = [
       "ICT教育",
       "情報モラル",
       "ICTルール",
-      "タブレットルール",, "線画"],
+      "タブレットルール",
+      "線画",
+    ],
   },
   {
     slug: "girl01-tablet-rule-put-top-02",
@@ -1378,6 +1384,8 @@ export const characterIllustrations: Illustration[] = [
       "ICT教育",
       "情報モラル",
       "ICTルール",
-      "タブレットルール",, "線画"],
+      "タブレットルール",
+      "線画",
+    ],
   },
 ];
